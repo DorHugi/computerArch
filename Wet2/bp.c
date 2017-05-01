@@ -70,7 +70,15 @@ void zeroStats(SIM_stats* s){
 	//TODO: need to update size correctly!!!
 }
 
+unsigned performSmartXor(unsigned histVal, uint32_t pc){
 
+			unsigned tempPc = (pc >> 2);
+			//Now pc holds 30 bits
+			unsigned mask = ((1<<btb.histSize)-1);
+			tempPc = tempPc & mask;
+			histVal = histVal ^ tempPc;
+			return histVal;
+}
 void updateHistory(bool* hist, unsigned size , bool taken){
 
 	for (int i = size -1 ; i >= 1; i--){
@@ -157,7 +165,7 @@ int BP_init(unsigned btbSize, unsigned historySize, unsigned tagSize,
 		btb.size = btbSize;
 		btb.isGlobalHist = isGlobalHist;
 		btb.isGlobalTable = isGlobalTable;
-		btb.isShare = isShare;
+		btb.isShare = (isShare && isGlobalTable);
 
 		btb.entryArr = (BTB_ENTRY*)malloc(sizeof(BTB_ENTRY)*btb.size);
 
@@ -195,6 +203,11 @@ int BP_init(unsigned btbSize, unsigned historySize, unsigned tagSize,
 		}
 
 		zeroStats(&btb.stats);
+
+		unsigned memSize = btb.size*(tagSize+30)+(!btb.isGlobalHist)*(btb.size-1)*btb.histSize +
+				btb.histSize + (!btb.isGlobalTable)*(2*power(2,btb.histSize))*(btb.size -1)+(2*power(2,btb.histSize));
+
+		btb.stats.size = memSize;
 		return 1;
 	}
 
@@ -207,17 +220,26 @@ bool BP_predict(uint32_t pc, uint32_t *dst){
 	unsigned histVal;
 	if (btb.entryArr[btbIndex].tag == tag){
 		///choose history
-		if (btb.isGlobalHist)
+		if (btb.isGlobalHist){
 			histVal = getHistVal(btb.globalHistArr, btb.histSize);
-		else
+		}
+		else{
 			histVal = getHistVal(btb.entryArr[btbIndex].histArr, btb.histSize);
+		}
+
+
+		if (btb.isShare){
+			histVal = performSmartXor(histVal,pc);
+		}
 
 		//choose prediction table.
 		PREDICTION pr;
-		if (btb.isGlobalTable)
+		if (btb.isGlobalTable){
 			pr = btb.globalPredictionArr[histVal];
-		else
+		}
+		else{
 			pr = btb.entryArr[btbIndex].predictionArr[histVal];
+		}
 
 		bool predVal = getPrediction(pr);
 		if (predVal == true){
@@ -264,6 +286,9 @@ void BP_update(uint32_t pc, uint32_t targetPc, bool taken, uint32_t pred_dst){
 	//printf("Old history val is: %d \n" , oldHistVal);
 	if (btb.isGlobalTable){
 
+		if (btb.isShare){
+			oldHistVal = performSmartXor(oldHistVal,pc);
+		}
 		updatePrediction(&btb.globalPredictionArr[oldHistVal], taken);
 	}
 	else{
@@ -274,7 +299,7 @@ void BP_update(uint32_t pc, uint32_t targetPc, bool taken, uint32_t pred_dst){
 
 	//TODO: update stats
 	btb.stats.br_num+=1;
-	if (((targetPc != pred_dst) && taken) || ((targetPc == pred_dst) && !taken))
+	if (((targetPc != pred_dst) && taken) || (((pc+4) != pred_dst) && !taken))
 		wasFlush = 1;
 	btb.stats.flush_num = btb.stats.flush_num + wasFlush;
 
