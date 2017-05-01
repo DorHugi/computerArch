@@ -1,0 +1,42 @@
+echo "example 1: "
+
+make && ./sim_main tests/example1.img 43  > temp.out  && diff temp.out results/example1.txt | grep -v "Loading memory image"
+
+echo "example 1 -s"
+ ./sim_main tests/example1.img 43 -s  > temp.out  && diff temp.out results/example1-s.txt | grep -v "Loading memory image"
+
+echo "example 1 -f"
+ ./sim_main tests/example1.img 43 -f  > temp.out  && diff temp.out results/example1-f.txt | grep -v "Loading memory image"
+
+echo "example 2: "
+
+ ./sim_main tests/example2.img 43  > temp.out  && diff temp.out results/example2.txt | grep -v "Loading memory image"
+
+echo "example 2 -s"
+ ./sim_main tests/example2.img 43 -s  > temp.out  && diff temp.out results/example2-s.txt | grep -v "Loading memory image"
+
+echo "example 2 -f"
+ ./sim_main tests/example2.img 43 -f  > temp.out  && diff temp.out results/example2-f.txt | grep -v "Loading memory image"
+
+
+
+echo "example 3: "
+
+ ./sim_main tests/example3.img 43  > temp.out  && diff temp.out results/example3.txt | grep -v "Loading memory image"
+
+echo "example 3 -s"
+ ./sim_main tests/example3.img 43 -s  > temp.out  && diff temp.out results/example3-s.txt | grep -v "Loading memory image"
+
+echo "example 3 -f"
+ ./sim_main tests/example3.img 43 -f  > temp.out  && diff temp.out results/example3-f.txt | grep -v "Loading memory image"
+
+
+echo "example 4: "
+
+ ./sim_main tests/example4.img 43  > temp.out  && diff temp.out results/example4.txt | grep -v "Loading memory image"
+
+echo "example 4 -s"
+ ./sim_main tests/example4.img 43 -s  > temp.out  && diff temp.out results/example4-s.txt | grep -v "Loading memory image"
+
+echo "example 4 -f"
+ ./sim_main tests/example4.img 43 -f  > temp.out  && diff temp.out results/example4-f.txt | grep -v "Loading memory image"

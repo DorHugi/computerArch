@@ -1,0 +1,9 @@
+README!
+
+HI ALL
+all test images are in tests/
+all expected results are in results/
+
+Please put all your source files in the same folder with the script.
+The script uses the supplied makefile (from MOODLE).
+
