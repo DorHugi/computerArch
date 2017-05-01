@@ -161,16 +161,20 @@ int BP_init(unsigned btbSize, unsigned historySize, unsigned tagSize,
 
 		btb.entryArr = (BTB_ENTRY*)malloc(sizeof(BTB_ENTRY)*btb.size);
 
+		unsigned predictionArrSize = power(2,btb.histSize);
 		//initialize entry array
 		for (int i =0; i < btb.size ; i++){
 			//initialize hist
-			btb.entryArr[i].histArr = (bool*)malloc(sizeof(bool)*btb.histSize);
-			zeroHist(btb.entryArr[i].histArr, btb.histSize);
+			if (!btb.isGlobalHist){
+				btb.entryArr[i].histArr = (bool*)malloc(sizeof(bool)*btb.histSize);
+				zeroHist(btb.entryArr[i].histArr, btb.histSize);
+			}
 
 			//initialize prediction array
-			unsigned predictionArrSize = power(2,btb.histSize);
-			btb.entryArr[i].predictionArr = (PREDICTION*)malloc(sizeof(PREDICTION)*predictionArrSize);
-			zeroPredictionArray(btb.entryArr[i].predictionArr , predictionArrSize);
+			if (!btb.isGlobalTable){
+				btb.entryArr[i].predictionArr = (PREDICTION*)malloc(sizeof(PREDICTION)*predictionArrSize);
+				zeroPredictionArray(btb.entryArr[i].predictionArr , predictionArrSize);
+			}
 
 			//initialize tag
 			btb.entryArr[i].tag = EMPTY;
@@ -179,7 +183,16 @@ int BP_init(unsigned btbSize, unsigned historySize, unsigned tagSize,
 			//initialize target
 			btb.entryArr[i].target = 0;
 		}
+		//initialize globals:
+		if (btb.isGlobalHist){
+			btb.globalHistArr = (bool*)malloc(sizeof(bool)*btb.histSize);
+			zeroHist(btb.globalHistArr, btb.histSize);
+		}
 
+		if (btb.isGlobalTable){
+			btb.globalPredictionArr = (PREDICTION*)malloc(sizeof(PREDICTION)*predictionArrSize);
+			zeroPredictionArray(btb.globalPredictionArr , predictionArrSize);
+		}
 
 		zeroStats(&btb.stats);
 		return 1;
@@ -191,9 +204,21 @@ bool BP_predict(uint32_t pc, uint32_t *dst){
 
 	unsigned btbIndex = getBtbIndex(pc);
 	unsigned tag = getBtbTag(pc);
+	unsigned histVal;
 	if (btb.entryArr[btbIndex].tag == tag){
-		unsigned histVal = getHistVal(btb.entryArr[btbIndex].histArr, btb.histSize);
-		PREDICTION pr = btb.entryArr[btbIndex].predictionArr[histVal];
+		///choose history
+		if (btb.isGlobalHist)
+			histVal = getHistVal(btb.globalHistArr, btb.histSize);
+		else
+			histVal = getHistVal(btb.entryArr[btbIndex].histArr, btb.histSize);
+
+		//choose prediction table.
+		PREDICTION pr;
+		if (btb.isGlobalTable)
+			pr = btb.globalPredictionArr[histVal];
+		else
+			pr = btb.entryArr[btbIndex].predictionArr[histVal];
+
 		bool predVal = getPrediction(pr);
 		if (predVal == true){
 			*dst = btb.entryArr[btbIndex].target;
@@ -214,18 +239,37 @@ void BP_update(uint32_t pc, uint32_t targetPc, bool taken, uint32_t pred_dst){
 	if (btb.entryArr[btbIndex].tag != tag  ){ //or tag is empty (the if includes this case as well)
 		//initialize entry
 		btb.entryArr[btbIndex].tag = tag;
-		zeroHist(btb.entryArr[btbIndex].histArr, btb.histSize);
+		if (!btb.isGlobalHist){
+			zeroHist(btb.entryArr[btbIndex].histArr, btb.histSize);
+		}
+
 		unsigned predictionArrSize = power(2,btb.histSize);
-		zeroPredictionArray(btb.entryArr[btbIndex].predictionArr,predictionArrSize);
+		if (!btb.isGlobalTable)
+			zeroPredictionArray(btb.entryArr[btbIndex].predictionArr,predictionArrSize);
 	}
 
 	btb.entryArr[btbIndex].target = targetPc;
 	//update history
-	unsigned oldHistVal =getHistVal(btb.entryArr[btbIndex].histArr, btb.histSize);
-	//printf("Old history val is: %d \n" , oldHistVal);
+	unsigned oldHistVal;
 
-	updateHistory(btb.entryArr[btbIndex].histArr,btb.histSize,taken);
-	updatePrediction(&btb.entryArr[btbIndex].predictionArr[oldHistVal], taken);
+	if (btb.isGlobalHist){
+		oldHistVal =   getHistVal(btb.globalHistArr, btb.histSize);
+		updateHistory(btb.globalHistArr,btb.histSize,taken);
+	}
+	else{
+		oldHistVal = getHistVal(btb.entryArr[btbIndex].histArr, btb.histSize);
+		updateHistory(btb.entryArr[btbIndex].histArr,btb.histSize,taken);
+	}
+
+	//printf("Old history val is: %d \n" , oldHistVal);
+	if (btb.isGlobalTable){
+
+		updatePrediction(&btb.globalPredictionArr[oldHistVal], taken);
+	}
+	else{
+		updatePrediction(&btb.entryArr[btbIndex].predictionArr[oldHistVal], taken);
+	}
+
 	//printf("update taken is: %d\n" , taken);
 
 	//TODO: update stats
