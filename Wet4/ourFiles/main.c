@@ -4,7 +4,7 @@ int main(int argc, const char *argv[]) {
 
 
 	if (argc < 20){
-		printf("Expecting more arguments. got only %d\n ",argc);
+		//printf("Expecting more arguments. got only %d\n ",argc);
 		return -1;
 	}
 
@@ -20,8 +20,8 @@ int main(int argc, const char *argv[]) {
 	const char* L2CycStr = argv[19];
 
 //	for (int i = 0; i < argc ; i++){
-//		printf("argv[%d] is: %s , atoi of argv is: %d: \n",i,argv[i],atoi(argv[i]));
-//		printf("length is: %d \n", strlen(argv[i]));
+//		//printf("argv[%d] is: %s , atoi of argv is: %d: \n",i,argv[i],atoi(argv[i]));
+//		//printf("length is: %d \n", strlen(argv[i]));
 //
 //
 //	}
@@ -52,7 +52,7 @@ int main(int argc, const char *argv[]) {
 	}
 
 	while (fgets(buf,sizeof(buf),fh)){
-//		printf("line is %s \n",buf);
+//		//printf("line is %s \n",buf);
 		bool isWrite = (buf[0]=='w');
 		char tmp[300];
 		int i = 4;
@@ -68,7 +68,7 @@ int main(int argc, const char *argv[]) {
 		}
 
 		int adr = (int)strtol(tmp,NULL,16);
-		printf("adrstring: %s, adr: %d\n",tmp,adr);
+		//printf("adrstring: %s, adr: %d\n",tmp,adr);
 		updateCache(adr,isWrite);
 
 	}
