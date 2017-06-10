@@ -19,12 +19,12 @@ int main(int argc, const char *argv[]) {
 	const char* L2WaysStr = argv[17];
 	const char* L2CycStr = argv[19];
 
-	for (int i = 0; i < argc ; i++){
-		printf("argv[%d] is: %s , atoi of argv is: %d: \n",i,argv[i],atoi(argv[i]));
-		printf("length is: %d \n", strlen(argv[i]));
-
-
-	}
+//	for (int i = 0; i < argc ; i++){
+//		printf("argv[%d] is: %s , atoi of argv is: %d: \n",i,argv[i],atoi(argv[i]));
+//		printf("length is: %d \n", strlen(argv[i]));
+//
+//
+//	}
 
 
 	int MemCyc = atoi(memCycStr);
@@ -52,7 +52,7 @@ int main(int argc, const char *argv[]) {
 	}
 
 	while (fgets(buf,sizeof(buf),fh)){
-		printf("line is %s \n",buf);
+//		printf("line is %s \n",buf);
 		bool isWrite = (buf[0]=='w');
 		char tmp[300];
 		int i = 4;
