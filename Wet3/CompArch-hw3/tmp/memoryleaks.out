@@ -1,0 +1,104 @@
+==3399== Memcheck, a memory error detector
+==3399== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==3399== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==3399== Command: ./dflow_calc rand_tests/rand_opcode3.dat rand_tests/rand_example3.in p0 d0 p1 d1 p2 d2 p3 d3 p4 d4 p5 d5 p6 d6 p7 d7 p8 d8 p9 d9 p10 d10 p11 d11 p12 d12 p13 d13
+==3399== Parent PID: 3283
+==3399== 
+--3399-- 
+--3399-- Valgrind options:
+--3399--    --leak-check=full
+--3399--    --log-file=memoryleaks.out
+--3399--    -v
+--3399-- Contents of /proc/version:
+--3399--   Linux version 4.4.0-75-generic (buildd@lgw01-21) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #96-Ubuntu SMP Thu Apr 20 09:56:33 UTC 2017
+--3399-- 
+--3399-- Arch and hwcaps: AMD64, LittleEndian, amd64-cx16-lzcnt-rdtscp-sse3-avx-avx2-bmi
+--3399-- Page sizes: currently 4096, max supported 4096
+--3399-- Valgrind library directory: /usr/lib/valgrind
+--3399-- Reading syms from /home/dorek-ubuntu/university/computerArch/Wet3/CompArch-hw3/tmp/dflow_calc
+--3399-- Reading syms from /lib/x86_64-linux-gnu/ld-2.23.so
+--3399--   Considering /lib/x86_64-linux-gnu/ld-2.23.so ..
+--3399--   .. CRC mismatch (computed 10768843 wanted ef0d0121)
+--3399--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/ld-2.23.so ..
+--3399--   .. CRC is valid
+--3399-- Reading syms from /usr/lib/valgrind/memcheck-amd64-linux
+--3399--   Considering /usr/lib/valgrind/memcheck-amd64-linux ..
+--3399--   .. CRC mismatch (computed 5529a2c7 wanted 5bd23904)
+--3399--    object doesn't have a symbol table
+--3399--    object doesn't have a dynamic symbol table
+--3399-- Scheduler: using generic scheduler lock implementation.
+--3399-- Reading suppressions file: /usr/lib/valgrind/default.supp
+==3399== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-3399-by-dorek-ubuntu-on-???
+==3399== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-3399-by-dorek-ubuntu-on-???
+==3399== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-3399-by-dorek-ubuntu-on-???
+==3399== 
+==3399== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==3399== don't want to do, unless you know exactly what you're doing,
+==3399== or are doing some strange experiment):
+==3399==   /usr/lib/valgrind/../../bin/vgdb --pid=3399 ...command...
+==3399== 
+==3399== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==3399==   /path/to/gdb ./dflow_calc
+==3399== and then give GDB the following command
+==3399==   target remote | /usr/lib/valgrind/../../bin/vgdb --pid=3399
+==3399== --pid is optional if only one valgrind process is running
+==3399== 
+--3399-- REDIR: 0x401cdc0 (ld-linux-x86-64.so.2:strlen) redirected to 0x3809e181 (???)
+--3399-- Reading syms from /usr/lib/valgrind/vgpreload_core-amd64-linux.so
+--3399--   Considering /usr/lib/valgrind/vgpreload_core-amd64-linux.so ..
+--3399--   .. CRC mismatch (computed a30c8eaa wanted 7ae2fed4)
+--3399--    object doesn't have a symbol table
+--3399-- Reading syms from /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so
+--3399--   Considering /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so ..
+--3399--   .. CRC mismatch (computed 402c2ab5 wanted 745f25ae)
+--3399--    object doesn't have a symbol table
+==3399== WARNING: new redirection conflicts with existing -- ignoring it
+--3399--     old: 0x0401cdc0 (strlen              ) R-> (0000.0) 0x3809e181 ???
+--3399--     new: 0x0401cdc0 (strlen              ) R-> (2007.0) 0x04c31020 strlen
+--3399-- REDIR: 0x401b710 (ld-linux-x86-64.so.2:index) redirected to 0x4c30bc0 (index)
+--3399-- REDIR: 0x401b930 (ld-linux-x86-64.so.2:strcmp) redirected to 0x4c320d0 (strcmp)
+--3399-- REDIR: 0x401db20 (ld-linux-x86-64.so.2:mempcpy) redirected to 0x4c35270 (mempcpy)
+--3399-- Reading syms from /lib/x86_64-linux-gnu/libc-2.23.so
+--3399--   Considering /lib/x86_64-linux-gnu/libc-2.23.so ..
+--3399--   .. CRC mismatch (computed f3344b67 wanted 8e4ae80b)
+--3399--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/libc-2.23.so ..
+--3399--   .. CRC is valid
+--3399-- REDIR: 0x4ec8e50 (libc.so.6:strcasecmp) redirected to 0x4a286f0 (_vgnU_ifunc_wrapper)
+--3399-- REDIR: 0x4ec46d0 (libc.so.6:strcspn) redirected to 0x4a286f0 (_vgnU_ifunc_wrapper)
+--3399-- REDIR: 0x4ecb140 (libc.so.6:strncasecmp) redirected to 0x4a286f0 (_vgnU_ifunc_wrapper)
+--3399-- REDIR: 0x4ec6b40 (libc.so.6:strpbrk) redirected to 0x4a286f0 (_vgnU_ifunc_wrapper)
+--3399-- REDIR: 0x4ec6ed0 (libc.so.6:strspn) redirected to 0x4a286f0 (_vgnU_ifunc_wrapper)
+--3399-- REDIR: 0x4ec859b (libc.so.6:memcpy@GLIBC_2.2.5) redirected to 0x4a286f0 (_vgnU_ifunc_wrapper)
+--3399-- REDIR: 0x4ec6850 (libc.so.6:rindex) redirected to 0x4c308a0 (rindex)
+--3399-- REDIR: 0x4ecfbb0 (libc.so.6:strchrnul) redirected to 0x4c34da0 (strchrnul)
+--3399-- REDIR: 0x4ebd580 (libc.so.6:malloc) redirected to 0x4c2db20 (malloc)
+--3399-- REDIR: 0x4ec8800 (libc.so.6:__GI_mempcpy) redirected to 0x4c34fa0 (__GI_mempcpy)
+--3399-- REDIR: 0x4ec74b0 (libc.so.6:__GI_strstr) redirected to 0x4c354d0 (__strstr_sse2)
+--3399-- REDIR: 0x4ec7cb0 (libc.so.6:memchr) redirected to 0x4c32170 (memchr)
+--3399-- REDIR: 0x4ecd8c0 (libc.so.6:__GI_memcpy) redirected to 0x4c32b00 (__GI_memcpy)
+--3399-- REDIR: 0x4ebd940 (libc.so.6:free) redirected to 0x4c2ed80 (free)
+--3399-- REDIR: 0x4ebdb10 (libc.so.6:realloc) redirected to 0x4c2fce0 (realloc)
+==3399== 
+==3399== HEAP SUMMARY:
+==3399==     in use at exit: 180 bytes in 2 blocks
+==3399==   total heap usage: 23 allocs, 21 frees, 15,196 bytes allocated
+==3399== 
+==3399== Searching for pointers to 2 not-freed blocks
+==3399== Checked 66,968 bytes
+==3399== 
+==3399== 120 bytes in 1 blocks are definitely lost in loss record 2 of 2
+==3399==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3399==    by 0x4010CA: analyzeProg (in /home/dorek-ubuntu/university/computerArch/Wet3/CompArch-hw3/tmp/dflow_calc)
+==3399==    by 0x400873: main (in /home/dorek-ubuntu/university/computerArch/Wet3/CompArch-hw3/tmp/dflow_calc)
+==3399== 
+==3399== LEAK SUMMARY:
+==3399==    definitely lost: 120 bytes in 1 blocks
+==3399==    indirectly lost: 0 bytes in 0 blocks
+==3399==      possibly lost: 0 bytes in 0 blocks
+==3399==    still reachable: 60 bytes in 1 blocks
+==3399==         suppressed: 0 bytes in 0 blocks
+==3399== Reachable blocks (those to which a pointer was found) are not shown.
+==3399== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==3399== 
+==3399== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==3399== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
