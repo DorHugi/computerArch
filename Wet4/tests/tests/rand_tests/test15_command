@@ -1,0 +1,1 @@
+./cacheSim rand_tests/test15_trace --mem-cyc 42 --bsize 3 --wr-alloc 0 --l1-size 8 --l1-assoc 4 --l1-cyc 3 --l2-size 3 --l2-assoc 0 --l2-cyc 15
