@@ -48,16 +48,16 @@ int blockSize;
 GLOBAL_STATS globalStats;
 int timeStamp;
 
-int Log2( double n )
+unsigned long Log2( double n )
 {
     // log(n)/log(2) is log2.
 
 	double res = log( n ) / log( 2 ) ;
 
 	if ((res - (int)res) >0)
-		return (int)res+1;
+		return (unsigned long)res+1;
 	else
-		return (int)res;
+		return (unsigned long)res;
 
 }
 
@@ -71,10 +71,10 @@ unsigned long getSet(unsigned long adr, CACHE* c){
 
 	adr = adr >> blockSize;
 	int linesInWay = c->waysArr->totalLines;
-	unsigned setBits = Log2(linesInWay);
+	unsigned long setBits = Log2(linesInWay);
 
 
-	return (unsigned long)(adr % (int)pow(2,setBits));
+	return (unsigned)(adr % (int)pow(2,setBits));
 }
 
 
@@ -82,7 +82,7 @@ unsigned long getTag (unsigned long adr,CACHE* c){
 
 	adr = adr >> blockSize;
 	int linesInWay = c->waysArr->totalLines;
-	int setBits =  Log2(linesInWay);
+	unsigned long setBits =  Log2(linesInWay);
 
 	return (adr >> setBits);
 
@@ -144,7 +144,7 @@ void initalize(int _memCyc, int _blockSize, bool _writeAlloc, int l1Size, int l1
 	globalStats.cyc =0;
 	globalStats.totalInsts = 0;
 
-/* prints for debug!
+/*
 	printf("*******************PRINTING VALUES OF ARGUMENTS*******************\n");
 	printf("global - block_size: %d, mem cyc: %d, write alloc %d\n", blockSize, memCyc, writeAlloc);
 	printf("cache 1 - size : %d , ways:%d, cyc : %d, waysline: %d \n", l1->size, l1->waysNum, l1->cyc, l1->waysArr[0].totalLines);
@@ -157,17 +157,17 @@ LINE* findInCache(CACHE* cache, unsigned long set, unsigned long tag ){
 	for (int i = 0 ; i < cache->waysNum; i++){
 		WAY curWay = cache->waysArr[i];
 		LINE curLine = curWay.linesArr[set];
-		if (curLine.tag == tag && curLine.valid){
+		if (curLine.tag == tag && curLine.valid)
 				return &curWay.linesArr[set];
+
 		}
-		}
-	
+
 	return NULL;
 
 }
 
-unsigned concatenate(unsigned long x, unsigned long y) {
-	unsigned long pow = 10;
+unsigned concatenate(unsigned x, unsigned y) {
+    unsigned pow = 10;
     while(y >= pow)
         pow *= 10;
     return x * pow + y;
@@ -206,8 +206,11 @@ LINE* addToCache(CACHE* c, unsigned long set,unsigned long tag){
 
 			if (evictedLine->dirty){
 //				globalStats.cyc+=l2->cyc-l1->cyc;
+				//printf("tag %d , set %d \n",evictedLine->tag,set);	
 				unsigned long adr = concatenate(evictedLine->tag,set);
+				//printf("conctentated adr: %d \n",adr);
 				adr = adr << blockSize;
+
 				LINE* lineInL2 = findInCache(l2,getSet(adr,l2),getTag(adr,l2));
 				if (lineInL2 != NULL){
 					//evict.
@@ -219,7 +222,7 @@ LINE* addToCache(CACHE* c, unsigned long set,unsigned long tag){
 		}
 
 		else { //(c==l2)
-//			LINE* evictedLine = &c->waysArr[availableWayNum].linesArr[set];
+			LINE* evictedLine = &c->waysArr[availableWayNum].linesArr[set];
 
 //			if (evictedLine->dirty){
 //				globalStats.cyc+=memCyc - l2->cyc;
@@ -250,18 +253,18 @@ LINE* addToCache(CACHE* c, unsigned long set,unsigned long tag){
 }
 
 
-/***** function for debud *****/
+
 void printCacheContent(){
 	printf("*****printing content of l1:************* \n");
 	for (int i =0 ; i < l1->waysNum; i++){
 		for (int j =0 ; j < l1->waysArr[i].totalLines; j++){
-			printf("Way:%d Line:%d tag: %lu ,timestamp:%d \n",i,j,l1->waysArr[i].linesArr[j].tag,l1->waysArr[i].linesArr[j].lastUsed);
+			printf("Way:%d Line:%d tag: %d ,timestamp:%d \n",i,j,l1->waysArr[i].linesArr[j].tag,l1->waysArr[i].linesArr[j].lastUsed);
 		}
 	}
 	printf("*****printing content of l2:************* \n");
 	for (int i =0 ; i < l2->waysNum; i++){
 		for (int j =0 ; j < l2->waysArr[i].totalLines; j++){
-			printf("Way:%d Line:%d tag: %lu ,timestamp:%d \n",i,j,l2->waysArr[i].linesArr[j].tag,l2->waysArr[i].linesArr[j].lastUsed);
+			printf("Way:%d Line:%d tag: %d ,timestamp:%d \n",i,j,l2->waysArr[i].linesArr[j].tag,l2->waysArr[i].linesArr[j].lastUsed);
 		}
 	}
 }
@@ -274,10 +277,13 @@ void updateCache(unsigned long adr, bool isWrite){
 	unsigned long set2 = getSet(adr,l2);
 	unsigned long tag1 = getTag(adr,l1);
 	unsigned long tag2 = getTag(adr,l2);
+	//printf("adr : %d, set1: %d, set2: %d, tag1: %d, tag2: %d\n", adr, set1, set2, tag1, tag2);
+	//printf("isWrite: %d\n",isWrite);
 	LINE* l1Line = findInCache(l1,set1,tag1);
 	LINE* l2Line = findInCache(l2,set2,tag2);
 
 	if (l1Line){
+		//printf("found in l1\n");
 		l1->stats.hits++;
 		updateTime(l1Line);
 		if (isWrite)
@@ -286,6 +292,7 @@ void updateCache(unsigned long adr, bool isWrite){
 	}
 
 	else if(l2Line){
+		//printf("found in l2\n");
 		l2->stats.hits++;
 		l1->stats.miss++;
 		updateTime(l2Line);
@@ -297,8 +304,9 @@ void updateCache(unsigned long adr, bool isWrite){
 	}
 
 	else {
+		//printf("wasnt found in any of the caches \n");
 		if (!isWrite || (isWrite && writeAlloc)){
-			 addToCache(l2,set2,tag2);
+			 LINE* tmpL2 = addToCache(l2,set2,tag2);
 			 LINE* tmpL1 = addToCache(l1,set1,tag1);
 			 if (isWrite){
 				tmpL1->dirty = true;
@@ -308,8 +316,11 @@ void updateCache(unsigned long adr, bool isWrite){
 		l1->stats.miss++;
 		l2->stats.miss++;
 
-		globalStats.cyc+=memCyc;
+		//globalStats.cyc+=memCyc;
 	}
+
+
+//	printCacheContent();
 
 }
 

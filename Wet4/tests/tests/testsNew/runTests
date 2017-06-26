@@ -1,0 +1,49 @@
+#!/bin/bash
+
+#test automation script
+INPUT_DIR="rand_tests"
+OUT_DIR="rand_results"
+MY_OUT_DIR_NAME="my_out"
+OUT_BIN="cacheSim"
+
+
+echo -e 'building... '
+make clean
+make
+chmod 777 $OUT_BIN
+
+#remove the directory if it exists, to create a new empty one for the new run.
+if [[  -e $MY_OUT_DIR_NAME ]]; then
+	rm -rf $mkdir $MY_OUT_DIR_NAME
+fi
+mkdir $MY_OUT_DIR_NAME
+
+number_of_tests=`ls -l $INPUT_DIR | grep test.*_command | wc -l`
+# Trim white spaces
+number_of_tests="$(echo -e "${number_of_tests}" | tr -d '[:space:]')"
+
+echo -e 'number of tests to run:' ${number_of_tests}
+for i in `seq 1 $number_of_tests` ; do
+	    test_trace=$INPUT_DIR/'test'$i'_trace'
+	    test_cmd=`cat $INPUT_DIR/'test'$i'_command'`
+
+	    echo 'running test '$i
+	    echo $test_cmd '>' $MY_OUT_DIR_NAME/'test'$i'_output'
+
+	    $test_cmd > $MY_OUT_DIR_NAME/'test'$i'_output'
+	    # Use next line instead of previous one to create result output
+	    #####$test_cmd > $OUT_DIR/'test'$i'_output'
+    	if [ `diff $OUT_DIR/'test'$i'_output' $MY_OUT_DIR_NAME/'test'$i'_output' | wc -w` -eq 0 ] ; then 
+    		echo -e "     Passed!"
+    
+   	else 
+   	        echo -e ""
+    		echo -e "     Failed."
+    		echo -e ""
+
+	fi
+done
+echo -e 'cleaning directory '
+make clean
+rm -rf $MY_OUT_DIR_NAME
+

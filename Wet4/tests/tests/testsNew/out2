@@ -1,0 +1,4495 @@
+*******************PRINTING VALUES OF ARGUMENTS*******************
+global - block_size: 2, mem cyc: 46, write alloc 1
+cache 1 - size : 6 , ways:8, cyc : 2, waysline: 2 
+cache 2 - size : 8 , ways:8, cyc : 13 waysline: 8
+access num: 0
+adr is: 0xb454634
+miss L1 & L2
+evicted - tag 0 set 5, waynum 0
+evicted - tag 0 set 1, waynum 0
+access num: 1
+adr is: 0x1ac1bef8
+miss L1 & L2
+evicted - tag 0 set 6, waynum 0
+evicted - tag 0 set 0, waynum 0
+access num: 2
+adr is: 0x1ee009a0
+miss L1 & L2
+evicted - tag 0 set 0, waynum 0
+evicted - tag 0 set 0, waynum 1
+access num: 3
+adr is: 0x79869f4
+miss L1 & L2
+evicted - tag 0 set 5, waynum 1
+evicted - tag 0 set 1, waynum 1
+access num: 4
+adr is: 0xdbb9ad8
+miss L1 & L2
+evicted - tag 0 set 6, waynum 1
+evicted - tag 0 set 0, waynum 2
+access num: 5
+adr is: 0x1091cc00
+miss L1 & L2
+evicted - tag 0 set 0, waynum 1
+evicted - tag 0 set 0, waynum 3
+access num: 6
+adr is: 0x2f7b6818
+miss L1 & L2
+evicted - tag 0 set 6, waynum 2
+evicted - tag 0 set 0, waynum 4
+access num: 7
+adr is: 0x10a8f3a0
+miss L1 & L2
+evicted - tag 0 set 0, waynum 2
+evicted - tag 0 set 0, waynum 5
+access num: 8
+adr is: 0x2db8cbe8
+miss L1 & L2
+evicted - tag 0 set 2, waynum 0
+evicted - tag 0 set 0, waynum 6
+access num: 9
+adr is: 0x271e6088
+miss L1 & L2
+evicted - tag 0 set 2, waynum 1
+evicted - tag 0 set 0, waynum 7
+access num: 10
+adr is: 0x2cf418a4
+miss L1 & L2
+evicted - tag 0 set 1, waynum 0
+evicted - tag 0 set 1, waynum 2
+access num: 11
+adr is: 0x7a489f4
+miss L1 & L2
+evicted - tag 0 set 5, waynum 2
+evicted - tag 0 set 1, waynum 3
+access num: 12
+adr is: 0x2353d6ac
+miss L1 & L2
+evicted - tag 0 set 3, waynum 0
+evicted - tag 0 set 1, waynum 4
+access num: 13
+adr is: 0x57efe98
+miss L1 & L2
+evicted - tag 0 set 6, waynum 3
+evicting from cach L1
+evicted adr: 0x1ac1bef8 from L1 and dirty- write to L2 tag 0x35837df, set 0x0
+evicted - tag 35837df set 0, waynum 0
+access num: 14
+adr is: 0x35969010
+miss L1 & L2
+evicted - tag 0 set 4, waynum 0
+evicting from cach L1
+evicted - tag 3dc0134 set 0, waynum 1
+access num: 15
+adr is: 0xaeb02c8
+miss L1 & L2
+evicted - tag 0 set 2, waynum 2
+evicting from cach L1
+evicted adr: 0xdbb9ad8 from L1 and dirty- write to L2 tag 0x1b7735b, set 0x0
+evicted - tag 1b7735b set 0, waynum 2
+access num: 16
+adr is: 0xfb7702c
+miss L1 & L2
+evicted - tag 0 set 3, waynum 1
+evicted - tag 0 set 1, waynum 5
+access num: 17
+adr is: 0x2cf418a4
+Hit L1!
+access num: 18
+adr is: 0x12cbfeac
+miss L1 & L2
+evicted - tag 0 set 3, waynum 2
+evicted - tag 0 set 1, waynum 6
+access num: 19
+adr is: 0x2bf8980c
+miss L1 & L2
+evicted - tag 0 set 3, waynum 3
+evicted - tag 0 set 1, waynum 7
+access num: 20
+adr is: 0x3361526c
+miss L1 & L2
+evicted - tag 0 set 3, waynum 4
+evicting from cach L1
+evicted adr: 0xb454634 from L1 and dirty- write to L2 tag 0x168a8c6, set 0x1
+evicted - tag 168a8c6 set 1, waynum 0
+access num: 21
+adr is: 0x9792674
+miss L1 & L2
+evicted - tag 0 set 5, waynum 3
+evicting from cach L1
+evicted adr: 0x79869f4 from L1 and dirty- write to L2 tag 0xf30d3e, set 0x1
+evicted - tag f30d3e set 1, waynum 1
+access num: 22
+adr is: 0xf1a8828
+miss L1 & L2
+evicted - tag 0 set 2, waynum 3
+evicting from cach L1
+evicted - tag 2123980 set 0, waynum 3
+access num: 23
+adr is: 0x3714e734
+miss L1 & L2
+evicted - tag 0 set 5, waynum 4
+evicting from cach L1
+evicted - tag f4913e set 1, waynum 3
+access num: 24
+adr is: 0x33dfe378
+miss L1 & L2
+evicted - tag 0 set 6, waynum 4
+evicting from cach L1
+evicted adr: 0x2f7b6818 from L1 and dirty- write to L2 tag 0x5ef6d03, set 0x0
+evicted - tag 5ef6d03 set 0, waynum 4
+access num: 25
+adr is: 0x28735380
+miss L1 & L2
+evicted - tag 0 set 0, waynum 3
+evicting from cach L1
+evicted - tag 2151e74 set 0, waynum 5
+access num: 26
+adr is: 0x20cf074c
+miss L1 & L2
+evicted - tag 0 set 3, waynum 5
+evicting from cach L1
+evicted - tag 46a7ad5 set 1, waynum 4
+access num: 27
+adr is: 0x404c5800
+miss L1 & L2
+evicted - tag 0 set 0, waynum 4
+evicting from cach L1
+evicted - tag 5b7197d set 0, waynum 6
+access num: 28
+adr is: 0x160fda9c
+miss L1 & L2
+evicted - tag 0 set 7, waynum 0
+evicting from cach L1
+evicted - tag 1f6ee05 set 1, waynum 5
+access num: 29
+adr is: 0x12cbfeac
+Hit L1!
+access num: 30
+adr is: 0x1ce818a0
+miss L1 & L2
+evicted - tag 0 set 0, waynum 5
+evicting from cach L1
+evicted adr: 0x271e6088 from L1 and dirty- write to L2 tag 0x4e3cc11, set 0x0
+evicted - tag 4e3cc11 set 0, waynum 7
+access num: 31
+adr is: 0x2b2b91a4
+miss L1 & L2
+evicted - tag 0 set 1, waynum 1
+evicting from cach L1
+evicted - tag 59e8314 set 1, waynum 2
+access num: 32
+adr is: 0x2bf8980c
+Hit L1!
+access num: 33
+adr is: 0x842e120
+miss L1 & L2
+evicted - tag 0 set 0, waynum 6
+evicting from cach L1
+evicted adr: 0x57efe98 from L1 and dirty- write to L2 tag 0xafdfd3, set 0x0
+evicted - tag afdfd3 set 0, waynum 0
+access num: 34
+adr is: 0x1447c1b8
+miss L1 & L2
+evicted - tag 0 set 6, waynum 5
+evicting from cach L1
+evicted - tag 6b2d202 set 0, waynum 1
+access num: 35
+adr is: 0x2132be18
+miss L1 & L2
+evicted - tag 0 set 6, waynum 6
+evicting from cach L1
+evicted adr: 0xaeb02c8 from L1 and dirty- write to L2 tag 0x15d6059, set 0x0
+evicted - tag 15d6059 set 0, waynum 2
+access num: 36
+adr is: 0x35603878
+miss L1 & L2
+evicted - tag 0 set 6, waynum 7
+evicting from cach L1
+evicted - tag 1e35105 set 0, waynum 3
+access num: 37
+adr is: 0x23aef730
+miss L1 & L2
+evicted - tag 0 set 4, waynum 1
+evicting from cach L1
+evicted - tag 67bfc6f set 0, waynum 4
+access num: 38
+adr is: 0x34d49d10
+miss L1 & L2
+evicted - tag 0 set 4, waynum 2
+evicting from cach L1
+evicted adr: 0x28735380 from L1 and dirty- write to L2 tag 0x50e6a70, set 0x0
+evicted - tag 50e6a70 set 0, waynum 5
+access num: 39
+adr is: 0x1f274880
+miss L1 & L2
+evicted - tag 0 set 0, waynum 7
+evicting from cach L1
+evicted - tag 8098b00 set 0, waynum 6
+access num: 40
+adr is: 0x2a682c3c
+miss L1 & L2
+evicted - tag 0 set 7, waynum 1
+evicting from cach L1
+evicted adr: 0x3361526c from L1 and dirty- write to L2 tag 0x66c2a4d, set 0x1
+evicted - tag 66c2a4d set 1, waynum 0
+access num: 41
+adr is: 0x19f44ff8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ac1bef8 from L2- check if not in L1. tag 0xd60df7, set 0x6!evicted - tag d60df7 set 6, waynum 0
+evicting from cach L1
+evicted adr: 0x1ce818a0 from L1 and dirty- write to L2 tag 0x39d0314, set 0x0
+evicted - tag 39d0314 set 0, waynum 7
+access num: 42
+adr is: 0x2b3098c0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ee009a0 from L2- check if not in L1. tag 0xf7004d, set 0x0!evicted - tag f7004d set 0, waynum 0
+evicting from cach L1
+evicted - tag 1085c24 set 0, waynum 0
+access num: 43
+adr is: 0x333ea620
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1091cc00 from L2- check if not in L1. tag 0x848e60, set 0x0!evicted - tag 848e60 set 0, waynum 1
+evicting from cach L1
+evicted - tag 288f837 set 0, waynum 1
+access num: 44
+adr is: 0x134ce19c
+miss L1 & L2
+evicted - tag 0 set 7, waynum 2
+evicting from cach L1
+evicted adr: 0x9792674 from L1 and dirty- write to L2 tag 0x12f24ce, set 0x1
+evicted - tag 12f24ce set 1, waynum 1
+access num: 45
+adr is: 0x2a682c3c
+Hit L1!
+access num: 46
+adr is: 0x3ad234ac
+miss L1 & L2
+evicted - tag 0 set 3, waynum 6
+evicting from cach L1
+evicted adr: 0x3714e734 from L1 and dirty- write to L2 tag 0x6e29ce6, set 0x1
+evicted - tag 6e29ce6 set 1, waynum 3
+access num: 47
+adr is: 0x114379f8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xdbb9ad8 from L2- check if not in L1. tag 0x6ddcd6, set 0x6!evicted - tag 6ddcd6 set 6, waynum 1
+evicting from cach L1
+evicted - tag 42657c3 set 0, waynum 2
+access num: 48
+adr is: 0xd2aa88c
+miss L1 & L2
+evicted - tag 0 set 3, waynum 7
+evicting from cach L1
+evicted adr: 0x20cf074c from L1 and dirty- write to L2 tag 0x419e0e9, set 0x1
+evicted - tag 419e0e9 set 1, waynum 4
+access num: 49
+adr is: 0x2f32ca88
+miss L1 & L2
+evicted - tag 0 set 2, waynum 4
+evicting from cach L1
+evicted - tag 6ac070f set 0, waynum 3
+access num: 50
+adr is: 0x9792674
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 2c1fb53 set 1, waynum 5
+access num: 51
+adr is: 0x37949128
+miss L1 & L2
+evicted - tag 0 set 2, waynum 5
+evicting from cach L1
+evicted adr: 0x23aef730 from L1 and dirty- write to L2 tag 0x475dee6, set 0x0
+evicted - tag 475dee6 set 0, waynum 4
+access num: 52
+adr is: 0x2a682c3c
+Hit L1!
+access num: 53
+adr is: 0x3361526c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 2597fd5 set 1, waynum 6
+access num: 54
+adr is: 0x35f7ae18
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x33dfe378 from L2- check if not in L1. tag 0x19eff1b, set 0x6!evicted - tag 19eff1b set 6, waynum 4
+evicting from cach L1
+evicted adr: 0x34d49d10 from L1 and dirty- write to L2 tag 0x69a93a2, set 0x0
+evicted - tag 69a93a2 set 0, waynum 5
+access num: 55
+adr is: 0x4924268
+miss L1 & L2
+evicted - tag 0 set 2, waynum 6
+evicting from cach L1
+evicted adr: 0x1f274880 from L1 and dirty- write to L2 tag 0x3e4e910, set 0x0
+evicted - tag 3e4e910 set 0, waynum 6
+access num: 56
+adr is: 0x1f129e70
+miss L1 & L2
+evicted - tag 0 set 4, waynum 3
+evicting from cach L1
+evicted adr: 0x19f44ff8 from L1 and dirty- write to L2 tag 0x33e89ff, set 0x0
+evicted - tag 33e89ff set 0, waynum 7
+access num: 57
+adr is: 0x1d09972c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2353d6ac from L2- check if not in L1. tag 0x11a9eb5, set 0x3!evicted - tag 11a9eb5 set 3, waynum 0
+evicting from cach L1
+evicted adr: 0x2b2b91a4 from L1 and dirty- write to L2 tag 0x5657234, set 0x1
+evicted - tag 5657234 set 1, waynum 2
+access num: 58
+adr is: 0x7a805ec
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xfb7702c from L2- check if not in L1. tag 0x7dbb81, set 0x3!evicted - tag 7dbb81 set 3, waynum 1
+evicting from cach L1
+evicted - tag 57f1301 set 1, waynum 7
+access num: 59
+adr is: 0x3d40d308
+miss L1 & L2
+evicted - tag 0 set 2, waynum 7
+evicting from cach L1
+evicted - tag 5661318 set 0, waynum 0
+access num: 60
+adr is: 0x42594430
+miss L1 & L2
+evicted - tag 0 set 4, waynum 4
+evicting from cach L1
+evicted adr: 0x333ea620 from L1 and dirty- write to L2 tag 0x667d4c4, set 0x0
+evicted - tag 667d4c4 set 0, waynum 1
+access num: 61
+adr is: 0x3f8a8c70
+miss L1 & L2
+evicted - tag 0 set 4, waynum 5
+evicting from cach L1
+evicted adr: 0x114379f8 from L1 and dirty- write to L2 tag 0x2286f3f, set 0x0
+evicted - tag 2286f3f set 0, waynum 2
+access num: 62
+adr is: 0x3268b424
+miss L1 & L2
+evicted - tag 0 set 1, waynum 2
+evicting from cach L1
+evicted adr: 0x134ce19c from L1 and dirty- write to L2 tag 0x2699c33, set 0x1
+evicted - tag 2699c33 set 1, waynum 1
+access num: 63
+adr is: 0x365f4244
+miss L1 & L2
+evicted - tag 0 set 1, waynum 3
+evicting from cach L1
+evicted - tag 75a4695 set 1, waynum 3
+access num: 64
+adr is: 0x23aef730
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 5e65951 set 0, waynum 3
+access num: 65
+adr is: 0x2bc5f294
+miss L1 & L2
+evicted - tag 0 set 5, waynum 5
+evicting from cach L1
+evicted adr: 0xd2aa88c from L1 and dirty- write to L2 tag 0x1a55511, set 0x1
+evicted - tag 1a55511 set 1, waynum 4
+access num: 66
+adr is: 0x842e120
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 6f29225 set 0, waynum 4
+access num: 67
+adr is: 0x1db2c508
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2db8cbe8 from L2- check if not in L1. tag 0x16dc65f, set 0x2!evicted - tag 16dc65f set 2, waynum 0
+evicting from cach L1
+evicted - tag 6bef5c3 set 0, waynum 5
+access num: 68
+adr is: 0x1dca5c2c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x12cbfeac from L2- check if not in L1. tag 0x965ff5, set 0x3!evicted - tag 965ff5 set 3, waynum 2
+evicting from cach L1
+evicted adr: 0x9792674 from L1 and dirty- write to L2 tag 0x12f24ce, set 0x1
+evicted - tag 12f24ce set 1, waynum 5
+access num: 69
+adr is: 0x3e91c02c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2bf8980c from L2- check if not in L1. tag 0x15fc4c0, set 0x3!evicted - tag 15fc4c0 set 3, waynum 3
+evicting from cach L1
+evicted - tag 54d0587 set 1, waynum 0
+access num: 70
+adr is: 0x9194978
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2f7b6818 from L2- check if not in L1. tag 0x17bdb40, set 0x6!evicted - tag 17bdb40 set 6, waynum 2
+evicting from cach L1
+evicted adr: 0x4924268 from L1 and dirty- write to L2 tag 0x92484d, set 0x0
+evicted - tag 92484d set 0, waynum 6
+access num: 71
+adr is: 0xdb7ad40
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x10a8f3a0 from L2- check if not in L1. tag 0x85479d, set 0x0!evicted - tag 85479d set 0, waynum 2
+evicting from cach L1
+evicted - tag 3e253ce set 0, waynum 7
+access num: 72
+adr is: 0x1ee009a0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x404c5800 from L2- check if not in L1. tag 0x20262c0, set 0x0!evicted - tag 20262c0 set 0, waynum 4
+evicting from cach L1
+evicted adr: 0x3d40d308 from L1 and dirty- write to L2 tag 0x7a81a61, set 0x0
+evicted - tag 7a81a61 set 0, waynum 0
+access num: 73
+adr is: 0x16767a08
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xf1a8828 from L2- check if not in L1. tag 0x78d441, set 0x2!evicted - tag 78d441 set 2, waynum 3
+evicting from cach L1
+evicted adr: 0x42594430 from L1 and dirty- write to L2 tag 0x84b2886, set 0x0
+evicted - tag 84b2886 set 0, waynum 1
+access num: 74
+adr is: 0x232139a8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x271e6088 from L2- check if not in L1. tag 0x138f304, set 0x2!evicted - tag 138f304 set 2, waynum 1
+evicting from cach L1
+evicted adr: 0x3f8a8c70 from L1 and dirty- write to L2 tag 0x7f1518e, set 0x0
+evicted - tag 7f1518e set 0, waynum 2
+access num: 75
+adr is: 0x79869f4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x3361526c from L1 and dirty- write to L2 tag 0x66c2a4d, set 0x1
+evicted - tag 66c2a4d set 1, waynum 6
+access num: 76
+adr is: 0x3c321f70
+miss L1 & L2
+evicted - tag 0 set 4, waynum 6
+evicting from cach L1
+evicted adr: 0x23aef730 from L1 and dirty- write to L2 tag 0x475dee6, set 0x0
+evicted - tag 475dee6 set 0, waynum 3
+access num: 77
+adr is: 0x14753630
+miss L1 & L2
+evicted - tag 0 set 4, waynum 7
+evicting from cach L1
+evicted - tag 1085c24 set 0, waynum 4
+access num: 78
+adr is: 0x20cf074c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1d09972c from L1 and dirty- write to L2 tag 0x3a132e5, set 0x1
+evicted - tag 3a132e5 set 1, waynum 2
+access num: 79
+adr is: 0x274d4008
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xaeb02c8 from L2- check if not in L1. tag 0x575816, set 0x2!evicted - tag 575816 set 2, waynum 2
+evicting from cach L1
+evicted - tag 3b658a1 set 0, waynum 5
+access num: 80
+adr is: 0x3bb3b350
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x35969010 from L2- check if not in L1. tag 0x1acb480, set 0x4!evicted - tag 1acb480 set 4, waynum 0
+evicting from cach L1
+evicted adr: 0x9194978 from L1 and dirty- write to L2 tag 0x123292f, set 0x0
+evicted - tag 123292f set 0, waynum 6
+access num: 81
+adr is: 0x7a489f4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag f500bd set 1, waynum 7
+access num: 82
+adr is: 0x3c1ef9f0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x34d49d10 from L2- check if not in L1. tag 0x1a6a4e8, set 0x4!evicted - tag 1a6a4e8 set 4, waynum 2
+evicting from cach L1
+evicted adr: 0xdb7ad40 from L1 and dirty- write to L2 tag 0x1b6f5a8, set 0x0
+evicted - tag 1b6f5a8 set 0, waynum 7
+access num: 83
+adr is: 0xcf2d994
+miss L1 & L2
+evicted - tag 0 set 5, waynum 6
+evicting from cach L1
+evicted - tag 64d1684 set 1, waynum 1
+access num: 84
+adr is: 0x1d83f690
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1f129e70 from L2- check if not in L1. tag 0xf894f3, set 0x4!evicted - tag f894f3 set 4, waynum 3
+evicting from cach L1
+evicted - tag 3dc0134 set 0, waynum 0
+access num: 85
+adr is: 0x28735380
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 2cecf41 set 0, waynum 1
+access num: 86
+adr is: 0xd2aa88c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 6cbe848 set 1, waynum 3
+access num: 87
+adr is: 0xcf2d994
+Hit L1!
+access num: 88
+adr is: 0x30c69534
+miss L1 & L2
+evicted - tag 0 set 5, waynum 7
+evicting from cach L1
+evicted - tag 578be52 set 1, waynum 4
+access num: 89
+adr is: 0x4c82e14
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xb454634 from L2- check if not in L1. tag 0x5a2a31, set 0x5!evicted - tag 5a2a31 set 5, waynum 0
+evicting from cach L1
+evicted adr: 0x1dca5c2c from L1 and dirty- write to L2 tag 0x3b94b85, set 0x1
+evicted - tag 3b94b85 set 1, waynum 5
+access num: 90
+adr is: 0x34c5c6d0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x42594430 from L2- check if not in L1. tag 0x212ca21, set 0x4!evicted - tag 212ca21 set 4, waynum 4
+evicting from cach L1
+evicted - tag 4642735 set 0, waynum 2
+access num: 91
+adr is: 0x1db2c508
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x3c321f70 from L1 and dirty- write to L2 tag 0x78643ee, set 0x0
+evicted - tag 78643ee set 0, waynum 3
+access num: 92
+adr is: 0x2353d6ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3ad234ac from L2- check if not in L1. tag 0x1d691a5, set 0x3!evicted - tag 1d691a5 set 3, waynum 6
+evicting from cach L1
+evicted - tag 7d23805 set 1, waynum 0
+access num: 93
+adr is: 0x2b0929ec
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x7a805ec from L2- check if not in L1. tag 0x3d402f, set 0x3!evicted - tag 3d402f set 3, waynum 1
+evicting from cach L1
+evicted adr: 0x79869f4 from L1 and dirty- write to L2 tag 0xf30d3e, set 0x1
+evicted - tag f30d3e set 1, waynum 6
+access num: 94
+adr is: 0x2f486338
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x57efe98 from L2- check if not in L1. tag 0x2bf7f4, set 0x6!evicted - tag 2bf7f4 set 6, waynum 3
+evicting from cach L1
+evicted adr: 0x14753630 from L1 and dirty- write to L2 tag 0x28ea6c6, set 0x0
+evicted - tag 28ea6c6 set 0, waynum 4
+access num: 95
+adr is: 0x1ba633cc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3e91c02c from L2- check if not in L1. tag 0x1f48e01, set 0x3!evicted - tag 1f48e01 set 3, waynum 3
+evicting from cach L1
+evicted adr: 0x20cf074c from L1 and dirty- write to L2 tag 0x419e0e9, set 0x1
+evicted - tag 419e0e9 set 1, waynum 2
+access num: 96
+adr is: 0x84503c4
+miss L1 & L2
+evicted - tag 0 set 1, waynum 4
+evicting from cach L1
+evicted - tag f4913e set 1, waynum 7
+access num: 97
+adr is: 0x427538b8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1447c1b8 from L2- check if not in L1. tag 0xa23e0d, set 0x6!evicted - tag a23e0d set 6, waynum 5
+evicting from cach L1
+evicted - tag 4e9a801 set 0, waynum 5
+access num: 98
+adr is: 0x1abcc168
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2f32ca88 from L2- check if not in L1. tag 0x1799654, set 0x2!evicted - tag 1799654 set 2, waynum 4
+evicting from cach L1
+evicted - tag 776766a set 0, waynum 6
+access num: 99
+adr is: 0xb8d8220
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ce818a0 from L2- check if not in L1. tag 0xe740c5, set 0x0!evicted - tag e740c5 set 0, waynum 5
+evicting from cach L1
+evicted - tag 783df3e set 0, waynum 7
+access num: 100
+adr is: 0xcf2d994
+Hit L1!
+access num: 101
+adr is: 0x88547b0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3f8a8c70 from L2- check if not in L1. tag 0x1fc5463, set 0x4!evicted - tag 1fc5463 set 4, waynum 5
+evicting from cach L1
+evicted - tag 3b07ed2 set 0, waynum 0
+access num: 102
+adr is: 0x12cbfeac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3361526c from L2- check if not in L1. tag 0x19b0a93, set 0x3!evicted - tag 19b0a93 set 3, waynum 4
+evicting from cach L1
+evicted adr: 0xd2aa88c from L1 and dirty- write to L2 tag 0x1a55511, set 0x1
+evicted - tag 1a55511 set 1, waynum 3
+access num: 103
+adr is: 0xaeb02c8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x37949128 from L2- check if not in L1. tag 0x1bca489, set 0x2!evicted - tag 1bca489 set 2, waynum 5
+evicting from cach L1
+evicted adr: 0x28735380 from L1 and dirty- write to L2 tag 0x50e6a70, set 0x0
+evicted - tag 50e6a70 set 0, waynum 1
+access num: 104
+adr is: 0x2bf1b608
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x4924268 from L2- check if not in L1. tag 0x249213, set 0x2!evicted - tag 249213 set 2, waynum 6
+evicting from cach L1
+evicted - tag 698b8da set 0, waynum 2
+access num: 105
+adr is: 0x339f5460
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2b3098c0 from L2- check if not in L1. tag 0x15984c6, set 0x0!evicted - tag 15984c6 set 0, waynum 0
+evicting from cach L1
+evicted - tag 3b658a1 set 0, waynum 3
+access num: 106
+adr is: 0x114379f8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 5e90c67 set 0, waynum 4
+access num: 107
+adr is: 0x2a682c3c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x30c69534 from L1 and dirty- write to L2 tag 0x618d2a6, set 0x1
+evicted - tag 618d2a6 set 1, waynum 4
+access num: 108
+adr is: 0xa272d50
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x23aef730 from L2- check if not in L1. tag 0x11d77b9, set 0x4!evicted - tag 11d77b9 set 4, waynum 1
+evicting from cach L1
+evicted adr: 0x427538b8 from L1 and dirty- write to L2 tag 0x84ea717, set 0x0
+evicted - tag 84ea717 set 0, waynum 5
+access num: 109
+adr is: 0x17aec080
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1f274880 from L2- check if not in L1. tag 0xf93a44, set 0x0!evicted - tag f93a44 set 0, waynum 7
+evicting from cach L1
+evicted adr: 0x1abcc168 from L1 and dirty- write to L2 tag 0x357982d, set 0x0
+evicted - tag 357982d set 0, waynum 6
+access num: 110
+adr is: 0x79869f4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 9905c2 set 1, waynum 5
+access num: 111
+adr is: 0x42594430
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3bb3b350 from L2- check if not in L1. tag 0x1dd9d9a, set 0x4!evicted - tag 1dd9d9a set 4, waynum 0
+evicting from cach L1
+evicted - tag 171b044 set 0, waynum 7
+access num: 112
+adr is: 0x1d09972c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 46a7ad5 set 1, waynum 0
+access num: 113
+adr is: 0x42bbbb2c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1dca5c2c from L2- check if not in L1. tag 0xee52e1, set 0x3!evicted - tag ee52e1 set 3, waynum 2
+evicting from cach L1
+evicted - tag 561253d set 1, waynum 6
+access num: 114
+adr is: 0x20cf074c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1ba633cc from L1 and dirty- write to L2 tag 0x374c679, set 0x1
+evicted - tag 374c679 set 1, waynum 2
+access num: 115
+adr is: 0x35f7ae18
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 110a8f6 set 0, waynum 0
+access num: 116
+adr is: 0x33dfe378
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2132be18 from L2- check if not in L1. tag 0x10995f0, set 0x6!evicted - tag 10995f0 set 6, waynum 6
+evicting from cach L1
+evicted adr: 0xaeb02c8 from L1 and dirty- write to L2 tag 0x15d6059, set 0x0
+evicted - tag 15d6059 set 0, waynum 1
+access num: 117
+adr is: 0x1d09972c
+Hit L1!
+access num: 118
+adr is: 0x2339b8e8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3d40d308 from L2- check if not in L1. tag 0x1ea0698, set 0x2!evicted - tag 1ea0698 set 2, waynum 7
+evicting from cach L1
+evicted adr: 0x2bf1b608 from L1 and dirty- write to L2 tag 0x57e36c1, set 0x0
+evicted - tag 57e36c1 set 0, waynum 2
+access num: 119
+adr is: 0x33dfe378
+Hit L1!
+access num: 120
+adr is: 0x2582468
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x16767a08 from L2- check if not in L1. tag 0xb3b3d0, set 0x2!evicted - tag b3b3d0 set 2, waynum 3
+evicting from cach L1
+evicted adr: 0x339f5460 from L1 and dirty- write to L2 tag 0x673ea8c, set 0x0
+evicted - tag 673ea8c set 0, waynum 3
+access num: 121
+adr is: 0x19234e14
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3714e734 from L2- check if not in L1. tag 0x1b8a739, set 0x5!evicted - tag 1b8a739 set 5, waynum 4
+evicting from cach L1
+evicted adr: 0x84503c4 from L1 and dirty- write to L2 tag 0x108a078, set 0x1
+evicted - tag 108a078 set 1, waynum 7
+access num: 122
+adr is: 0x2586f488
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x232139a8 from L2- check if not in L1. tag 0x11909cd, set 0x2!evicted - tag 11909cd set 2, waynum 1
+evicting from cach L1
+evicted adr: 0x114379f8 from L1 and dirty- write to L2 tag 0x2286f3f, set 0x0
+evicted - tag 2286f3f set 0, waynum 4
+access num: 123
+adr is: 0x3a21854
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2bc5f294 from L2- check if not in L1. tag 0x15e2f94, set 0x5!evicted - tag 15e2f94 set 5, waynum 5
+evicting from cach L1
+evicted adr: 0xcf2d994 from L1 and dirty- write to L2 tag 0x19e5b32, set 0x1
+evicted - tag 19e5b32 set 1, waynum 1
+access num: 124
+adr is: 0x3d1b99f8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x35603878 from L2- check if not in L1. tag 0x1ab01c3, set 0x6!evicted - tag 1ab01c3 set 6, waynum 7
+evicting from cach L1
+evicted - tag 144e5aa set 0, waynum 5
+access num: 125
+adr is: 0x34ad4cd0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3c1ef9f0 from L2- check if not in L1. tag 0x1e0f7cf, set 0x4!evicted - tag 1e0f7cf set 4, waynum 2
+evicting from cach L1
+evicted adr: 0x17aec080 from L1 and dirty- write to L2 tag 0x2f5d810, set 0x0
+evicted - tag 2f5d810 set 0, waynum 6
+access num: 126
+adr is: 0x1db2c508
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x42594430 from L1 and dirty- write to L2 tag 0x84b2886, set 0x0
+evicted - tag 84b2886 set 0, waynum 7
+access num: 127
+adr is: 0x33a4a8a8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x274d4008 from L2- check if not in L1. tag 0x13a6a00, set 0x2!evicted - tag 13a6a00 set 2, waynum 2
+evicting from cach L1
+evicted - tag 6bef5c3 set 0, waynum 0
+access num: 128
+adr is: 0x10a8f3a0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x333ea620 from L2- check if not in L1. tag 0x199f531, set 0x0!evicted - tag 199f531 set 0, waynum 1
+evicting from cach L1
+evicted adr: 0x2339b8e8 from L1 and dirty- write to L2 tag 0x467371d, set 0x0
+evicted - tag 467371d set 0, waynum 2
+access num: 129
+adr is: 0x35969010
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1d83f690 from L2- check if not in L1. tag 0xec1fb4, set 0x4!evicted - tag ec1fb4 set 4, waynum 3
+evicting from cach L1
+evicted - tag 67bfc6f set 0, waynum 1
+access num: 130
+adr is: 0x19511a3c
+miss L1 & L2
+evicted - tag 0 set 7, waynum 3
+evicting from cach L1
+evicted - tag 2597fd5 set 1, waynum 3
+access num: 131
+adr is: 0x7a805ec
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2353d6ac from L2- check if not in L1. tag 0x11a9eb5, set 0x3!evicted - tag 11a9eb5 set 3, waynum 6
+evicting from cach L1
+evicted - tag 54d0587 set 1, waynum 4
+access num: 132
+adr is: 0x2c3a07b8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x19f44ff8 from L2- check if not in L1. tag 0xcfa27f, set 0x6!evicted - tag cfa27f set 6, waynum 0
+evicting from cach L1
+evicted - tag 4b048d set 0, waynum 3
+access num: 133
+adr is: 0xaeb02c8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 4b0de91 set 0, waynum 4
+access num: 134
+adr is: 0x3b8385b8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x9194978 from L2- check if not in L1. tag 0x48ca4b, set 0x6!evicted - tag 48ca4b set 6, waynum 2
+evicting from cach L1
+evicted - tag 7a3733f set 0, waynum 5
+access num: 135
+adr is: 0xeff9f1c
+miss L1 & L2
+evicted - tag 0 set 7, waynum 4
+evicting from cach L1
+evicted adr: 0x79869f4 from L1 and dirty- write to L2 tag 0xf30d3e, set 0x1
+evicted - tag f30d3e set 1, waynum 5
+access num: 136
+adr is: 0x369218bc
+miss L1 & L2
+evicted - tag 0 set 7, waynum 5
+evicting from cach L1
+evicted adr: 0x42bbbb2c from L1 and dirty- write to L2 tag 0x8577765, set 0x1
+evicted - tag 8577765 set 1, waynum 6
+access num: 137
+adr is: 0x1abcc168
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 695a99a set 0, waynum 6
+access num: 138
+adr is: 0x23e29574
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x9792674 from L2- check if not in L1. tag 0x4bc933, set 0x5!evicted - tag 4bc933 set 5, waynum 3
+evicting from cach L1
+evicted adr: 0x20cf074c from L1 and dirty- write to L2 tag 0x419e0e9, set 0x1
+evicted - tag 419e0e9 set 1, waynum 2
+access num: 139
+adr is: 0x84503c4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1d09972c from L1 and dirty- write to L2 tag 0x3a132e5, set 0x1
+evicted - tag 3a132e5 set 1, waynum 0
+access num: 140
+adr is: 0x2b3098c0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x842e120 from L2- check if not in L1. tag 0x421709, set 0x0!evicted - tag 421709 set 0, waynum 6
+evicting from cach L1
+evicted - tag 3b658a1 set 0, waynum 7
+access num: 141
+adr is: 0x1447c1b8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2f486338 from L2- check if not in L1. tag 0x17a4319, set 0x6!evicted - tag 17a4319 set 6, waynum 3
+evicting from cach L1
+evicted - tag 6749515 set 0, waynum 0
+access num: 142
+adr is: 0x251b3cd0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x34c5c6d0 from L2- check if not in L1. tag 0x1a62e36, set 0x4!evicted - tag 1a62e36 set 4, waynum 4
+evicting from cach L1
+evicted - tag 2151e74 set 0, waynum 2
+access num: 143
+adr is: 0x42bbbb2c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 32469c2 set 1, waynum 7
+access num: 144
+adr is: 0xaa57068
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2bf1b608 from L2- check if not in L1. tag 0x15f8db0, set 0x2!evicted - tag 15f8db0 set 2, waynum 6
+evicting from cach L1
+evicted - tag 6b2d202 set 0, waynum 1
+access num: 145
+adr is: 0x24ea4518
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x427538b8 from L2- check if not in L1. tag 0x213a9c5, set 0x6!evicted - tag 213a9c5 set 6, waynum 5
+evicting from cach L1
+evicted adr: 0x2c3a07b8 from L1 and dirty- write to L2 tag 0x58740f7, set 0x0
+evicted - tag 58740f7 set 0, waynum 3
+access num: 146
+adr is: 0x21ed3b4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x7a489f4 from L2- check if not in L1. tag 0x3d244f, set 0x5!evicted - tag 3d244f set 5, waynum 2
+evicting from cach L1
+evicted - tag 74430a set 1, waynum 1
+access num: 147
+adr is: 0x38e1dfd4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x4c82e14 from L2- check if not in L1. tag 0x264170, set 0x5!evicted - tag 264170 set 5, waynum 0
+evicting from cach L1
+evicted - tag 32a2347 set 1, waynum 3
+access num: 148
+adr is: 0x437f4988
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2582468 from L2- check if not in L1. tag 0x12c123, set 0x2!evicted - tag 12c123 set 2, waynum 3
+evicting from cach L1
+evicted adr: 0xaeb02c8 from L1 and dirty- write to L2 tag 0x15d6059, set 0x0
+evicted - tag 15d6059 set 0, waynum 4
+access num: 149
+adr is: 0x79869f4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag f500bd set 1, waynum 4
+access num: 150
+adr is: 0x1e242750
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3c321f70 from L2- check if not in L1. tag 0x1e190fb, set 0x4!evicted - tag 1e190fb set 4, waynum 6
+evicting from cach L1
+evicted - tag 77070b7 set 0, waynum 5
+access num: 151
+adr is: 0x34c5c6d0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x14753630 from L2- check if not in L1. tag 0xa3a9b1, set 0x4!evicted - tag a3a9b1 set 4, waynum 7
+evicting from cach L1
+evicted adr: 0x1abcc168 from L1 and dirty- write to L2 tag 0x357982d, set 0x0
+evicted - tag 357982d set 0, waynum 6
+access num: 152
+adr is: 0x225b10
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x88547b0 from L2- check if not in L1. tag 0x442a3d, set 0x4!evicted - tag 442a3d set 4, waynum 5
+evicting from cach L1
+evicted - tag 5661318 set 0, waynum 7
+access num: 153
+adr is: 0x42313a6c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2b0929ec from L2- check if not in L1. tag 0x158494f, set 0x3!evicted - tag 158494f set 3, waynum 1
+evicting from cach L1
+evicted - tag 1dff3e3 set 1, waynum 5
+access num: 154
+adr is: 0x41dadc9c
+miss L1 & L2
+evicted - tag 0 set 7, waynum 6
+evicting from cach L1
+evicted - tag 6d24317 set 1, waynum 6
+access num: 155
+adr is: 0x15d19318
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x35f7ae18 from L2- check if not in L1. tag 0x1afbd70, set 0x6!evicted - tag 1afbd70 set 6, waynum 4
+evicting from cach L1
+evicted - tag 288f837 set 0, waynum 0
+access num: 156
+adr is: 0xa272d50
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x251b3cd0 from L1 and dirty- write to L2 tag 0x4a3679a, set 0x0
+evicted - tag 4a3679a set 0, waynum 2
+access num: 157
+adr is: 0x24efd5c0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ee009a0 from L2- check if not in L1. tag 0xf7004d, set 0x0!evicted - tag f7004d set 0, waynum 4
+evicting from cach L1
+evicted adr: 0xaa57068 from L1 and dirty- write to L2 tag 0x154ae0d, set 0x0
+evicted - tag 154ae0d set 0, waynum 1
+access num: 158
+adr is: 0x9792674
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x30c69534 from L2- check if not in L1. tag 0x18634a9, set 0x5!evicted - tag 18634a9 set 5, waynum 7
+evicting from cach L1
+evicted adr: 0x23e29574 from L1 and dirty- write to L2 tag 0x47c52ae, set 0x1
+evicted - tag 47c52ae set 1, waynum 2
+access num: 159
+adr is: 0x34d49d10
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x34ad4cd0 from L2- check if not in L1. tag 0x1a56a66, set 0x4!evicted - tag 1a56a66 set 4, waynum 2
+evicting from cach L1
+evicted - tag 49d48a3 set 0, waynum 3
+access num: 160
+adr is: 0x3c321f70
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x42594430 from L2- check if not in L1. tag 0x212ca21, set 0x4!evicted - tag 212ca21 set 4, waynum 0
+evicting from cach L1
+evicted adr: 0x437f4988 from L1 and dirty- write to L2 tag 0x86fe931, set 0x0
+evicted - tag 86fe931 set 0, waynum 4
+access num: 161
+adr is: 0x9ebae84
+miss L1 & L2
+evicted - tag 0 set 1, waynum 5
+evicting from cach L1
+evicted adr: 0x84503c4 from L1 and dirty- write to L2 tag 0x108a078, set 0x1
+evicted - tag 108a078 set 1, waynum 0
+access num: 162
+adr is: 0x16cbc1c0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xdb7ad40 from L2- check if not in L1. tag 0x6dbd6a, set 0x0!evicted - tag 6dbd6a set 0, waynum 2
+evicting from cach L1
+evicted adr: 0x1e242750 from L1 and dirty- write to L2 tag 0x3c484ea, set 0x0
+evicted - tag 3c484ea set 0, waynum 5
+access num: 163
+adr is: 0x2bc5f294
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x19234e14 from L2- check if not in L1. tag 0xc91a70, set 0x5!evicted - tag c91a70 set 5, waynum 4
+evicting from cach L1
+evicted adr: 0x42bbbb2c from L1 and dirty- write to L2 tag 0x8577765, set 0x1
+evicted - tag 8577765 set 1, waynum 7
+access num: 164
+adr is: 0x3f8a8c70
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x35969010 from L2- check if not in L1. tag 0x1acb480, set 0x4!evicted - tag 1acb480 set 4, waynum 3
+evicting from cach L1
+evicted - tag 698b8da set 0, waynum 6
+access num: 165
+adr is: 0xe2e3fcc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x12cbfeac from L2- check if not in L1. tag 0x965ff5, set 0x3!evicted - tag 965ff5 set 3, waynum 4
+evicting from cach L1
+evicted - tag 43da76 set 1, waynum 1
+access num: 166
+adr is: 0x23aef730
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x34c5c6d0 from L2- check if not in L1. tag 0x1a62e36, set 0x4!evicted - tag 1a62e36 set 4, waynum 7
+evicting from cach L1
+evicted adr: 0x225b10 from L1 and dirty- write to L2 tag 0x44b62, set 0x0
+evicted - tag 44b62 set 0, waynum 7
+access num: 167
+adr is: 0x35603878
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x33dfe378 from L2- check if not in L1. tag 0x19eff1b, set 0x6!evicted - tag 19eff1b set 6, waynum 6
+evicting from cach L1
+evicted adr: 0x15d19318 from L1 and dirty- write to L2 tag 0x2ba3263, set 0x0
+evicted - tag 2ba3263 set 0, waynum 0
+access num: 168
+adr is: 0x1abcc168
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 144e5aa set 0, waynum 2
+access num: 169
+adr is: 0x2b2b91a4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x38e1dfd4 from L1 and dirty- write to L2 tag 0x71c3bfa, set 0x1
+evicted - tag 71c3bfa set 1, waynum 3
+access num: 170
+adr is: 0x19511a3c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x79869f4 from L1 and dirty- write to L2 tag 0xf30d3e, set 0x1
+evicted - tag f30d3e set 1, waynum 4
+access num: 171
+adr is: 0x2484ae04
+miss L1 & L2
+evicted - tag 0 set 1, waynum 6
+evicting from cach L1
+evicted adr: 0x42313a6c from L1 and dirty- write to L2 tag 0x846274d, set 0x1
+evicted - tag 846274d set 1, waynum 5
+access num: 172
+adr is: 0xcf2d994
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x41dadc9c from L1 and dirty- write to L2 tag 0x83b5b93, set 0x1
+evicted - tag 83b5b93 set 1, waynum 6
+access num: 173
+adr is: 0x38371894
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3a21854 from L2- check if not in L1. tag 0x1d10c2, set 0x5!evicted - tag 1d10c2 set 5, waynum 5
+evicting from cach L1
+evicted adr: 0x9792674 from L1 and dirty- write to L2 tag 0x12f24ce, set 0x1
+evicted - tag 12f24ce set 1, waynum 2
+access num: 174
+adr is: 0x3714e734
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x21ed3b4 from L2- check if not in L1. tag 0x10f69d, set 0x5!evicted - tag 10f69d set 5, waynum 2
+evicting from cach L1
+evicted adr: 0x9ebae84 from L1 and dirty- write to L2 tag 0x13d75d0, set 0x1
+evicted - tag 13d75d0 set 1, waynum 0
+access num: 175
+adr is: 0x23e29574
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 578be52 set 1, waynum 7
+access num: 176
+adr is: 0x269a9890
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xa272d50 from L2- check if not in L1. tag 0x51396a, set 0x4!evicted - tag 51396a set 4, waynum 1
+evicting from cach L1
+evicted - tag 49dfab8 set 0, waynum 1
+access num: 177
+adr is: 0x30c69534
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2bc5f294 from L2- check if not in L1. tag 0x15e2f94, set 0x5!evicted - tag 15e2f94 set 5, waynum 4
+evicting from cach L1
+evicted adr: 0xe2e3fcc from L1 and dirty- write to L2 tag 0x1c5c7f9, set 0x1
+evicted - tag 1c5c7f9 set 1, waynum 1
+access num: 178
+adr is: 0x3d1b99f8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x34d49d10 from L1 and dirty- write to L2 tag 0x69a93a2, set 0x0
+evicted - tag 69a93a2 set 0, waynum 3
+access num: 179
+adr is: 0x1ac1bef8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x114379f8 from L2- check if not in L1. tag 0x8a1bcf, set 0x6!evicted - tag 8a1bcf set 6, waynum 1
+evicting from cach L1
+evicted adr: 0x3c321f70 from L1 and dirty- write to L2 tag 0x78643ee, set 0x0
+evicted - tag 78643ee set 0, waynum 4
+access num: 180
+adr is: 0x359c4b5c
+miss L1 & L2
+evicted - tag 0 set 7, waynum 7
+evicting from cach L1
+evicted adr: 0x2b2b91a4 from L1 and dirty- write to L2 tag 0x5657234, set 0x1
+evicted - tag 5657234 set 1, waynum 3
+access num: 181
+adr is: 0x1dca5c2c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xd2aa88c from L2- check if not in L1. tag 0x695544, set 0x3!evicted - tag 695544 set 3, waynum 7
+evicting from cach L1
+evicted - tag 32a2347 set 1, waynum 4
+access num: 182
+adr is: 0x369218bc
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2484ae04 from L1 and dirty- write to L2 tag 0x49095c0, set 0x1
+evicted - tag 49095c0 set 1, waynum 5
+access num: 183
+adr is: 0x30c69534
+Hit L1!
+access num: 184
+adr is: 0x43a1fc8c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ba633cc from L2- check if not in L1. tag 0xdd319e, set 0x3!evicted - tag dd319e set 3, waynum 3
+evicting from cach L1
+evicted adr: 0xcf2d994 from L1 and dirty- write to L2 tag 0x19e5b32, set 0x1
+evicted - tag 19e5b32 set 1, waynum 6
+access num: 185
+adr is: 0x1ee009a0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xb8d8220 from L2- check if not in L1. tag 0x5c6c11, set 0x0!evicted - tag 5c6c11 set 0, waynum 5
+evicting from cach L1
+evicted adr: 0x16cbc1c0 from L1 and dirty- write to L2 tag 0x2d97838, set 0x0
+evicted - tag 2d97838 set 0, waynum 5
+access num: 186
+adr is: 0x118c4c0c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x7a805ec from L2- check if not in L1. tag 0x3d402f, set 0x3!evicted - tag 3d402f set 3, waynum 6
+evicting from cach L1
+evicted adr: 0x38371894 from L1 and dirty- write to L2 tag 0x706e312, set 0x1
+evicted - tag 706e312 set 1, waynum 2
+access num: 187
+adr is: 0x369218bc
+Hit L1!
+access num: 188
+adr is: 0x3e91c02c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x20cf074c from L2- check if not in L1. tag 0x106783a, set 0x3!evicted - tag 106783a set 3, waynum 5
+evicting from cach L1
+evicted adr: 0x3714e734 from L1 and dirty- write to L2 tag 0x6e29ce6, set 0x1
+evicted - tag 6e29ce6 set 1, waynum 0
+access num: 189
+adr is: 0x33a4a8a8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x3f8a8c70 from L1 and dirty- write to L2 tag 0x7f1518e, set 0x0
+evicted - tag 7f1518e set 0, waynum 6
+access num: 190
+adr is: 0x251b3cd0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x23aef730 from L1 and dirty- write to L2 tag 0x475dee6, set 0x0
+evicted - tag 475dee6 set 0, waynum 7
+access num: 191
+adr is: 0x160fda9c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x23e29574 from L1 and dirty- write to L2 tag 0x47c52ae, set 0x1
+evicted - tag 47c52ae set 1, waynum 7
+access num: 192
+adr is: 0x24050600
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x28735380 from L2- check if not in L1. tag 0x1439a9c, set 0x0!evicted - tag 1439a9c set 0, waynum 3
+evicting from cach L1
+evicted - tag 6ac070f set 0, waynum 0
+access num: 193
+adr is: 0x2339b8e8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1abcc168 from L1 and dirty- write to L2 tag 0x357982d, set 0x0
+evicted - tag 357982d set 0, waynum 2
+access num: 194
+adr is: 0x2132be18
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3b8385b8 from L2- check if not in L1. tag 0x1dc1c2d, set 0x6!evicted - tag 1dc1c2d set 6, waynum 2
+evicting from cach L1
+evicted adr: 0x269a9890 from L1 and dirty- write to L2 tag 0x4d35312, set 0x0
+evicted - tag 4d35312 set 0, waynum 1
+access num: 195
+adr is: 0x41dadc9c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x359c4b5c from L1 and dirty- write to L2 tag 0x6b3896b, set 0x1
+evicted - tag 6b3896b set 1, waynum 3
+access num: 196
+adr is: 0x34d49d10
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 7a3733f set 0, waynum 3
+access num: 197
+adr is: 0x3361526c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1d09972c from L2- check if not in L1. tag 0xe84cb9, set 0x3!evicted - tag e84cb9 set 3, waynum 0
+evicting from cach L1
+evicted adr: 0x1dca5c2c from L1 and dirty- write to L2 tag 0x3b94b85, set 0x1
+evicted - tag 3b94b85 set 1, waynum 4
+access num: 198
+adr is: 0x17aec080
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1ac1bef8 from L1 and dirty- write to L2 tag 0x35837df, set 0x0
+evicted - tag 35837df set 0, waynum 4
+access num: 199
+adr is: 0x42313a6c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x30c69534 from L1 and dirty- write to L2 tag 0x618d2a6, set 0x1
+evicted - tag 618d2a6 set 1, waynum 1
+access num: 200
+adr is: 0x41dadc9c
+Hit L1!
+access num: 201
+adr is: 0x38e1dfd4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x43a1fc8c from L1 and dirty- write to L2 tag 0x8743f91, set 0x1
+evicted - tag 8743f91 set 1, waynum 6
+access num: 202
+adr is: 0x7524414
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x79869f4 from L2- check if not in L1. tag 0x3cc34f, set 0x5!evicted - tag 3cc34f set 5, waynum 1
+evicting from cach L1
+evicted adr: 0x118c4c0c from L1 and dirty- write to L2 tag 0x2318981, set 0x1
+evicted - tag 2318981 set 1, waynum 2
+access num: 203
+adr is: 0x1eee94d0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1e242750 from L2- check if not in L1. tag 0xf1213a, set 0x4!evicted - tag f1213a set 4, waynum 6
+evicting from cach L1
+evicted - tag 3dc0134 set 0, waynum 5
+access num: 204
+adr is: 0x35f7ae18
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1447c1b8 from L2- check if not in L1. tag 0xa23e0d, set 0x6!evicted - tag a23e0d set 6, waynum 3
+evicting from cach L1
+evicted - tag 6749515 set 0, waynum 6
+access num: 205
+adr is: 0x590c634
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x9792674 from L2- check if not in L1. tag 0x4bc933, set 0x5!evicted - tag 4bc933 set 5, waynum 7
+evicting from cach L1
+evicted - tag 6d24317 set 1, waynum 5
+access num: 206
+adr is: 0x3ad234ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x42bbbb2c from L2- check if not in L1. tag 0x215ddd9, set 0x3!evicted - tag 215ddd9 set 3, waynum 2
+evicting from cach L1
+evicted - tag 7d23805 set 1, waynum 0
+access num: 207
+adr is: 0x1a82e4fc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x134ce19c from L2- check if not in L1. tag 0x9a670c, set 0x7!evicted - tag 9a670c set 7, waynum 2
+evicting from cach L1
+evicted - tag 2c1fb53 set 1, waynum 7
+access num: 208
+adr is: 0x359c4b5c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x3361526c from L1 and dirty- write to L2 tag 0x66c2a4d, set 0x1
+evicted - tag 66c2a4d set 1, waynum 4
+access num: 209
+adr is: 0xaa57068
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x251b3cd0 from L1 and dirty- write to L2 tag 0x4a3679a, set 0x0
+evicted - tag 4a3679a set 0, waynum 7
+access num: 210
+adr is: 0x17203468
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2586f488 from L2- check if not in L1. tag 0x12c37a4, set 0x2!evicted - tag 12c37a4 set 2, waynum 1
+evicting from cach L1
+evicted adr: 0x24050600 from L1 and dirty- write to L2 tag 0x480a0c0, set 0x0
+evicted - tag 480a0c0 set 0, waynum 0
+access num: 211
+adr is: 0x1e2d3de4
+miss L1 & L2
+evicted - tag 0 set 1, waynum 7
+evicting from cach L1
+evicted adr: 0x42313a6c from L1 and dirty- write to L2 tag 0x846274d, set 0x1
+evicted - tag 846274d set 1, waynum 1
+access num: 212
+adr is: 0x3f8a8c70
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2339b8e8 from L1 and dirty- write to L2 tag 0x467371d, set 0x0
+evicted - tag 467371d set 0, waynum 2
+access num: 213
+adr is: 0xb8d8220
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x339f5460 from L2- check if not in L1. tag 0x19cfaa3, set 0x0!evicted - tag 19cfaa3 set 0, waynum 0
+evicting from cach L1
+evicted - tag 42657c3 set 0, waynum 1
+access num: 214
+adr is: 0x19234e14
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xcf2d994 from L2- check if not in L1. tag 0x6796cc, set 0x5!evicted - tag 6796cc set 5, waynum 6
+evicting from cach L1
+evicted adr: 0x41dadc9c from L1 and dirty- write to L2 tag 0x83b5b93, set 0x1
+evicted - tag 83b5b93 set 1, waynum 3
+access num: 215
+adr is: 0x3a6b47dc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2a682c3c from L2- check if not in L1. tag 0x1534161, set 0x7!evicted - tag 1534161 set 7, waynum 1
+evicting from cach L1
+evicted adr: 0x38e1dfd4 from L1 and dirty- write to L2 tag 0x71c3bfa, set 0x1
+evicted - tag 71c3bfa set 1, waynum 6
+access num: 216
+adr is: 0x79869f4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x38371894 from L2- check if not in L1. tag 0x1c1b8c4, set 0x5!evicted - tag 1c1b8c4 set 5, waynum 5
+evicting from cach L1
+evicted - tag ea4882 set 1, waynum 2
+access num: 217
+adr is: 0x1abcc168
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x34d49d10 from L1 and dirty- write to L2 tag 0x69a93a2, set 0x0
+evicted - tag 69a93a2 set 0, waynum 3
+access num: 218
+adr is: 0x215b0a74
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3714e734 from L2- check if not in L1. tag 0x1b8a739, set 0x5!evicted - tag 1b8a739 set 5, waynum 2
+evicting from cach L1
+evicted adr: 0x590c634 from L1 and dirty- write to L2 tag 0xb218c6, set 0x1
+evicted - tag b218c6 set 1, waynum 5
+access num: 219
+adr is: 0x9194978
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x24ea4518 from L2- check if not in L1. tag 0x1275228, set 0x6!evicted - tag 1275228 set 6, waynum 5
+evicting from cach L1
+evicted adr: 0x17aec080 from L1 and dirty- write to L2 tag 0x2f5d810, set 0x0
+evicted - tag 2f5d810 set 0, waynum 4
+access num: 220
+adr is: 0x1f274880
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x10a8f3a0 from L2- check if not in L1. tag 0x85479d, set 0x0!evicted - tag 85479d set 0, waynum 1
+evicting from cach L1
+evicted adr: 0x1eee94d0 from L1 and dirty- write to L2 tag 0x3ddd29a, set 0x0
+evicted - tag 3ddd29a set 0, waynum 5
+access num: 221
+adr is: 0x2db8cbe8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1db2c508 from L2- check if not in L1. tag 0xed9628, set 0x2!evicted - tag ed9628 set 2, waynum 0
+evicting from cach L1
+evicted - tag 6bef5c3 set 0, waynum 6
+access num: 222
+adr is: 0x2ab43910
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x225b10 from L2- check if not in L1. tag 0x112d8, set 0x4!evicted - tag 112d8 set 4, waynum 5
+evicting from cach L1
+evicted adr: 0xaa57068 from L1 and dirty- write to L2 tag 0x154ae0d, set 0x0
+evicted - tag 154ae0d set 0, waynum 7
+access num: 223
+adr is: 0x2bf8980c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xe2e3fcc from L2- check if not in L1. tag 0x7171fe, set 0x3!evicted - tag 7171fe set 3, waynum 4
+evicting from cach L1
+evicted - tag 75a4695 set 1, waynum 0
+access num: 224
+adr is: 0x2e7542fc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xeff9f1c from L2- check if not in L1. tag 0x77fcf8, set 0x7!evicted - tag 77fcf8 set 7, waynum 4
+evicting from cach L1
+evicted adr: 0x1a82e4fc from L1 and dirty- write to L2 tag 0x3505c9f, set 0x1
+evicted - tag 3505c9f set 1, waynum 7
+access num: 225
+adr is: 0x42313a6c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x359c4b5c from L1 and dirty- write to L2 tag 0x6b3896b, set 0x1
+evicted - tag 6b3896b set 1, waynum 4
+access num: 226
+adr is: 0x4288ff18
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2c3a07b8 from L2- check if not in L1. tag 0x161d03d, set 0x6!evicted - tag 161d03d set 6, waynum 0
+evicting from cach L1
+evicted adr: 0x17203468 from L1 and dirty- write to L2 tag 0x2e4068d, set 0x0
+evicted - tag 2e4068d set 0, waynum 0
+access num: 227
+adr is: 0x1c512b98
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x35603878 from L2- check if not in L1. tag 0x1ab01c3, set 0x6!evicted - tag 1ab01c3 set 6, waynum 6
+evicting from cach L1
+evicted adr: 0x3f8a8c70 from L1 and dirty- write to L2 tag 0x7f1518e, set 0x0
+evicted - tag 7f1518e set 0, waynum 2
+access num: 228
+adr is: 0x114379f8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x15d19318 from L2- check if not in L1. tag 0xae8c98, set 0x6!evicted - tag ae8c98 set 6, waynum 4
+evicting from cach L1
+evicted - tag 171b044 set 0, waynum 1
+access num: 229
+adr is: 0xf1a8828
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xaeb02c8 from L2- check if not in L1. tag 0x575816, set 0x2!evicted - tag 575816 set 2, waynum 5
+evicting from cach L1
+evicted adr: 0x1abcc168 from L1 and dirty- write to L2 tag 0x357982d, set 0x0
+evicted - tag 357982d set 0, waynum 3
+access num: 230
+adr is: 0x11c7ae4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2cf418a4 from L2- check if not in L1. tag 0x167a0c5, set 0x1!evicted - tag 167a0c5 set 1, waynum 0
+evicting from cach L1
+evicted - tag 3c5a7bc set 1, waynum 1
+access num: 231
+adr is: 0x269a9890
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x9194978 from L1 and dirty- write to L2 tag 0x123292f, set 0x0
+evicted - tag 123292f set 0, waynum 4
+access num: 232
+adr is: 0x225b10
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3c321f70 from L2- check if not in L1. tag 0x1e190fb, set 0x4!evicted - tag 1e190fb set 4, waynum 0
+evicting from cach L1
+evicted adr: 0x1f274880 from L1 and dirty- write to L2 tag 0x3e4e910, set 0x0
+evicted - tag 3e4e910 set 0, waynum 5
+access num: 233
+adr is: 0x1d827aac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3e91c02c from L2- check if not in L1. tag 0x1f48e01, set 0x3!evicted - tag 1f48e01 set 3, waynum 5
+evicting from cach L1
+evicted - tag 32469c2 set 1, waynum 3
+access num: 234
+adr is: 0x160fda9c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x3a6b47dc from L1 and dirty- write to L2 tag 0x74d68fb, set 0x1
+evicted - tag 74d68fb set 1, waynum 6
+access num: 235
+adr is: 0x27410c4c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1dca5c2c from L2- check if not in L1. tag 0xee52e1, set 0x3!evicted - tag ee52e1 set 3, waynum 7
+evicting from cach L1
+evicted adr: 0x79869f4 from L1 and dirty- write to L2 tag 0xf30d3e, set 0x1
+evicted - tag f30d3e set 1, waynum 2
+access num: 236
+adr is: 0x118c4c0c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 42b614e set 1, waynum 5
+access num: 237
+adr is: 0x79869f4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 57f1301 set 1, waynum 0
+access num: 238
+adr is: 0x1abcc168
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 5b7197d set 0, waynum 6
+access num: 239
+adr is: 0x2bf8980c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2e7542fc from L1 and dirty- write to L2 tag 0x5cea85f, set 0x1
+evicted - tag 5cea85f set 1, waynum 7
+access num: 240
+adr is: 0xbd9f3b0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x23aef730 from L2- check if not in L1. tag 0x11d77b9, set 0x4!evicted - tag 11d77b9 set 4, waynum 7
+evicting from cach L1
+evicted - tag 5568722 set 0, waynum 7
+access num: 241
+adr is: 0x2e583cac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x43a1fc8c from L2- check if not in L1. tag 0x21d0fe4, set 0x3!evicted - tag 21d0fe4 set 3, waynum 3
+evicting from cach L1
+evicted adr: 0x42313a6c from L1 and dirty- write to L2 tag 0x846274d, set 0x1
+evicted - tag 846274d set 1, waynum 4
+access num: 242
+adr is: 0x271e6088
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x437f4988 from L2- check if not in L1. tag 0x21bfa4c, set 0x2!evicted - tag 21bfa4c set 2, waynum 3
+evicting from cach L1
+evicted adr: 0x4288ff18 from L1 and dirty- write to L2 tag 0x8511fe3, set 0x0
+evicted - tag 8511fe3 set 0, waynum 0
+access num: 243
+adr is: 0x2c3a07b8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3d1b99f8 from L2- check if not in L1. tag 0x1e8dccf, set 0x6!evicted - tag 1e8dccf set 6, waynum 7
+evicting from cach L1
+evicted adr: 0x1c512b98 from L1 and dirty- write to L2 tag 0x38a2573, set 0x0
+evicted - tag 38a2573 set 0, waynum 2
+access num: 244
+adr is: 0x1d09972c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3ad234ac from L2- check if not in L1. tag 0x1d691a5, set 0x3!evicted - tag 1d691a5 set 3, waynum 2
+evicting from cach L1
+evicted adr: 0x11c7ae4 from L1 and dirty- write to L2 tag 0x238f5c, set 0x1
+evicted - tag 238f5c set 1, waynum 1
+access num: 245
+adr is: 0x1dcda678
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2132be18 from L2- check if not in L1. tag 0x10995f0, set 0x6!evicted - tag 10995f0 set 6, waynum 2
+evicting from cach L1
+evicted adr: 0x114379f8 from L1 and dirty- write to L2 tag 0x2286f3f, set 0x0
+evicted - tag 2286f3f set 0, waynum 1
+access num: 246
+adr is: 0x1dcda678
+Hit L1!
+access num: 247
+adr is: 0x1447c1b8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ac1bef8 from L2- check if not in L1. tag 0xd60df7, set 0x6!evicted - tag d60df7 set 6, waynum 1
+evicting from cach L1
+evicted - tag 1e35105 set 0, waynum 3
+access num: 248
+adr is: 0x4288ff18
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x269a9890 from L1 and dirty- write to L2 tag 0x4d35312, set 0x0
+evicted - tag 4d35312 set 0, waynum 4
+access num: 249
+adr is: 0x2f7b6818
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x35f7ae18 from L2- check if not in L1. tag 0x1afbd70, set 0x6!evicted - tag 1afbd70 set 6, waynum 3
+evicting from cach L1
+evicted adr: 0x225b10 from L1 and dirty- write to L2 tag 0x44b62, set 0x0
+evicted - tag 44b62 set 0, waynum 5
+access num: 250
+adr is: 0x215b0a74
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1d827aac from L1 and dirty- write to L2 tag 0x3b04f55, set 0x1
+evicted - tag 3b04f55 set 1, waynum 3
+access num: 251
+adr is: 0x2bf8980c
+Hit L1!
+access num: 252
+adr is: 0xaa57068
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1abcc168 from L1 and dirty- write to L2 tag 0x357982d, set 0x0
+evicted - tag 357982d set 0, waynum 6
+access num: 253
+adr is: 0x16d0150
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x251b3cd0 from L2- check if not in L1. tag 0x128d9e6, set 0x4!evicted - tag 128d9e6 set 4, waynum 4
+evicting from cach L1
+evicted adr: 0xbd9f3b0 from L1 and dirty- write to L2 tag 0x17b3e76, set 0x0
+evicted - tag 17b3e76 set 0, waynum 7
+access num: 254
+adr is: 0xaeb02c8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x33a4a8a8 from L2- check if not in L1. tag 0x19d2545, set 0x2!evicted - tag 19d2545 set 2, waynum 2
+evicting from cach L1
+evicted adr: 0x271e6088 from L1 and dirty- write to L2 tag 0x4e3cc11, set 0x0
+evicted - tag 4e3cc11 set 0, waynum 0
+access num: 255
+adr is: 0x2e7542fc
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 2c1fb53 set 1, waynum 6
+access num: 256
+adr is: 0xeff9f1c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x19511a3c from L2- check if not in L1. tag 0xca88d1, set 0x7!evicted - tag ca88d1 set 7, waynum 3
+evicting from cach L1
+evicted - tag 4e82189 set 1, waynum 2
+access num: 257
+adr is: 0x333ea620
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2b3098c0 from L2- check if not in L1. tag 0x15984c6, set 0x0!evicted - tag 15984c6 set 0, waynum 6
+evicting from cach L1
+evicted adr: 0x2c3a07b8 from L1 and dirty- write to L2 tag 0x58740f7, set 0x0
+evicted - tag 58740f7 set 0, waynum 2
+access num: 258
+adr is: 0x369218bc
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x118c4c0c from L1 and dirty- write to L2 tag 0x2318981, set 0x1
+evicted - tag 2318981 set 1, waynum 5
+access num: 259
+adr is: 0x14753630
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x34d49d10 from L2- check if not in L1. tag 0x1a6a4e8, set 0x4!evicted - tag 1a6a4e8 set 4, waynum 2
+evicting from cach L1
+evicted - tag 3b9b4cf set 0, waynum 1
+access num: 260
+adr is: 0x1160ff08
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2339b8e8 from L2- check if not in L1. tag 0x119cdc7, set 0x2!evicted - tag 119cdc7 set 2, waynum 7
+evicting from cach L1
+evicted - tag 288f837 set 0, waynum 3
+access num: 261
+adr is: 0x3c1ef9f0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1eee94d0 from L2- check if not in L1. tag 0xf774a6, set 0x4!evicted - tag f774a6 set 4, waynum 6
+evicting from cach L1
+evicted adr: 0x4288ff18 from L1 and dirty- write to L2 tag 0x8511fe3, set 0x0
+evicted - tag 8511fe3 set 0, waynum 4
+access num: 262
+adr is: 0x3d1b99f8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x9194978 from L2- check if not in L1. tag 0x48ca4b, set 0x6!evicted - tag 48ca4b set 6, waynum 5
+evicting from cach L1
+evicted adr: 0x2f7b6818 from L1 and dirty- write to L2 tag 0x5ef6d03, set 0x0
+evicted - tag 5ef6d03 set 0, waynum 5
+access num: 263
+adr is: 0x29983930
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2ab43910 from L2- check if not in L1. tag 0x155a1c8, set 0x4!evicted - tag 155a1c8 set 4, waynum 5
+evicting from cach L1
+evicted adr: 0xaa57068 from L1 and dirty- write to L2 tag 0x154ae0d, set 0x0
+evicted - tag 154ae0d set 0, waynum 6
+access num: 264
+adr is: 0x369218bc
+Hit L1!
+access num: 265
+adr is: 0x4924268
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2db8cbe8 from L2- check if not in L1. tag 0x16dc65f, set 0x2!evicted - tag 16dc65f set 2, waynum 0
+evicting from cach L1
+evicted - tag 2da02a set 0, waynum 7
+access num: 266
+adr is: 0x437f4988
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x17203468 from L2- check if not in L1. tag 0xb901a3, set 0x2!evicted - tag b901a3 set 2, waynum 1
+evicting from cach L1
+evicted adr: 0xaeb02c8 from L1 and dirty- write to L2 tag 0x15d6059, set 0x0
+evicted - tag 15d6059 set 0, waynum 0
+access num: 267
+adr is: 0x1e242750
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3f8a8c70 from L2- check if not in L1. tag 0x1fc5463, set 0x4!evicted - tag 1fc5463 set 4, waynum 3
+evicting from cach L1
+evicted adr: 0x333ea620 from L1 and dirty- write to L2 tag 0x667d4c4, set 0x0
+evicted - tag 667d4c4 set 0, waynum 2
+access num: 268
+adr is: 0x1dcda678
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x14753630 from L1 and dirty- write to L2 tag 0x28ea6c6, set 0x0
+evicted - tag 28ea6c6 set 0, waynum 1
+access num: 269
+adr is: 0x3e91c02c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3361526c from L2- check if not in L1. tag 0x19b0a93, set 0x3!evicted - tag 19b0a93 set 3, waynum 0
+evicting from cach L1
+evicted adr: 0x79869f4 from L1 and dirty- write to L2 tag 0xf30d3e, set 0x1
+evicted - tag f30d3e set 1, waynum 0
+access num: 270
+adr is: 0x1091cc00
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x24efd5c0 from L2- check if not in L1. tag 0x1277eae, set 0x0!evicted - tag 1277eae set 0, waynum 4
+evicting from cach L1
+evicted adr: 0x1160ff08 from L1 and dirty- write to L2 tag 0x22c1fe1, set 0x0
+evicted - tag 22c1fe1 set 0, waynum 3
+access num: 271
+adr is: 0xb99a4f4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x23e29574 from L2- check if not in L1. tag 0x11f14ab, set 0x5!evicted - tag 11f14ab set 5, waynum 3
+evicting from cach L1
+evicted - tag 5cb0795 set 1, waynum 4
+access num: 272
+adr is: 0x35603878
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1c512b98 from L2- check if not in L1. tag 0xe2895c, set 0x6!evicted - tag e2895c set 6, waynum 6
+evicting from cach L1
+evicted - tag 783df3e set 0, waynum 4
+access num: 273
+adr is: 0x3d40d308
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xf1a8828 from L2- check if not in L1. tag 0x78d441, set 0x2!evicted - tag 78d441 set 2, waynum 5
+evicting from cach L1
+evicted - tag 7a3733f set 0, waynum 5
+access num: 274
+adr is: 0x179340ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x27410c4c from L2- check if not in L1. tag 0x13a0862, set 0x3!evicted - tag 13a0862 set 3, waynum 7
+evicting from cach L1
+evicted adr: 0x1d09972c from L1 and dirty- write to L2 tag 0x3a132e5, set 0x1
+evicted - tag 3a132e5 set 1, waynum 1
+access num: 275
+adr is: 0x24ea4518
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x114379f8 from L2- check if not in L1. tag 0x8a1bcf, set 0x6!evicted - tag 8a1bcf set 6, waynum 4
+evicting from cach L1
+evicted - tag 5330726 set 0, waynum 6
+access num: 276
+adr is: 0x24efd5c0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ee009a0 from L2- check if not in L1. tag 0xf7004d, set 0x0!evicted - tag f7004d set 0, waynum 5
+evicting from cach L1
+evicted adr: 0x4924268 from L1 and dirty- write to L2 tag 0x92484d, set 0x0
+evicted - tag 92484d set 0, waynum 7
+access num: 277
+adr is: 0x419d6258
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1447c1b8 from L2- check if not in L1. tag 0xa23e0d, set 0x6!evicted - tag a23e0d set 6, waynum 1
+evicting from cach L1
+evicted adr: 0x437f4988 from L1 and dirty- write to L2 tag 0x86fe931, set 0x0
+evicted - tag 86fe931 set 0, waynum 0
+access num: 278
+adr is: 0x4924268
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1e242750 from L1 and dirty- write to L2 tag 0x3c484ea, set 0x0
+evicted - tag 3c484ea set 0, waynum 2
+access num: 279
+adr is: 0x3714e734
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x30c69534 from L2- check if not in L1. tag 0x18634a9, set 0x5!evicted - tag 18634a9 set 5, waynum 4
+evicting from cach L1
+evicted - tag 42b614e set 1, waynum 3
+access num: 280
+adr is: 0xf1a8828
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1abcc168 from L2- check if not in L1. tag 0xd5e60b, set 0x2!evicted - tag d5e60b set 2, waynum 4
+evicting from cach L1
+evicted - tag 3b9b4cf set 0, waynum 1
+access num: 281
+adr is: 0x28c05944
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3268b424 from L2- check if not in L1. tag 0x19345a1, set 0x1!evicted - tag 19345a1 set 1, waynum 2
+evicting from cach L1
+evicted - tag 57f1301 set 1, waynum 7
+access num: 282
+adr is: 0x118c4c0c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2e7542fc from L1 and dirty- write to L2 tag 0x5cea85f, set 0x1
+evicted - tag 5cea85f set 1, waynum 6
+access num: 283
+adr is: 0x590c634
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 1dff3e3 set 1, waynum 2
+access num: 284
+adr is: 0xb99a4f4
+Hit L1!
+access num: 285
+adr is: 0x42594430
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x269a9890 from L2- check if not in L1. tag 0x134d4c4, set 0x4!evicted - tag 134d4c4 set 4, waynum 1
+evicting from cach L1
+evicted - tag 2123980 set 0, waynum 3
+access num: 286
+adr is: 0x23aef730
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x225b10 from L2- check if not in L1. tag 0x112d8, set 0x4!evicted - tag 112d8 set 4, waynum 0
+evicting from cach L1
+evicted - tag 6ac070f set 0, waynum 4
+access num: 287
+adr is: 0x33cf5804
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x365f4244 from L2- check if not in L1. tag 0x1b2fa12, set 0x1!evicted - tag 1b2fa12 set 1, waynum 3
+evicting from cach L1
+evicted - tag 6d24317 set 1, waynum 5
+access num: 288
+adr is: 0x1eee94d0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x16d0150 from L2- check if not in L1. tag 0xb680a, set 0x4!evicted - tag b680a set 4, waynum 4
+evicting from cach L1
+evicted adr: 0x3d40d308 from L1 and dirty- write to L2 tag 0x7a81a61, set 0x0
+evicted - tag 7a81a61 set 0, waynum 5
+access num: 289
+adr is: 0xf92a68c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2bf8980c from L2- check if not in L1. tag 0x15fc4c0, set 0x3!evicted - tag 15fc4c0 set 3, waynum 4
+evicting from cach L1
+evicted - tag 7d23805 set 1, waynum 0
+access num: 290
+adr is: 0x339f5460
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x16cbc1c0 from L2- check if not in L1. tag 0xb65e0e, set 0x0!evicted - tag b65e0e set 0, waynum 2
+evicting from cach L1
+evicted - tag 49d48a3 set 0, waynum 6
+access num: 291
+adr is: 0x252050
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xbd9f3b0 from L2- check if not in L1. tag 0x5ecf9d, set 0x4!evicted - tag 5ecf9d set 4, waynum 7
+evicting from cach L1
+evicted - tag 49dfab8 set 0, waynum 7
+access num: 292
+adr is: 0x7a489f4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x7524414 from L2- check if not in L1. tag 0x3a9220, set 0x5!evicted - tag 3a9220 set 5, waynum 1
+evicting from cach L1
+evicted - tag 2f26815 set 1, waynum 1
+access num: 293
+adr is: 0xdbb9ad8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2c3a07b8 from L2- check if not in L1. tag 0x161d03d, set 0x6!evicted - tag 161d03d set 6, waynum 7
+evicting from cach L1
+evicted adr: 0x419d6258 from L1 and dirty- write to L2 tag 0x833ac4b, set 0x0
+evicted - tag 833ac4b set 0, waynum 0
+access num: 294
+adr is: 0x10a8f3a0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x24050600 from L2- check if not in L1. tag 0x1202830, set 0x0!evicted - tag 1202830 set 0, waynum 3
+evicting from cach L1
+evicted adr: 0x4924268 from L1 and dirty- write to L2 tag 0x92484d, set 0x0
+evicted - tag 92484d set 0, waynum 2
+access num: 295
+adr is: 0x271e6088
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 1e35105 set 0, waynum 1
+access num: 296
+adr is: 0x34ad4cd0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3c1ef9f0 from L2- check if not in L1. tag 0x1e0f7cf, set 0x4!evicted - tag 1e0f7cf set 4, waynum 6
+evicting from cach L1
+evicted adr: 0x42594430 from L1 and dirty- write to L2 tag 0x84b2886, set 0x0
+evicted - tag 84b2886 set 0, waynum 3
+access num: 297
+adr is: 0x7524414
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x19234e14 from L2- check if not in L1. tag 0xc91a70, set 0x5!evicted - tag c91a70 set 5, waynum 6
+evicting from cach L1
+evicted adr: 0x3714e734 from L1 and dirty- write to L2 tag 0x6e29ce6, set 0x1
+evicted - tag 6e29ce6 set 1, waynum 3
+access num: 298
+adr is: 0x36907adc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x41dadc9c from L2- check if not in L1. tag 0x20ed6e4, set 0x7!evicted - tag 20ed6e4 set 7, waynum 6
+evicting from cach L1
+evicted - tag 5180b28 set 1, waynum 7
+access num: 299
+adr is: 0x23e29574
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x38e1dfd4 from L2- check if not in L1. tag 0x1c70efe, set 0x5!evicted - tag 1c70efe set 5, waynum 0
+evicting from cach L1
+evicted adr: 0x118c4c0c from L1 and dirty- write to L2 tag 0x2318981, set 0x1
+evicted - tag 2318981 set 1, waynum 6
+access num: 300
+adr is: 0x2bd09940
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xb8d8220 from L2- check if not in L1. tag 0x5c6c11, set 0x0!evicted - tag 5c6c11 set 0, waynum 0
+evicting from cach L1
+evicted adr: 0x23aef730 from L1 and dirty- write to L2 tag 0x475dee6, set 0x0
+evicted - tag 475dee6 set 0, waynum 4
+access num: 301
+adr is: 0x437f4988
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1eee94d0 from L1 and dirty- write to L2 tag 0x3ddd29a, set 0x0
+evicted - tag 3ddd29a set 0, waynum 5
+access num: 302
+adr is: 0x2cd4a3ec
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2e583cac from L2- check if not in L1. tag 0x172c1e5, set 0x3!evicted - tag 172c1e5 set 3, waynum 3
+evicting from cach L1
+evicted adr: 0x590c634 from L1 and dirty- write to L2 tag 0xb218c6, set 0x1
+evicted - tag b218c6 set 1, waynum 2
+access num: 303
+adr is: 0xeff9f1c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 173349e set 1, waynum 4
+access num: 304
+adr is: 0x3361526c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x42313a6c from L2- check if not in L1. tag 0x21189d3, set 0x3!evicted - tag 21189d3 set 3, waynum 1
+evicting from cach L1
+evicted adr: 0x33cf5804 from L1 and dirty- write to L2 tag 0x679eb00, set 0x1
+evicted - tag 679eb00 set 1, waynum 5
+access num: 305
+adr is: 0x25055138
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x4288ff18 from L2- check if not in L1. tag 0x21447f8, set 0x6!evicted - tag 21447f8 set 6, waynum 0
+evicting from cach L1
+evicted adr: 0x339f5460 from L1 and dirty- write to L2 tag 0x673ea8c, set 0x0
+evicted - tag 673ea8c set 0, waynum 6
+access num: 306
+adr is: 0xdbb9ad8
+Hit L1!
+access num: 307
+adr is: 0x38e1dfd4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x215b0a74 from L2- check if not in L1. tag 0x10ad853, set 0x5!evicted - tag 10ad853 set 5, waynum 2
+evicting from cach L1
+evicted - tag 1f254d1 set 1, waynum 0
+access num: 308
+adr is: 0x21ed3b4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x79869f4 from L2- check if not in L1. tag 0x3cc34f, set 0x5!evicted - tag 3cc34f set 5, waynum 5
+evicting from cach L1
+evicted - tag f4913e set 1, waynum 1
+access num: 309
+adr is: 0x2f32ca88
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xaa57068 from L2- check if not in L1. tag 0x552b83, set 0x2!evicted - tag 552b83 set 2, waynum 6
+evicting from cach L1
+evicted adr: 0x252050 from L1 and dirty- write to L2 tag 0x4a40a, set 0x0
+evicted - tag 4a40a set 0, waynum 7
+access num: 310
+adr is: 0x2b2b91a4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag ea4882 set 1, waynum 3
+access num: 311
+adr is: 0x1c1ad2d8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3d1b99f8 from L2- check if not in L1. tag 0x1e8dccf, set 0x6!evicted - tag 1e8dccf set 6, waynum 5
+evicting from cach L1
+evicted - tag 2151e74 set 0, waynum 2
+access num: 312
+adr is: 0x1ce818a0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x17aec080 from L2- check if not in L1. tag 0xbd7604, set 0x0!evicted - tag bd7604 set 0, waynum 7
+evicting from cach L1
+evicted adr: 0x271e6088 from L1 and dirty- write to L2 tag 0x4e3cc11, set 0x0
+evicted - tag 4e3cc11 set 0, waynum 1
+access num: 313
+adr is: 0x1c1ad2d8
+Hit L1!
+access num: 314
+adr is: 0x4d130e0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1f274880 from L2- check if not in L1. tag 0xf93a44, set 0x0!evicted - tag f93a44 set 0, waynum 1
+evicting from cach L1
+evicted - tag 695a99a set 0, waynum 3
+access num: 315
+adr is: 0x1dcda678
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2bd09940 from L1 and dirty- write to L2 tag 0x57a1328, set 0x0
+evicted - tag 57a1328 set 0, waynum 4
+access num: 316
+adr is: 0x21d1930c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1d827aac from L2- check if not in L1. tag 0xec13d5, set 0x3!evicted - tag ec13d5 set 3, waynum 5
+evicting from cach L1
+evicted - tag 6d20f5b set 1, waynum 7
+access num: 317
+adr is: 0x9194978
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2f7b6818 from L2- check if not in L1. tag 0x17bdb40, set 0x6!evicted - tag 17bdb40 set 6, waynum 3
+evicting from cach L1
+evicted adr: 0x437f4988 from L1 and dirty- write to L2 tag 0x86fe931, set 0x0
+evicted - tag 86fe931 set 0, waynum 5
+access num: 318
+adr is: 0x12b27180
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x333ea620 from L2- check if not in L1. tag 0x199f531, set 0x0!evicted - tag 199f531 set 0, waynum 6
+evicting from cach L1
+evicted - tag 4a0aa27 set 0, waynum 6
+access num: 319
+adr is: 0xe2e3fcc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3e91c02c from L2- check if not in L1. tag 0x1f48e01, set 0x3!evicted - tag 1f48e01 set 3, waynum 0
+evicting from cach L1
+evicted adr: 0x23e29574 from L1 and dirty- write to L2 tag 0x47c52ae, set 0x1
+evicted - tag 47c52ae set 1, waynum 6
+access num: 320
+adr is: 0x2b0929ec
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x179340ac from L2- check if not in L1. tag 0xbc9a05, set 0x3!evicted - tag bc9a05 set 3, waynum 7
+evicting from cach L1
+evicted - tag 59a947d set 1, waynum 2
+access num: 321
+adr is: 0x30c69534
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xb99a4f4 from L2- check if not in L1. tag 0x5ccd27, set 0x5!evicted - tag 5ccd27 set 5, waynum 3
+evicting from cach L1
+evicted - tag 1dff3e3 set 1, waynum 4
+access num: 322
+adr is: 0xa272d50
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x29983930 from L2- check if not in L1. tag 0x14cc1c9, set 0x4!evicted - tag 14cc1c9 set 4, waynum 5
+evicting from cach L1
+evicted adr: 0xdbb9ad8 from L1 and dirty- write to L2 tag 0x1b7735b, set 0x0
+evicted - tag 1b7735b set 0, waynum 0
+access num: 323
+adr is: 0x1d827aac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1d09972c from L2- check if not in L1. tag 0xe84cb9, set 0x3!evicted - tag e84cb9 set 3, waynum 2
+evicting from cach L1
+evicted adr: 0x3361526c from L1 and dirty- write to L2 tag 0x66c2a4d, set 0x1
+evicted - tag 66c2a4d set 1, waynum 5
+access num: 324
+adr is: 0x427538b8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x35603878 from L2- check if not in L1. tag 0x1ab01c3, set 0x6!evicted - tag 1ab01c3 set 6, waynum 6
+evicting from cach L1
+evicted - tag 5e65951 set 0, waynum 7
+access num: 325
+adr is: 0x271e6088
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1ce818a0 from L1 and dirty- write to L2 tag 0x39d0314, set 0x0
+evicted - tag 39d0314 set 0, waynum 1
+access num: 326
+adr is: 0x1dca5c2c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xf92a68c from L2- check if not in L1. tag 0x7c9534, set 0x3!evicted - tag 7c9534 set 3, waynum 4
+evicting from cach L1
+evicted adr: 0x38e1dfd4 from L1 and dirty- write to L2 tag 0x71c3bfa, set 0x1
+evicted - tag 71c3bfa set 1, waynum 0
+access num: 327
+adr is: 0x251b3cd0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x14753630 from L2- check if not in L1. tag 0xa3a9b1, set 0x4!evicted - tag a3a9b1 set 4, waynum 2
+evicting from cach L1
+evicted adr: 0x1c1ad2d8 from L1 and dirty- write to L2 tag 0x3835a5b, set 0x0
+evicted - tag 3835a5b set 0, waynum 2
+access num: 328
+adr is: 0x339f5460
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 9a261c set 0, waynum 3
+access num: 329
+adr is: 0x7524414
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 43da76 set 1, waynum 1
+access num: 330
+adr is: 0x42594430
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 3b9b4cf set 0, waynum 4
+access num: 331
+adr is: 0x33a4a8a8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xaeb02c8 from L2- check if not in L1. tag 0x575816, set 0x2!evicted - tag 575816 set 2, waynum 2
+evicting from cach L1
+evicted adr: 0x9194978 from L1 and dirty- write to L2 tag 0x123292f, set 0x0
+evicted - tag 123292f set 0, waynum 5
+access num: 332
+adr is: 0x2b0929ec
+Hit L1!
+access num: 333
+adr is: 0x1c544280
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1091cc00 from L2- check if not in L1. tag 0x848e60, set 0x0!evicted - tag 848e60 set 0, waynum 4
+evicting from cach L1
+evicted - tag 2564e30 set 0, waynum 6
+access num: 334
+adr is: 0x21ed3b4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2b2b91a4 from L1 and dirty- write to L2 tag 0x5657234, set 0x1
+evicted - tag 5657234 set 1, waynum 3
+access num: 335
+adr is: 0x2f7b6818
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x24ea4518 from L2- check if not in L1. tag 0x1275228, set 0x6!evicted - tag 1275228 set 6, waynum 4
+evicting from cach L1
+evicted - tag 144e5aa set 0, waynum 0
+access num: 336
+adr is: 0xc66bc28
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1160ff08 from L2- check if not in L1. tag 0x8b07f8, set 0x2!evicted - tag 8b07f8 set 2, waynum 7
+evicting from cach L1
+evicted adr: 0x427538b8 from L1 and dirty- write to L2 tag 0x84ea717, set 0x0
+evicted - tag 84ea717 set 0, waynum 7
+access num: 337
+adr is: 0x84503c4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x21d1930c from L1 and dirty- write to L2 tag 0x43a3261, set 0x1
+evicted - tag 43a3261 set 1, waynum 7
+access num: 338
+adr is: 0x8b4af54
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x7a489f4 from L2- check if not in L1. tag 0x3d244f, set 0x5!evicted - tag 3d244f set 5, waynum 1
+evicting from cach L1
+evicted adr: 0xe2e3fcc from L1 and dirty- write to L2 tag 0x1c5c7f9, set 0x1
+evicted - tag 1c5c7f9 set 1, waynum 6
+access num: 339
+adr is: 0x41b37a24
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x9ebae84 from L2- check if not in L1. tag 0x4f5d74, set 0x1!evicted - tag 4f5d74 set 1, waynum 5
+evicting from cach L1
+evicted adr: 0x30c69534 from L1 and dirty- write to L2 tag 0x618d2a6, set 0x1
+evicted - tag 618d2a6 set 1, waynum 4
+access num: 340
+adr is: 0x3e91c02c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x118c4c0c from L2- check if not in L1. tag 0x8c6260, set 0x3!evicted - tag 8c6260 set 3, waynum 6
+evicting from cach L1
+evicted adr: 0x1d827aac from L1 and dirty- write to L2 tag 0x3b04f55, set 0x1
+evicted - tag 3b04f55 set 1, waynum 5
+access num: 341
+adr is: 0x3d1b99f8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x419d6258 from L2- check if not in L1. tag 0x20ceb12, set 0x6!evicted - tag 20ceb12 set 6, waynum 1
+evicting from cach L1
+evicted adr: 0x271e6088 from L1 and dirty- write to L2 tag 0x4e3cc11, set 0x0
+evicted - tag 4e3cc11 set 0, waynum 1
+access num: 342
+adr is: 0x4d130e0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x251b3cd0 from L1 and dirty- write to L2 tag 0x4a3679a, set 0x0
+evicted - tag 4a3679a set 0, waynum 2
+access num: 343
+adr is: 0x2e26abfc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1a82e4fc from L2- check if not in L1. tag 0xd41727, set 0x7!evicted - tag d41727 set 7, waynum 2
+evicting from cach L1
+evicted adr: 0x1dca5c2c from L1 and dirty- write to L2 tag 0x3b94b85, set 0x1
+evicted - tag 3b94b85 set 1, waynum 0
+access num: 344
+adr is: 0x30c69534
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag ea4882 set 1, waynum 1
+access num: 345
+adr is: 0x2353d6ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2cd4a3ec from L2- check if not in L1. tag 0x166a51f, set 0x3!evicted - tag 166a51f set 3, waynum 3
+evicting from cach L1
+evicted - tag 561253d set 1, waynum 2
+access num: 346
+adr is: 0x2353d6ac
+Hit L1!
+access num: 347
+adr is: 0x21ed3b4
+Hit L1!
+access num: 348
+adr is: 0x34c5c6d0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1e242750 from L2- check if not in L1. tag 0xf1213a, set 0x4!evicted - tag f1213a set 4, waynum 3
+evicting from cach L1
+evicted adr: 0x339f5460 from L1 and dirty- write to L2 tag 0x673ea8c, set 0x0
+evicted - tag 673ea8c set 0, waynum 3
+access num: 349
+adr is: 0x27410c4c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2b0929ec from L2- check if not in L1. tag 0x158494f, set 0x3!evicted - tag 158494f set 3, waynum 7
+evicting from cach L1
+evicted adr: 0x84503c4 from L1 and dirty- write to L2 tag 0x108a078, set 0x1
+evicted - tag 108a078 set 1, waynum 7
+access num: 350
+adr is: 0x3361526c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 11695ea set 1, waynum 6
+access num: 351
+adr is: 0x1f129e70
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x34ad4cd0 from L2- check if not in L1. tag 0x1a56a66, set 0x4!evicted - tag 1a56a66 set 4, waynum 6
+evicting from cach L1
+evicted adr: 0x42594430 from L1 and dirty- write to L2 tag 0x84b2886, set 0x0
+evicted - tag 84b2886 set 0, waynum 4
+access num: 352
+adr is: 0x1c1ad2d8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 6749515 set 0, waynum 5
+access num: 353
+adr is: 0x2586f488
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xf1a8828 from L2- check if not in L1. tag 0x78d441, set 0x2!evicted - tag 78d441 set 2, waynum 4
+evicting from cach L1
+evicted - tag 38a8850 set 0, waynum 6
+access num: 354
+adr is: 0x1c1ad2d8
+Hit L1!
+access num: 355
+adr is: 0xd932f3c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x359c4b5c from L2- check if not in L1. tag 0x1ace25a, set 0x7!evicted - tag 1ace25a set 7, waynum 7
+evicting from cach L1
+evicted adr: 0x41b37a24 from L1 and dirty- write to L2 tag 0x8366f44, set 0x1
+evicted - tag 8366f44 set 1, waynum 4
+access num: 356
+adr is: 0x3c1ef9f0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x23aef730 from L2- check if not in L1. tag 0x11d77b9, set 0x4!evicted - tag 11d77b9 set 4, waynum 0
+evicting from cach L1
+evicted adr: 0x2f7b6818 from L1 and dirty- write to L2 tag 0x5ef6d03, set 0x0
+evicted - tag 5ef6d03 set 0, waynum 0
+access num: 357
+adr is: 0x2fc77240
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x24efd5c0 from L2- check if not in L1. tag 0x1277eae, set 0x0!evicted - tag 1277eae set 0, waynum 5
+evicting from cach L1
+evicted adr: 0xc66bc28 from L1 and dirty- write to L2 tag 0x18cd785, set 0x0
+evicted - tag 18cd785 set 0, waynum 7
+access num: 358
+adr is: 0x842e120
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x10a8f3a0 from L2- check if not in L1. tag 0x85479d, set 0x0!evicted - tag 85479d set 0, waynum 3
+evicting from cach L1
+evicted - tag 7a3733f set 0, waynum 1
+access num: 359
+adr is: 0x43a1fc8c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x21d1930c from L2- check if not in L1. tag 0x10e8c98, set 0x3!evicted - tag 10e8c98 set 3, waynum 5
+evicting from cach L1
+evicted - tag 7d23805 set 1, waynum 5
+access num: 360
+adr is: 0x3d40d308
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 9a261c set 0, waynum 2
+access num: 361
+adr is: 0xf92a68c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xe2e3fcc from L2- check if not in L1. tag 0x7171fe, set 0x3!evicted - tag 7171fe set 3, waynum 0
+evicting from cach L1
+evicted adr: 0x2e26abfc from L1 and dirty- write to L2 tag 0x5c4d57f, set 0x1
+evicted - tag 5c4d57f set 1, waynum 0
+access num: 362
+adr is: 0x3268b424
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2484ae04 from L2- check if not in L1. tag 0x1242570, set 0x1!evicted - tag 1242570 set 1, waynum 6
+evicting from cach L1
+evicted adr: 0x30c69534 from L1 and dirty- write to L2 tag 0x618d2a6, set 0x1
+evicted - tag 618d2a6 set 1, waynum 1
+access num: 363
+adr is: 0x33a4a8a8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 698b8da set 0, waynum 3
+access num: 364
+adr is: 0x1eee94d0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 3e253ce set 0, waynum 4
+access num: 365
+adr is: 0x3c1ef9f0
+Hit L1!
+access num: 366
+adr is: 0x21ed3b4
+Hit L1!
+access num: 367
+adr is: 0x21d1930c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3e91c02c from L2- check if not in L1. tag 0x1f48e01, set 0x3!evicted - tag 1f48e01 set 3, waynum 6
+evicting from cach L1
+evicted - tag 46a7ad5 set 1, waynum 2
+access num: 368
+adr is: 0xb454634
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3714e734 from L2- check if not in L1. tag 0x1b8a739, set 0x5!evicted - tag 1b8a739 set 5, waynum 4
+evicting from cach L1
+evicted - tag 4e82189 set 1, waynum 7
+access num: 369
+adr is: 0x179340ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1d827aac from L2- check if not in L1. tag 0xec13d5, set 0x3!evicted - tag ec13d5 set 3, waynum 2
+evicting from cach L1
+evicted adr: 0x3361526c from L1 and dirty- write to L2 tag 0x66c2a4d, set 0x1
+evicted - tag 66c2a4d set 1, waynum 6
+access num: 370
+adr is: 0x1d09972c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1dca5c2c from L2- check if not in L1. tag 0xee52e1, set 0x3!evicted - tag ee52e1 set 3, waynum 4
+evicting from cach L1
+evicted - tag 1b265e7 set 1, waynum 4
+access num: 371
+adr is: 0x2bf8980c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2353d6ac from L2- check if not in L1. tag 0x11a9eb5, set 0x3!evicted - tag 11a9eb5 set 3, waynum 3
+evicting from cach L1
+evicted adr: 0x43a1fc8c from L1 and dirty- write to L2 tag 0x8743f91, set 0x1
+evicted - tag 8743f91 set 1, waynum 5
+access num: 372
+adr is: 0x2dcced04
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1e2d3de4 from L2- check if not in L1. tag 0xf169ef, set 0x1!evicted - tag f169ef set 1, waynum 7
+evicting from cach L1
+evicted - tag 1f254d1 set 1, waynum 0
+access num: 373
+adr is: 0x404c5800
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2bd09940 from L2- check if not in L1. tag 0x15e84ca, set 0x0!evicted - tag 15e84ca set 0, waynum 0
+evicting from cach L1
+evicted - tag 4b0de91 set 0, waynum 6
+access num: 374
+adr is: 0x1ecc515c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x160fda9c from L2- check if not in L1. tag 0xb07ed4, set 0x7!evicted - tag b07ed4 set 7, waynum 0
+evicting from cach L1
+evicted - tag 64d1684 set 1, waynum 1
+access num: 375
+adr is: 0x15d19318
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x25055138 from L2- check if not in L1. tag 0x1282a89, set 0x6!evicted - tag 1282a89 set 6, waynum 0
+evicting from cach L1
+evicted adr: 0x1c1ad2d8 from L1 and dirty- write to L2 tag 0x3835a5b, set 0x0
+evicted - tag 3835a5b set 0, waynum 5
+access num: 376
+adr is: 0x2353d6ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x27410c4c from L2- check if not in L1. tag 0x13a0862, set 0x3!evicted - tag 13a0862 set 3, waynum 7
+evicting from cach L1
+evicted - tag 43da76 set 1, waynum 3
+access num: 377
+adr is: 0xf1a8828
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x4924268 from L2- check if not in L1. tag 0x249213, set 0x2!evicted - tag 249213 set 2, waynum 0
+evicting from cach L1
+evicted adr: 0x2fc77240 from L1 and dirty- write to L2 tag 0x5f8ee48, set 0x0
+evicted - tag 5f8ee48 set 0, waynum 7
+access num: 378
+adr is: 0x278fcb08
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2f32ca88 from L2- check if not in L1. tag 0x1799654, set 0x2!evicted - tag 1799654 set 2, waynum 6
+evicting from cach L1
+evicted - tag 1085c24 set 0, waynum 1
+access num: 379
+adr is: 0x16d0150
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x252050 from L2- check if not in L1. tag 0x12902, set 0x4!evicted - tag 12902 set 4, waynum 7
+evicting from cach L1
+evicted adr: 0x3d40d308 from L1 and dirty- write to L2 tag 0x7a81a61, set 0x0
+evicted - tag 7a81a61 set 0, waynum 2
+access num: 380
+adr is: 0x5ba8e84
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x11c7ae4 from L2- check if not in L1. tag 0x8e3d7, set 0x1!evicted - tag 8e3d7 set 1, waynum 0
+evicting from cach L1
+evicted adr: 0x21d1930c from L1 and dirty- write to L2 tag 0x43a3261, set 0x1
+evicted - tag 43a3261 set 1, waynum 2
+access num: 381
+adr is: 0xd2aa88c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xf92a68c from L2- check if not in L1. tag 0x7c9534, set 0x3!evicted - tag 7c9534 set 3, waynum 0
+evicting from cach L1
+evicted adr: 0xb454634 from L1 and dirty- write to L2 tag 0x168a8c6, set 0x1
+evicted - tag 168a8c6 set 1, waynum 7
+access num: 382
+adr is: 0x251b3cd0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 6749515 set 0, waynum 3
+access num: 383
+adr is: 0xdb7ad40
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x12b27180 from L2- check if not in L1. tag 0x95938c, set 0x0!evicted - tag 95938c set 0, waynum 6
+evicting from cach L1
+evicted adr: 0x1eee94d0 from L1 and dirty- write to L2 tag 0x3ddd29a, set 0x0
+evicted - tag 3ddd29a set 0, waynum 4
+access num: 384
+adr is: 0x1ba633cc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x179340ac from L2- check if not in L1. tag 0xbc9a05, set 0x3!evicted - tag bc9a05 set 3, waynum 2
+evicted - tag 2f26815 set 1, waynum 6
+access num: 385
+adr is: 0x333ea620
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ce818a0 from L2- check if not in L1. tag 0xe740c5, set 0x0!evicted - tag e740c5 set 0, waynum 7
+evicting from cach L1
+evicted - tag 783df3e set 0, waynum 0
+access num: 386
+adr is: 0x3dd4240c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3361526c from L2- check if not in L1. tag 0x19b0a93, set 0x3!evicted - tag 19b0a93 set 3, waynum 1
+evicting from cach L1
+evicted adr: 0x1d09972c from L1 and dirty- write to L2 tag 0x3a132e5, set 0x1
+evicted - tag 3a132e5 set 1, waynum 4
+access num: 387
+adr is: 0xdb7ad40
+Hit L1!
+access num: 388
+adr is: 0x11c7ae4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x28c05944 from L2- check if not in L1. tag 0x14602ca, set 0x1!evicted - tag 14602ca set 1, waynum 2
+evicting from cach L1
+evicted - tag 57f1301 set 1, waynum 5
+access num: 389
+adr is: 0x1d827aac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2bf8980c from L2- check if not in L1. tag 0x15fc4c0, set 0x3!evicted - tag 15fc4c0 set 3, waynum 3
+evicting from cach L1
+evicted adr: 0x2dcced04 from L1 and dirty- write to L2 tag 0x5b99da0, set 0x1
+evicted - tag 5b99da0 set 1, waynum 0
+access num: 390
+adr is: 0x437f4988
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 8098b00 set 0, waynum 6
+access num: 391
+adr is: 0x1abcc168
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x271e6088 from L2- check if not in L1. tag 0x138f304, set 0x2!evicted - tag 138f304 set 2, waynum 3
+evicting from cach L1
+evicted adr: 0x15d19318 from L1 and dirty- write to L2 tag 0x2ba3263, set 0x0
+evicted - tag 2ba3263 set 0, waynum 5
+access num: 392
+adr is: 0x2b2b91a4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1ecc515c from L1 and dirty- write to L2 tag 0x3d98a2b, set 0x1
+evicted - tag 3d98a2b set 1, waynum 1
+access num: 393
+adr is: 0x2353d6ac
+Hit L1!
+access num: 394
+adr is: 0x3c1ef9f0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 1e35105 set 0, waynum 7
+access num: 395
+adr is: 0x79869f4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x590c634 from L2- check if not in L1. tag 0x2c8631, set 0x5!evicted - tag 2c8631 set 5, waynum 7
+evicting from cach L1
+evicted adr: 0x5ba8e84 from L1 and dirty- write to L2 tag 0xb751d0, set 0x1
+evicted - tag b751d0 set 1, waynum 2
+access num: 396
+adr is: 0x2339b8e8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2586f488 from L2- check if not in L1. tag 0x12c37a4, set 0x2!evicted - tag 12c37a4 set 2, waynum 4
+evicting from cach L1
+evicted - tag 4f1f961 set 0, waynum 1
+access num: 397
+adr is: 0x19f44ff8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1dcda678 from L2- check if not in L1. tag 0xee6d33, set 0x6!evicted - tag ee6d33 set 6, waynum 2
+evicting from cach L1
+evicted - tag 2da02a set 0, waynum 2
+access num: 398
+adr is: 0x35969010
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xa272d50 from L2- check if not in L1. tag 0x51396a, set 0x4!evicted - tag 51396a set 4, waynum 5
+evicting from cach L1
+evicted adr: 0x251b3cd0 from L1 and dirty- write to L2 tag 0x4a3679a, set 0x0
+evicted - tag 4a3679a set 0, waynum 3
+access num: 399
+adr is: 0x1c512b98
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xdbb9ad8 from L2- check if not in L1. tag 0x6ddcd6, set 0x6!evicted - tag 6ddcd6 set 6, waynum 7
+evicting from cach L1
+evicted adr: 0x333ea620 from L1 and dirty- write to L2 tag 0x667d4c4, set 0x0
+evicted - tag 667d4c4 set 0, waynum 0
+access num: 400
+adr is: 0x21ed3b4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0xd2aa88c from L1 and dirty- write to L2 tag 0x1a55511, set 0x1
+evicted - tag 1a55511 set 1, waynum 7
+access num: 401
+adr is: 0x1d827aac
+Hit L1!
+access num: 402
+adr is: 0xbd9f3b0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x34c5c6d0 from L2- check if not in L1. tag 0x1a62e36, set 0x4!evicted - tag 1a62e36 set 4, waynum 3
+evicting from cach L1
+evicted adr: 0xdb7ad40 from L1 and dirty- write to L2 tag 0x1b6f5a8, set 0x0
+evicted - tag 1b6f5a8 set 0, waynum 4
+access num: 403
+adr is: 0x264c3850
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1f129e70 from L2- check if not in L1. tag 0xf894f3, set 0x4!evicted - tag f894f3 set 4, waynum 6
+evicting from cach L1
+evicted adr: 0x437f4988 from L1 and dirty- write to L2 tag 0x86fe931, set 0x0
+evicted - tag 86fe931 set 0, waynum 6
+access num: 404
+adr is: 0x7840dc8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xc66bc28 from L2- check if not in L1. tag 0x6335e1, set 0x2!evicted - tag 6335e1 set 2, waynum 7
+evicting from cach L1
+evicted adr: 0x1abcc168 from L1 and dirty- write to L2 tag 0x357982d, set 0x0
+evicted - tag 357982d set 0, waynum 5
+access num: 405
+adr is: 0xe2e3fcc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x43a1fc8c from L2- check if not in L1. tag 0x21d0fe4, set 0x3!evicted - tag 21d0fe4 set 3, waynum 5
+evicting from cach L1
+evicted adr: 0x1ba633cc from L1 and dirty- write to L2 tag 0x374c679, set 0x1
+evicted - tag 374c679 set 1, waynum 6
+access num: 406
+adr is: 0xd932f3c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 7ba8481 set 1, waynum 4
+access num: 407
+adr is: 0x274d4008
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x33a4a8a8 from L2- check if not in L1. tag 0x19d2545, set 0x2!evicted - tag 19d2545 set 2, waynum 2
+evicting from cach L1
+evicted - tag 783df3e set 0, waynum 7
+access num: 408
+adr is: 0x3d1b99f8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2339b8e8 from L1 and dirty- write to L2 tag 0x467371d, set 0x0
+evicted - tag 467371d set 0, waynum 1
+access num: 409
+adr is: 0x2e7542fc
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x11c7ae4 from L1 and dirty- write to L2 tag 0x238f5c, set 0x1
+evicted - tag 238f5c set 1, waynum 5
+access num: 410
+adr is: 0x1ecc515c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2b2b91a4 from L1 and dirty- write to L2 tag 0x5657234, set 0x1
+evicted - tag 5657234 set 1, waynum 1
+access num: 411
+adr is: 0x7a805ec
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2353d6ac from L2- check if not in L1. tag 0x11a9eb5, set 0x3!evicted - tag 11a9eb5 set 3, waynum 7
+evicted - tag 46a7ad5 set 1, waynum 3
+access num: 412
+adr is: 0x3c1ef9f0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x19f44ff8 from L1 and dirty- write to L2 tag 0x33e89ff, set 0x0
+evicted - tag 33e89ff set 0, waynum 2
+access num: 413
+adr is: 0xaeb02c8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xf1a8828 from L2- check if not in L1. tag 0x78d441, set 0x2!evicted - tag 78d441 set 2, waynum 0
+evicting from cach L1
+evicted - tag 6b2d202 set 0, waynum 3
+access num: 414
+adr is: 0x404c5800
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1c512b98 from L1 and dirty- write to L2 tag 0x38a2573, set 0x0
+evicted - tag 38a2573 set 0, waynum 0
+access num: 415
+adr is: 0x8b4af54
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x79869f4 from L1 and dirty- write to L2 tag 0xf30d3e, set 0x1
+evicted - tag f30d3e set 1, waynum 2
+access num: 416
+adr is: 0x2dcced04
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 43da76 set 1, waynum 7
+access num: 417
+adr is: 0x1ba633cc
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1d827aac from L1 and dirty- write to L2 tag 0x3b04f55, set 0x1
+evicted - tag 3b04f55 set 1, waynum 0
+access num: 418
+adr is: 0x160fda9c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3a6b47dc from L2- check if not in L1. tag 0x1d35a3e, set 0x7!evicted - tag 1d35a3e set 7, waynum 1
+evicting from cach L1
+evicted adr: 0xe2e3fcc from L1 and dirty- write to L2 tag 0x1c5c7f9, set 0x1
+evicted - tag 1c5c7f9 set 1, waynum 6
+access num: 419
+adr is: 0x28c05944
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x33cf5804 from L2- check if not in L1. tag 0x19e7ac0, set 0x1!evicted - tag 19e7ac0 set 1, waynum 3
+evicting from cach L1
+evicted - tag 1b265e7 set 1, waynum 4
+access num: 420
+adr is: 0x4d130e0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0xbd9f3b0 from L1 and dirty- write to L2 tag 0x17b3e76, set 0x0
+evicted - tag 17b3e76 set 0, waynum 4
+access num: 421
+adr is: 0x1ac1bef8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x9194978 from L2- check if not in L1. tag 0x48ca4b, set 0x6!evicted - tag 48ca4b set 6, waynum 3
+evicting from cach L1
+evicted - tag 4c9870a set 0, waynum 6
+access num: 422
+adr is: 0x252050
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x42594430 from L2- check if not in L1. tag 0x212ca21, set 0x4!evicted - tag 212ca21 set 4, waynum 1
+evicting from cach L1
+evicted adr: 0x7840dc8 from L1 and dirty- write to L2 tag 0xf081b9, set 0x0
+evicted - tag f081b9 set 0, waynum 5
+access num: 423
+adr is: 0x42789434
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x23e29574 from L2- check if not in L1. tag 0x11f14ab, set 0x5!evicted - tag 11f14ab set 5, waynum 0
+evicting from cach L1
+evicted adr: 0x2e7542fc from L1 and dirty- write to L2 tag 0x5cea85f, set 0x1
+evicted - tag 5cea85f set 1, waynum 5
+access num: 424
+adr is: 0x3e91c02c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x21d1930c from L2- check if not in L1. tag 0x10e8c98, set 0x3!evicted - tag 10e8c98 set 3, waynum 6
+evicting from cach L1
+evicted adr: 0x1ecc515c from L1 and dirty- write to L2 tag 0x3d98a2b, set 0x1
+evicted - tag 3d98a2b set 1, waynum 1
+access num: 425
+adr is: 0x2b2b91a4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag f500bd set 1, waynum 3
+access num: 426
+adr is: 0x42bbbb2c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3dd4240c from L2- check if not in L1. tag 0x1eea120, set 0x3!evicted - tag 1eea120 set 3, waynum 1
+evicting from cach L1
+evicted - tag 11695ea set 1, waynum 2
+access num: 427
+adr is: 0x7a805ec
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2dcced04 from L1 and dirty- write to L2 tag 0x5b99da0, set 0x1
+evicted - tag 5b99da0 set 1, waynum 7
+access num: 428
+adr is: 0x9ebae84
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x84503c4 from L2- check if not in L1. tag 0x42281e, set 0x1!evicted - tag 42281e set 1, waynum 4
+evicting from cach L1
+evicted adr: 0x1ba633cc from L1 and dirty- write to L2 tag 0x374c679, set 0x1
+evicted - tag 374c679 set 1, waynum 0
+access num: 429
+adr is: 0xb454634
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 2c1fb53 set 1, waynum 6
+access num: 430
+adr is: 0x271e6088
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x278fcb08 from L2- check if not in L1. tag 0x13c7e58, set 0x2!evicted - tag 13c7e58 set 2, waynum 6
+evicting from cach L1
+evicted - tag 4e9a801 set 0, waynum 7
+access num: 431
+adr is: 0x2a682c3c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x369218bc from L2- check if not in L1. tag 0x1b490c5, set 0x7!evicted - tag 1b490c5 set 7, waynum 5
+evicting from cach L1
+evicted - tag 5180b28 set 1, waynum 4
+access num: 432
+adr is: 0x7840dc8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 7a3733f set 0, waynum 1
+access num: 433
+adr is: 0x24050600
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1c544280 from L2- check if not in L1. tag 0xe2a214, set 0x0!evicted - tag e2a214 set 0, waynum 4
+evicting from cach L1
+evicted - tag 783df3e set 0, waynum 2
+access num: 434
+adr is: 0xaeb02c8
+Hit L1!
+access num: 435
+adr is: 0x2b0929ec
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1d09972c from L2- check if not in L1. tag 0xe84cb9, set 0x3!evicted - tag e84cb9 set 3, waynum 4
+evicting from cach L1
+evicted - tag 84f1286 set 1, waynum 5
+access num: 436
+adr is: 0x24ea4518
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x427538b8 from L2- check if not in L1. tag 0x213a9c5, set 0x6!evicted - tag 213a9c5 set 6, waynum 6
+evicting from cach L1
+evicted - tag 8098b00 set 0, waynum 0
+access num: 437
+adr is: 0xb8d8220
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x339f5460 from L2- check if not in L1. tag 0x19cfaa3, set 0x0!evicted - tag 19cfaa3 set 0, waynum 2
+evicting from cach L1
+evicted - tag 9a261c set 0, waynum 4
+access num: 438
+adr is: 0x333ea620
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1ac1bef8 from L1 and dirty- write to L2 tag 0x35837df, set 0x0
+evicted - tag 35837df set 0, waynum 6
+access num: 439
+adr is: 0x6c223c8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3d40d308 from L2- check if not in L1. tag 0x1ea0698, set 0x2!evicted - tag 1ea0698 set 2, waynum 5
+evicting from cach L1
+evicted adr: 0x252050 from L1 and dirty- write to L2 tag 0x4a40a, set 0x0
+evicted - tag 4a40a set 0, waynum 5
+access num: 440
+adr is: 0x34c5c6d0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x16d0150 from L2- check if not in L1. tag 0xb680a, set 0x4!evicted - tag b680a set 4, waynum 7
+evicting from cach L1
+evicted adr: 0x271e6088 from L1 and dirty- write to L2 tag 0x4e3cc11, set 0x0
+evicted - tag 4e3cc11 set 0, waynum 7
+access num: 441
+adr is: 0x1e242750
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1eee94d0 from L2- check if not in L1. tag 0xf774a6, set 0x4!evicted - tag f774a6 set 4, waynum 4
+evicting from cach L1
+evicted adr: 0x7840dc8 from L1 and dirty- write to L2 tag 0xf081b9, set 0x0
+evicted - tag f081b9 set 0, waynum 1
+access num: 442
+adr is: 0x3714e734
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x38e1dfd4 from L2- check if not in L1. tag 0x1c70efe, set 0x5!evicted - tag 1c70efe set 5, waynum 2
+evicting from cach L1
+evicted - tag 7d23805 set 1, waynum 1
+access num: 443
+adr is: 0x2846df0c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xd2aa88c from L2- check if not in L1. tag 0x695544, set 0x3!evicted - tag 695544 set 3, waynum 0
+evicting from cach L1
+evicted adr: 0x2b2b91a4 from L1 and dirty- write to L2 tag 0x5657234, set 0x1
+evicted - tag 5657234 set 1, waynum 3
+access num: 444
+adr is: 0x1091cc00
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x842e120 from L2- check if not in L1. tag 0x421709, set 0x0!evicted - tag 421709 set 0, waynum 3
+evicting from cach L1
+evicted adr: 0x24050600 from L1 and dirty- write to L2 tag 0x480a0c0, set 0x0
+evicted - tag 480a0c0 set 0, waynum 2
+access num: 445
+adr is: 0x2484ae04
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x41b37a24 from L2- check if not in L1. tag 0x20d9bd1, set 0x1!evicted - tag 20d9bd1 set 1, waynum 5
+evicting from cach L1
+evicted adr: 0x42bbbb2c from L1 and dirty- write to L2 tag 0x8577765, set 0x1
+evicted - tag 8577765 set 1, waynum 2
+access num: 446
+adr is: 0x225b10
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x35969010 from L2- check if not in L1. tag 0x1acb480, set 0x4!evicted - tag 1acb480 set 4, waynum 5
+evicting from cach L1
+evicted adr: 0xaeb02c8 from L1 and dirty- write to L2 tag 0x15d6059, set 0x0
+evicted - tag 15d6059 set 0, waynum 3
+access num: 447
+adr is: 0xf1a8828
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x437f4988 from L2- check if not in L1. tag 0x21bfa4c, set 0x2!evicted - tag 21bfa4c set 2, waynum 1
+evicting from cach L1
+evicted - tag 49d48a3 set 0, waynum 0
+access num: 448
+adr is: 0x2bd09940
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2fc77240 from L2- check if not in L1. tag 0x17e3b92, set 0x0!evicted - tag 17e3b92 set 0, waynum 5
+evicting from cach L1
+evicted - tag 171b044 set 0, waynum 4
+access num: 449
+adr is: 0x3834b108
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1abcc168 from L2- check if not in L1. tag 0xd5e60b, set 0x2!evicted - tag d5e60b set 2, waynum 3
+evicting from cach L1
+evicted adr: 0x333ea620 from L1 and dirty- write to L2 tag 0x667d4c4, set 0x0
+evicted - tag 667d4c4 set 0, waynum 6
+access num: 450
+adr is: 0x232139a8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x274d4008 from L2- check if not in L1. tag 0x13a6a00, set 0x2!evicted - tag 13a6a00 set 2, waynum 2
+evicting from cach L1
+evicted - tag d84479 set 0, waynum 5
+access num: 451
+adr is: 0x397adb0c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1d827aac from L2- check if not in L1. tag 0xec13d5, set 0x3!evicted - tag ec13d5 set 3, waynum 3
+evicting from cach L1
+evicted - tag f500bd set 1, waynum 7
+access num: 452
+adr is: 0x2dcced04
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x9ebae84 from L1 and dirty- write to L2 tag 0x13d75d0, set 0x1
+evicted - tag 13d75d0 set 1, waynum 0
+access num: 453
+adr is: 0x1a82e4fc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x36907adc from L2- check if not in L1. tag 0x1b483d6, set 0x7!evicted - tag 1b483d6 set 7, waynum 6
+evicting from cach L1
+evicted adr: 0xb454634 from L1 and dirty- write to L2 tag 0x168a8c6, set 0x1
+evicted - tag 168a8c6 set 1, waynum 6
+access num: 454
+adr is: 0x3834b108
+Hit L1!
+access num: 455
+adr is: 0x14753630
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x251b3cd0 from L2- check if not in L1. tag 0x128d9e6, set 0x4!evicted - tag 128d9e6 set 4, waynum 2
+evicting from cach L1
+evicted - tag 698b8da set 0, waynum 7
+access num: 456
+adr is: 0x42bbbb2c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 54d0587 set 1, waynum 4
+access num: 457
+adr is: 0x21ed3b4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 561253d set 1, waynum 5
+access num: 458
+adr is: 0x35603878
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2f7b6818 from L2- check if not in L1. tag 0x17bdb40, set 0x6!evicted - tag 17bdb40 set 6, waynum 4
+evicting from cach L1
+evicted adr: 0x1e242750 from L1 and dirty- write to L2 tag 0x3c484ea, set 0x0
+evicted - tag 3c484ea set 0, waynum 1
+access num: 459
+adr is: 0x9792674
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x7524414 from L2- check if not in L1. tag 0x3a9220, set 0x5!evicted - tag 3a9220 set 5, waynum 6
+evicting from cach L1
+evicted adr: 0x3714e734 from L1 and dirty- write to L2 tag 0x6e29ce6, set 0x1
+evicted - tag 6e29ce6 set 1, waynum 1
+access num: 460
+adr is: 0x42789434
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2846df0c from L1 and dirty- write to L2 tag 0x508dbe1, set 0x1
+evicted - tag 508dbe1 set 1, waynum 3
+access num: 461
+adr is: 0x34c5c6d0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 2123980 set 0, waynum 2
+access num: 462
+adr is: 0x2e26abfc
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2484ae04 from L1 and dirty- write to L2 tag 0x49095c0, set 0x1
+evicted - tag 49095c0 set 1, waynum 2
+access num: 463
+adr is: 0x3ad234ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xe2e3fcc from L2- check if not in L1. tag 0x7171fe, set 0x3!evicted - tag 7171fe set 3, waynum 5
+evicting from cach L1
+evicted adr: 0x397adb0c from L1 and dirty- write to L2 tag 0x72f5b61, set 0x1
+evicted - tag 72f5b61 set 1, waynum 7
+access num: 464
+adr is: 0xd932f3c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2dcced04 from L1 and dirty- write to L2 tag 0x5b99da0, set 0x1
+evicted - tag 5b99da0 set 1, waynum 0
+access num: 465
+adr is: 0x2e7542fc
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1a82e4fc from L1 and dirty- write to L2 tag 0x3505c9f, set 0x1
+evicted - tag 3505c9f set 1, waynum 6
+access num: 466
+adr is: 0x3d07ed70
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x264c3850 from L2- check if not in L1. tag 0x13261c2, set 0x4!evicted - tag 13261c2 set 4, waynum 6
+evicting from cach L1
+evicted adr: 0x225b10 from L1 and dirty- write to L2 tag 0x44b62, set 0x0
+evicted - tag 44b62 set 0, waynum 3
+access num: 467
+adr is: 0x1160ff08
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2339b8e8 from L2- check if not in L1. tag 0x119cdc7, set 0x2!evicted - tag 119cdc7 set 2, waynum 4
+evicting from cach L1
+evicted - tag 1e35105 set 0, waynum 0
+access num: 468
+adr is: 0x16cbc1c0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xdb7ad40 from L2- check if not in L1. tag 0x6dbd6a, set 0x0!evicted - tag 6dbd6a set 0, waynum 6
+evicting from cach L1
+evicted adr: 0x2bd09940 from L1 and dirty- write to L2 tag 0x57a1328, set 0x0
+evicted - tag 57a1328 set 0, waynum 4
+access num: 469
+adr is: 0x3bb3b350
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3c1ef9f0 from L2- check if not in L1. tag 0x1e0f7cf, set 0x4!evicted - tag 1e0f7cf set 4, waynum 0
+evicting from cach L1
+evicted - tag 4642735 set 0, waynum 5
+access num: 470
+adr is: 0x1dcda678
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1c1ad2d8 from L2- check if not in L1. tag 0xe0d696, set 0x6!evicted - tag e0d696 set 6, waynum 5
+evicting from cach L1
+evicted adr: 0x3834b108 from L1 and dirty- write to L2 tag 0x7069621, set 0x0
+evicted - tag 7069621 set 0, waynum 6
+access num: 471
+adr is: 0x3d40d308
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x6c223c8 from L2- check if not in L1. tag 0x36111e, set 0x2!evicted - tag 36111e set 2, waynum 5
+evicting from cach L1
+evicted adr: 0x14753630 from L1 and dirty- write to L2 tag 0x28ea6c6, set 0x0
+evicted - tag 28ea6c6 set 0, waynum 7
+access num: 472
+adr is: 0x1f129e70
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xbd9f3b0 from L2- check if not in L1. tag 0x5ecf9d, set 0x4!evicted - tag 5ecf9d set 4, waynum 3
+evicting from cach L1
+evicted - tag 6ac070f set 0, waynum 1
+access num: 473
+adr is: 0x5ba8e84
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x42bbbb2c from L1 and dirty- write to L2 tag 0x8577765, set 0x1
+evicted - tag 8577765 set 1, waynum 4
+access num: 474
+adr is: 0x2582468
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x271e6088 from L2- check if not in L1. tag 0x138f304, set 0x2!evicted - tag 138f304 set 2, waynum 6
+evicting from cach L1
+evicted - tag 698b8da set 0, waynum 2
+access num: 475
+adr is: 0x1eee94d0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x252050 from L2- check if not in L1. tag 0x12902, set 0x4!evicted - tag 12902 set 4, waynum 1
+evicting from cach L1
+evicted - tag 7a0fdae set 0, waynum 3
+access num: 476
+adr is: 0x2586f488
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x7840dc8 from L2- check if not in L1. tag 0x3c206e, set 0x2!evicted - tag 3c206e set 2, waynum 7
+evicting from cach L1
+evicted adr: 0x1160ff08 from L1 and dirty- write to L2 tag 0x22c1fe1, set 0x0
+evicted - tag 22c1fe1 set 0, waynum 0
+access num: 477
+adr is: 0x2339b8e8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xaeb02c8 from L2- check if not in L1. tag 0x575816, set 0x2!evicted - tag 575816 set 2, waynum 0
+evicting from cach L1
+evicted adr: 0x16cbc1c0 from L1 and dirty- write to L2 tag 0x2d97838, set 0x0
+evicted - tag 2d97838 set 0, waynum 4
+access num: 478
+adr is: 0x43017f8c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3e91c02c from L2- check if not in L1. tag 0x1f48e01, set 0x3!evicted - tag 1f48e01 set 3, waynum 6
+evicting from cach L1
+evicted - tag 43da76 set 1, waynum 5
+access num: 479
+adr is: 0x3f8a8c70
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1e242750 from L2- check if not in L1. tag 0xf1213a, set 0x4!evicted - tag f1213a set 4, waynum 4
+evicting from cach L1
+evicted - tag 776766a set 0, waynum 5
+access num: 480
+adr is: 0x35603878
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 3b9b4cf set 0, waynum 6
+access num: 481
+adr is: 0x3714e734
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x9792674 from L1 and dirty- write to L2 tag 0x12f24ce, set 0x1
+evicted - tag 12f24ce set 1, waynum 1
+access num: 482
+adr is: 0x1eee94d0
+Hit L1!
+access num: 483
+adr is: 0x12cbfeac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x7a805ec from L2- check if not in L1. tag 0x3d402f, set 0x3!evicted - tag 3d402f set 3, waynum 7
+evicting from cach L1
+evicted - tag 84f1286 set 1, waynum 3
+access num: 484
+adr is: 0x223232dc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xeff9f1c from L2- check if not in L1. tag 0x77fcf8, set 0x7!evicted - tag 77fcf8 set 7, waynum 3
+evicting from cach L1
+evicted adr: 0x2e26abfc from L1 and dirty- write to L2 tag 0x5c4d57f, set 0x1
+evicted - tag 5c4d57f set 1, waynum 2
+access num: 485
+adr is: 0x34d49d10
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x34c5c6d0 from L2- check if not in L1. tag 0x1a62e36, set 0x4!evicted - tag 1a62e36 set 4, waynum 7
+evicting from cach L1
+evicted adr: 0x3d40d308 from L1 and dirty- write to L2 tag 0x7a81a61, set 0x0
+evicted - tag 7a81a61 set 0, waynum 7
+access num: 486
+adr is: 0x207d6ea8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xf1a8828 from L2- check if not in L1. tag 0x78d441, set 0x2!evicted - tag 78d441 set 2, waynum 1
+evicting from cach L1
+evicted - tag 3e253ce set 0, waynum 1
+access num: 487
+adr is: 0x9ebae84
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 75a4695 set 1, waynum 7
+access num: 488
+adr is: 0x1eee94d0
+Hit L1!
+access num: 489
+adr is: 0x1c512b98
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 4b048d set 0, waynum 2
+access num: 490
+adr is: 0x34ad4cd0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3d07ed70 from L2- check if not in L1. tag 0x1e83f6b, set 0x4!evicted - tag 1e83f6b set 4, waynum 6
+evicting from cach L1
+evicted - tag 4b0de91 set 0, waynum 0
+access num: 491
+adr is: 0x4c82e14
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x30c69534 from L2- check if not in L1. tag 0x18634a9, set 0x5!evicted - tag 18634a9 set 5, waynum 3
+evicting from cach L1
+evicted - tag 1b265e7 set 1, waynum 0
+access num: 492
+adr is: 0xe2e3fcc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ba633cc from L2- check if not in L1. tag 0xdd319e, set 0x3!evicted - tag dd319e set 3, waynum 2
+evicting from cach L1
+evicted adr: 0x2e7542fc from L1 and dirty- write to L2 tag 0x5cea85f, set 0x1
+evicted - tag 5cea85f set 1, waynum 6
+access num: 493
+adr is: 0x23e29574
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x8b4af54 from L2- check if not in L1. tag 0x45a57a, set 0x5!evicted - tag 45a57a set 5, waynum 1
+evicting from cach L1
+evicted adr: 0x5ba8e84 from L1 and dirty- write to L2 tag 0xb751d0, set 0x1
+evicted - tag b751d0 set 1, waynum 4
+access num: 494
+adr is: 0x2582468
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2339b8e8 from L1 and dirty- write to L2 tag 0x467371d, set 0x0
+evicted - tag 467371d set 0, waynum 4
+access num: 495
+adr is: 0xd2aa88c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2b0929ec from L2- check if not in L1. tag 0x158494f, set 0x3!evicted - tag 158494f set 3, waynum 4
+evicting from cach L1
+evicted - tag 8602ff1 set 1, waynum 5
+access num: 496
+adr is: 0x6c223c8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x232139a8 from L2- check if not in L1. tag 0x11909cd, set 0x2!evicted - tag 11909cd set 2, waynum 2
+evicting from cach L1
+evicted adr: 0x3f8a8c70 from L1 and dirty- write to L2 tag 0x7f1518e, set 0x0
+evicted - tag 7f1518e set 0, waynum 5
+access num: 497
+adr is: 0x15d1de9c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x160fda9c from L2- check if not in L1. tag 0xb07ed4, set 0x7!evicted - tag b07ed4 set 7, waynum 1
+evicting from cach L1
+evicted adr: 0x3714e734 from L1 and dirty- write to L2 tag 0x6e29ce6, set 0x1
+evicted - tag 6e29ce6 set 1, waynum 1
+access num: 498
+adr is: 0x3b8385b8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x15d19318 from L2- check if not in L1. tag 0xae8c98, set 0x6!evicted - tag ae8c98 set 6, waynum 0
+evicting from cach L1
+evicted - tag 6ac070f set 0, waynum 6
+access num: 499
+adr is: 0x28c05944
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 2597fd5 set 1, waynum 3
+access num: 500
+adr is: 0xd2aa88c
+Hit L1!
+access num: 501
+adr is: 0x3e91c02c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2846df0c from L2- check if not in L1. tag 0x14236f8, set 0x3!evicted - tag 14236f8 set 3, waynum 0
+evicting from cach L1
+evicted - tag 446465b set 1, waynum 2
+access num: 502
+adr is: 0x207d6ea8
+Hit L1!
+access num: 503
+adr is: 0x114379f8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3d1b99f8 from L2- check if not in L1. tag 0x1e8dccf, set 0x6!evicted - tag 1e8dccf set 6, waynum 1
+evicting from cach L1
+evicted adr: 0x34d49d10 from L1 and dirty- write to L2 tag 0x69a93a2, set 0x0
+evicted - tag 69a93a2 set 0, waynum 7
+access num: 504
+adr is: 0x2bf1b608
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3834b108 from L2- check if not in L1. tag 0x1c1a588, set 0x2!evicted - tag 1c1a588 set 2, waynum 3
+evicting from cach L1
+evicted adr: 0x1eee94d0 from L1 and dirty- write to L2 tag 0x3ddd29a, set 0x0
+evicted - tag 3ddd29a set 0, waynum 3
+access num: 505
+adr is: 0x43017f8c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x9ebae84 from L1 and dirty- write to L2 tag 0x13d75d0, set 0x1
+evicted - tag 13d75d0 set 1, waynum 7
+access num: 506
+adr is: 0x278fcb08
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2586f488 from L2- check if not in L1. tag 0x12c37a4, set 0x2!evicted - tag 12c37a4 set 2, waynum 7
+evicting from cach L1
+evicted adr: 0x1c512b98 from L1 and dirty- write to L2 tag 0x38a2573, set 0x0
+evicted - tag 38a2573 set 0, waynum 2
+access num: 507
+adr is: 0x57efe98
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x19f44ff8 from L2- check if not in L1. tag 0xcfa27f, set 0x6!evicted - tag cfa27f set 6, waynum 2
+evicting from cach L1
+evicted - tag 695a99a set 0, waynum 0
+access num: 508
+adr is: 0x251b3cd0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x225b10 from L2- check if not in L1. tag 0x112d8, set 0x4!evicted - tag 112d8 set 4, waynum 5
+evicting from cach L1
+evicted - tag 4b048d set 0, waynum 4
+access num: 509
+adr is: 0xfc9ee0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x404c5800 from L2- check if not in L1. tag 0x20262c0, set 0x0!evicted - tag 20262c0 set 0, waynum 0
+evicting from cach L1
+evicted - tag d84479 set 0, waynum 5
+access num: 510
+adr is: 0x3b8385b8
+Hit L1!
+access num: 511
+adr is: 0xc66bc28
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1160ff08 from L2- check if not in L1. tag 0x8b07f8, set 0x2!evicted - tag 8b07f8 set 2, waynum 4
+evicting from cach L1
+evicted adr: 0x207d6ea8 from L1 and dirty- write to L2 tag 0x40fadd5, set 0x0
+evicted - tag 40fadd5 set 0, waynum 1
+access num: 512
+adr is: 0x1160ff08
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3d40d308 from L2- check if not in L1. tag 0x1ea0698, set 0x2!evicted - tag 1ea0698 set 2, waynum 5
+evicting from cach L1
+evicted adr: 0x114379f8 from L1 and dirty- write to L2 tag 0x2286f3f, set 0x0
+evicted - tag 2286f3f set 0, waynum 7
+access num: 513
+adr is: 0x3c321f70
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3bb3b350 from L2- check if not in L1. tag 0x1dd9d9a, set 0x4!evicted - tag 1dd9d9a set 4, waynum 0
+evicting from cach L1
+evicted adr: 0x2bf1b608 from L1 and dirty- write to L2 tag 0x57e36c1, set 0x0
+evicted - tag 57e36c1 set 0, waynum 3
+access num: 514
+adr is: 0x333ea620
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 4f1f961 set 0, waynum 2
+access num: 515
+adr is: 0xa272d50
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x14753630 from L2- check if not in L1. tag 0xa3a9b1, set 0x4!evicted - tag a3a9b1 set 4, waynum 2
+evicting from cach L1
+evicted adr: 0x57efe98 from L1 and dirty- write to L2 tag 0xafdfd3, set 0x0
+evicted - tag afdfd3 set 0, waynum 0
+access num: 516
+adr is: 0x23e29574
+Hit L1!
+access num: 517
+adr is: 0x369218bc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ecc515c from L2- check if not in L1. tag 0xf6628a, set 0x7!evicted - tag f6628a set 7, waynum 0
+evicting from cach L1
+evicted - tag 9905c2 set 1, waynum 0
+access num: 518
+adr is: 0x1f129e70
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x251b3cd0 from L1 and dirty- write to L2 tag 0x4a3679a, set 0x0
+evicted - tag 4a3679a set 0, waynum 4
+access num: 519
+adr is: 0x4c82e14
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0xe2e3fcc from L1 and dirty- write to L2 tag 0x1c5c7f9, set 0x1
+evicted - tag 1c5c7f9 set 1, waynum 6
+access num: 520
+adr is: 0x3e91c02c
+Hit L1!
+access num: 521
+adr is: 0x2353d6ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3ad234ac from L2- check if not in L1. tag 0x1d691a5, set 0x3!evicted - tag 1d691a5 set 3, waynum 5
+evicting from cach L1
+evicted - tag 2ba3bd3 set 1, waynum 1
+access num: 522
+adr is: 0x17203468
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2582468 from L2- check if not in L1. tag 0x12c123, set 0x2!evicted - tag 12c123 set 2, waynum 6
+evicting from cach L1
+evicted - tag 1f93dc set 0, waynum 5
+access num: 523
+adr is: 0x179340ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x397adb0c from L2- check if not in L1. tag 0x1cbd6d8, set 0x3!evicted - tag 1cbd6d8 set 3, waynum 3
+evicting from cach L1
+evicted - tag 5180b28 set 1, waynum 3
+access num: 524
+adr is: 0x19511a3c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2a682c3c from L2- check if not in L1. tag 0x1534161, set 0x7!evicted - tag 1534161 set 7, waynum 5
+evicting from cach L1
+evicted adr: 0xd2aa88c from L1 and dirty- write to L2 tag 0x1a55511, set 0x1
+evicted - tag 1a55511 set 1, waynum 5
+access num: 525
+adr is: 0x16767a08
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2339b8e8 from L2- check if not in L1. tag 0x119cdc7, set 0x2!evicted - tag 119cdc7 set 2, waynum 0
+evicting from cach L1
+evicted - tag 77070b7 set 0, waynum 6
+access num: 526
+adr is: 0x7524414
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x79869f4 from L2- check if not in L1. tag 0x3cc34f, set 0x5!evicted - tag 3cc34f set 5, waynum 7
+evicting from cach L1
+evicted - tag 8602ff1 set 1, waynum 7
+access num: 527
+adr is: 0x215b0a74
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xb454634 from L2- check if not in L1. tag 0x5a2a31, set 0x5!evicted - tag 5a2a31 set 5, waynum 4
+evicting from cach L1
+evicted adr: 0x23e29574 from L1 and dirty- write to L2 tag 0x47c52ae, set 0x1
+evicted - tag 47c52ae set 1, waynum 4
+access num: 528
+adr is: 0x15d1de9c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 6d24317 set 1, waynum 0
+access num: 529
+adr is: 0xfc9ee0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0xc66bc28 from L1 and dirty- write to L2 tag 0x18cd785, set 0x0
+evicted - tag 18cd785 set 0, waynum 1
+access num: 530
+adr is: 0x9792674
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 9905c2 set 1, waynum 6
+access num: 531
+adr is: 0x134ce19c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xd932f3c from L2- check if not in L1. tag 0x6c9979, set 0x7!evicted - tag 6c9979 set 7, waynum 7
+evicting from cach L1
+evicted - tag 7d23805 set 1, waynum 2
+access num: 532
+adr is: 0x2e583cac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x42bbbb2c from L2- check if not in L1. tag 0x215ddd9, set 0x3!evicted - tag 215ddd9 set 3, waynum 1
+evicting from cach L1
+evicted - tag 46a7ad5 set 1, waynum 1
+access num: 533
+adr is: 0xfc9ee0
+Hit L1!
+access num: 534
+adr is: 0x43017f8c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 2f26815 set 1, waynum 3
+access num: 535
+adr is: 0x2e26abfc
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 32a2347 set 1, waynum 5
+access num: 536
+adr is: 0x1ecc515c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1a82e4fc from L2- check if not in L1. tag 0xd41727, set 0x7!evicted - tag d41727 set 7, waynum 6
+evicting from cach L1
+evicted - tag ea4882 set 1, waynum 7
+access num: 537
+adr is: 0x29983930
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x34ad4cd0 from L2- check if not in L1. tag 0x1a56a66, set 0x4!evicted - tag 1a56a66 set 4, waynum 6
+evicting from cach L1
+evicted adr: 0x1160ff08 from L1 and dirty- write to L2 tag 0x22c1fe1, set 0x0
+evicted - tag 22c1fe1 set 0, waynum 7
+access num: 538
+adr is: 0x2ab43910
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3f8a8c70 from L2- check if not in L1. tag 0x1fc5463, set 0x4!evicted - tag 1fc5463 set 4, waynum 4
+evicting from cach L1
+evicted adr: 0x3c321f70 from L1 and dirty- write to L2 tag 0x78643ee, set 0x0
+evicted - tag 78643ee set 0, waynum 3
+access num: 539
+adr is: 0x1eee94d0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x333ea620 from L1 and dirty- write to L2 tag 0x667d4c4, set 0x0
+evicted - tag 667d4c4 set 0, waynum 2
+access num: 540
+adr is: 0x3ad234ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x12cbfeac from L2- check if not in L1. tag 0x965ff5, set 0x3!evicted - tag 965ff5 set 3, waynum 7
+evicting from cach L1
+evicted - tag 42b614e set 1, waynum 4
+access num: 541
+adr is: 0x1091cc00
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 144e5aa set 0, waynum 0
+access num: 542
+adr is: 0x4c82e14
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 2ba3bd3 set 1, waynum 0
+access num: 543
+adr is: 0x218b1eb0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x34d49d10 from L2- check if not in L1. tag 0x1a6a4e8, set 0x4!evicted - tag 1a6a4e8 set 4, waynum 7
+evicting from cach L1
+evicted - tag 3e253ce set 0, waynum 4
+access num: 544
+adr is: 0x2c3a07b8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x24ea4518 from L2- check if not in L1. tag 0x1275228, set 0x6!evicted - tag 1275228 set 6, waynum 6
+evicting from cach L1
+evicted adr: 0x17203468 from L1 and dirty- write to L2 tag 0x2e4068d, set 0x0
+evicted - tag 2e4068d set 0, waynum 5
+access num: 545
+adr is: 0x29799ec0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x4d130e0 from L2- check if not in L1. tag 0x268987, set 0x0!evicted - tag 268987 set 0, waynum 1
+evicting from cach L1
+evicted - tag 2cecf41 set 0, waynum 6
+access num: 546
+adr is: 0x23e29574
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x9792674 from L1 and dirty- write to L2 tag 0x12f24ce, set 0x1
+evicted - tag 12f24ce set 1, waynum 6
+access num: 547
+adr is: 0x19511a3c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x134ce19c from L1 and dirty- write to L2 tag 0x2699c33, set 0x1
+evicted - tag 2699c33 set 1, waynum 2
+access num: 548
+adr is: 0x359c4b5c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x223232dc from L2- check if not in L1. tag 0x1119196, set 0x7!evicted - tag 1119196 set 7, waynum 3
+evicting from cach L1
+evicted - tag 5cb0795 set 1, waynum 1
+access num: 549
+adr is: 0x42313a6c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3e91c02c from L2- check if not in L1. tag 0x1f48e01, set 0x3!evicted - tag 1f48e01 set 3, waynum 0
+evicting from cach L1
+evicted - tag 8602ff1 set 1, waynum 3
+access num: 550
+adr is: 0x10a8f3a0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xb8d8220 from L2- check if not in L1. tag 0x5c6c11, set 0x0!evicted - tag 5c6c11 set 0, waynum 2
+evicting from cach L1
+evicted - tag 1f93dc set 0, waynum 1
+access num: 551
+adr is: 0x2b0929ec
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xe2e3fcc from L2- check if not in L1. tag 0x7171fe, set 0x3!evicted - tag 7171fe set 3, waynum 2
+evicting from cach L1
+evicted adr: 0x2e26abfc from L1 and dirty- write to L2 tag 0x5c4d57f, set 0x1
+evicted - tag 5c4d57f set 1, waynum 5
+access num: 552
+adr is: 0x21d1930c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2353d6ac from L2- check if not in L1. tag 0x11a9eb5, set 0x3!evicted - tag 11a9eb5 set 3, waynum 5
+evicting from cach L1
+evicted adr: 0x1ecc515c from L1 and dirty- write to L2 tag 0x3d98a2b, set 0x1
+evicted - tag 3d98a2b set 1, waynum 7
+access num: 553
+adr is: 0xc66bc28
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 5330726 set 0, waynum 7
+access num: 554
+adr is: 0x264c3850
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xa272d50 from L2- check if not in L1. tag 0x51396a, set 0x4!evicted - tag 51396a set 4, waynum 2
+evicting from cach L1
+evicted - tag 5568722 set 0, waynum 3
+access num: 555
+adr is: 0x42594430
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1f129e70 from L2- check if not in L1. tag 0xf894f3, set 0x4!evicted - tag f894f3 set 4, waynum 3
+evicting from cach L1
+evicted adr: 0x1eee94d0 from L1 and dirty- write to L2 tag 0x3ddd29a, set 0x0
+evicted - tag 3ddd29a set 0, waynum 2
+access num: 556
+adr is: 0x3d07ed70
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x251b3cd0 from L2- check if not in L1. tag 0x128d9e6, set 0x4!evicted - tag 128d9e6 set 4, waynum 5
+evicting from cach L1
+evicted - tag 2123980 set 0, waynum 0
+access num: 557
+adr is: 0xfc9ee0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 43163d6 set 0, waynum 4
+access num: 558
+adr is: 0x42313a6c
+Hit L1!
+access num: 559
+adr is: 0x3ad234ac
+Hit L1!
+access num: 560
+adr is: 0x1dcda678
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2c3a07b8 from L1 and dirty- write to L2 tag 0x58740f7, set 0x0
+evicted - tag 58740f7 set 0, waynum 5
+access num: 561
+adr is: 0x3d40d308
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x6c223c8 from L2- check if not in L1. tag 0x36111e, set 0x2!evicted - tag 36111e set 2, waynum 2
+evicting from cach L1
+evicted adr: 0x29799ec0 from L1 and dirty- write to L2 tag 0x52f33d8, set 0x0
+evicted - tag 52f33d8 set 0, waynum 6
+access num: 562
+adr is: 0x41dadc9c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2e7542fc from L2- check if not in L1. tag 0x173aa17, set 0x7!evicted - tag 173aa17 set 7, waynum 4
+evicting from cach L1
+evicted - tag 9905c2 set 1, waynum 0
+access num: 563
+adr is: 0x42313a6c
+Hit L1!
+access num: 564
+adr is: 0x33a4a8a8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x278fcb08 from L2- check if not in L1. tag 0x13c7e58, set 0x2!evicted - tag 13c7e58 set 2, waynum 7
+evicting from cach L1
+evicted - tag 2151e74 set 0, waynum 1
+access num: 565
+adr is: 0x3d40d308
+Hit L1!
+access num: 566
+adr is: 0x225b10
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x29983930 from L2- check if not in L1. tag 0x14cc1c9, set 0x4!evicted - tag 14cc1c9 set 4, waynum 6
+evicting from cach L1
+evicted adr: 0xc66bc28 from L1 and dirty- write to L2 tag 0x18cd785, set 0x0
+evicted - tag 18cd785 set 0, waynum 7
+access num: 567
+adr is: 0x3b8385b8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 4c9870a set 0, waynum 3
+access num: 568
+adr is: 0x35969010
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2ab43910 from L2- check if not in L1. tag 0x155a1c8, set 0x4!evicted - tag 155a1c8 set 4, waynum 4
+evicting from cach L1
+evicted adr: 0x42594430 from L1 and dirty- write to L2 tag 0x84b2886, set 0x0
+evicted - tag 84b2886 set 0, waynum 2
+access num: 569
+adr is: 0x3d07ed70
+Hit L1!
+access num: 570
+adr is: 0x333ea620
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 1f93dc set 0, waynum 4
+access num: 571
+adr is: 0x19f44ff8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ac1bef8 from L2- check if not in L1. tag 0xd60df7, set 0x6!evicted - tag d60df7 set 6, waynum 3
+evicting from cach L1
+evicted - tag 3b9b4cf set 0, waynum 5
+access num: 572
+adr is: 0xa272d50
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3c321f70 from L2- check if not in L1. tag 0x1e190fb, set 0x4!evicted - tag 1e190fb set 4, waynum 0
+evicting from cach L1
+evicted - tag 6749515 set 0, waynum 1
+access num: 573
+adr is: 0x1e242750
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x218b1eb0 from L2- check if not in L1. tag 0x10c58f5, set 0x4!evicted - tag 10c58f5 set 4, waynum 7
+evicting from cach L1
+evicted adr: 0x3d40d308 from L1 and dirty- write to L2 tag 0x7a81a61, set 0x0
+evicted - tag 7a81a61 set 0, waynum 6
+access num: 574
+adr is: 0x225b10
+Hit L1!
+access num: 575
+adr is: 0x232139a8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x207d6ea8 from L2- check if not in L1. tag 0x103eb75, set 0x2!evicted - tag 103eb75 set 2, waynum 1
+evicting from cach L1
+evicted - tag 77070b7 set 0, waynum 3
+access num: 576
+adr is: 0x84503c4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3268b424 from L2- check if not in L1. tag 0x19345a1, set 0x1!evicted - tag 19345a1 set 1, waynum 6
+evicting from cach L1
+evicted adr: 0x23e29574 from L1 and dirty- write to L2 tag 0x47c52ae, set 0x1
+evicted - tag 47c52ae set 1, waynum 6
+access num: 577
+adr is: 0x7524414
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 32a2347 set 1, waynum 2
+access num: 578
+adr is: 0x2a82ccf4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x21ed3b4 from L2- check if not in L1. tag 0x10f69d, set 0x5!evicted - tag 10f69d set 5, waynum 5
+evicting from cach L1
+evicted adr: 0x359c4b5c from L1 and dirty- write to L2 tag 0x6b3896b, set 0x1
+evicted - tag 6b3896b set 1, waynum 1
+access num: 579
+adr is: 0xe2e3fcc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x179340ac from L2- check if not in L1. tag 0xbc9a05, set 0x3!evicted - tag bc9a05 set 3, waynum 3
+evicting from cach L1
+evicted - tag 561253d set 1, waynum 5
+access num: 580
+adr is: 0x397adb0c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xd2aa88c from L2- check if not in L1. tag 0x695544, set 0x3!evicted - tag 695544 set 3, waynum 4
+evicting from cach L1
+evicted adr: 0x21d1930c from L1 and dirty- write to L2 tag 0x43a3261, set 0x1
+evicted - tag 43a3261 set 1, waynum 7
+access num: 581
+adr is: 0x29799ec0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 6b2d202 set 0, waynum 2
+access num: 582
+adr is: 0x19234e14
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x42789434 from L2- check if not in L1. tag 0x213c4a1, set 0x5!evicted - tag 213c4a1 set 5, waynum 0
+evicting from cach L1
+evicted - tag 75a4695 set 1, waynum 4
+access num: 583
+adr is: 0x20cf074c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2e583cac from L2- check if not in L1. tag 0x172c1e5, set 0x3!evicted - tag 172c1e5 set 3, waynum 1
+evicting from cach L1
+evicted adr: 0x41dadc9c from L1 and dirty- write to L2 tag 0x83b5b93, set 0x1
+evicted - tag 83b5b93 set 1, waynum 0
+access num: 584
+adr is: 0x29983930
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x264c3850 from L2- check if not in L1. tag 0x13261c2, set 0x4!evicted - tag 13261c2 set 4, waynum 2
+evicting from cach L1
+evicted - tag 7a0fdae set 0, waynum 0
+access num: 585
+adr is: 0x18c19414
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3714e734 from L2- check if not in L1. tag 0x1b8a739, set 0x5!evicted - tag 1b8a739 set 5, waynum 2
+evicting from cach L1
+evicted adr: 0x42313a6c from L1 and dirty- write to L2 tag 0x846274d, set 0x1
+evicted - tag 846274d set 1, waynum 3
+access num: 586
+adr is: 0x1ac1bef8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x35603878 from L2- check if not in L1. tag 0x1ab01c3, set 0x6!evicted - tag 1ab01c3 set 6, waynum 4
+evicting from cach L1
+evicted adr: 0x333ea620 from L1 and dirty- write to L2 tag 0x667d4c4, set 0x0
+evicted - tag 667d4c4 set 0, waynum 4
+access num: 587
+adr is: 0x2bc5f294
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x215b0a74 from L2- check if not in L1. tag 0x10ad853, set 0x5!evicted - tag 10ad853 set 5, waynum 4
+evicting from cach L1
+evicted adr: 0x84503c4 from L1 and dirty- write to L2 tag 0x108a078, set 0x1
+evicted - tag 108a078 set 1, waynum 6
+access num: 588
+adr is: 0x17203468
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x19f44ff8 from L1 and dirty- write to L2 tag 0x33e89ff, set 0x0
+evicted - tag 33e89ff set 0, waynum 5
+access num: 589
+adr is: 0x4924268
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2bf1b608 from L2- check if not in L1. tag 0x15f8db0, set 0x2!evicted - tag 15f8db0 set 2, waynum 3
+evicting from cach L1
+evicted - tag 144e5aa set 0, waynum 1
+access num: 590
+adr is: 0x19f44ff8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1e242750 from L1 and dirty- write to L2 tag 0x3c484ea, set 0x0
+evicted - tag 3c484ea set 0, waynum 6
+access num: 591
+adr is: 0x218b1eb0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1eee94d0 from L2- check if not in L1. tag 0xf774a6, set 0x4!evicted - tag f774a6 set 4, waynum 1
+evicting from cach L1
+evicted adr: 0x225b10 from L1 and dirty- write to L2 tag 0x44b62, set 0x0
+evicted - tag 44b62 set 0, waynum 7
+access num: 592
+adr is: 0x8b4af54
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x4c82e14 from L2- check if not in L1. tag 0x264170, set 0x5!evicted - tag 264170 set 5, waynum 3
+evicting from cach L1
+evicted - tag ea4882 set 1, waynum 2
+access num: 593
+adr is: 0xb8d8220
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x24050600 from L2- check if not in L1. tag 0x1202830, set 0x0!evicted - tag 1202830 set 0, waynum 4
+evicting from cach L1
+evicted - tag 4642735 set 0, waynum 3
+access num: 594
+adr is: 0x264c3850
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3d07ed70 from L2- check if not in L1. tag 0x1e83f6b, set 0x4!evicted - tag 1e83f6b set 4, waynum 5
+evicting from cach L1
+evicted adr: 0x29799ec0 from L1 and dirty- write to L2 tag 0x52f33d8, set 0x0
+evicted - tag 52f33d8 set 0, waynum 2
+access num: 595
+adr is: 0x404c5800
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2bd09940 from L2- check if not in L1. tag 0x15e84ca, set 0x0!evicted - tag 15e84ca set 0, waynum 5
+evicting from cach L1
+evicted - tag 5330726 set 0, waynum 0
+access num: 596
+adr is: 0x114379f8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x1ac1bef8 from L1 and dirty- write to L2 tag 0x35837df, set 0x0
+evicted - tag 35837df set 0, waynum 4
+access num: 597
+adr is: 0x842e120
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x16cbc1c0 from L2- check if not in L1. tag 0xb65e0e, set 0x0!evicted - tag b65e0e set 0, waynum 6
+evicting from cach L1
+evicted adr: 0x17203468 from L1 and dirty- write to L2 tag 0x2e4068d, set 0x0
+evicted - tag 2e4068d set 0, waynum 5
+access num: 598
+adr is: 0x2f7b6818
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1c512b98 from L2- check if not in L1. tag 0xe2895c, set 0x6!evicted - tag e2895c set 6, waynum 7
+evicting from cach L1
+evicted adr: 0x4924268 from L1 and dirty- write to L2 tag 0x92484d, set 0x0
+evicted - tag 92484d set 0, waynum 1
+access num: 599
+adr is: 0x1447c1b8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x57efe98 from L2- check if not in L1. tag 0x2bf7f4, set 0x6!evicted - tag 2bf7f4 set 6, waynum 2
+evicting from cach L1
+evicted adr: 0x19f44ff8 from L1 and dirty- write to L2 tag 0x33e89ff, set 0x0
+evicted - tag 33e89ff set 0, waynum 6
+access num: 600
+adr is: 0x79869f4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x9792674 from L2- check if not in L1. tag 0x4bc933, set 0x5!evicted - tag 4bc933 set 5, waynum 6
+evicting from cach L1
+evicted adr: 0x2a82ccf4 from L1 and dirty- write to L2 tag 0x550599e, set 0x1
+evicted - tag 550599e set 1, waynum 1
+access num: 601
+adr is: 0x3c1ef9f0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x35969010 from L2- check if not in L1. tag 0x1acb480, set 0x4!evicted - tag 1acb480 set 4, waynum 4
+evicting from cach L1
+evicted - tag 43163d6 set 0, waynum 7
+access num: 602
+adr is: 0x175c8e50
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x42594430 from L2- check if not in L1. tag 0x212ca21, set 0x4!evicted - tag 212ca21 set 4, waynum 3
+evicting from cach L1
+evicted - tag 171b044 set 0, waynum 3
+access num: 603
+adr is: 0x3268b424
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x11c7ae4 from L2- check if not in L1. tag 0x8e3d7, set 0x1!evicted - tag 8e3d7 set 1, waynum 2
+evicting from cach L1
+evicted adr: 0xe2e3fcc from L1 and dirty- write to L2 tag 0x1c5c7f9, set 0x1
+evicted - tag 1c5c7f9 set 1, waynum 5
+access num: 604
+adr is: 0x3eec0e3c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x369218bc from L2- check if not in L1. tag 0x1b490c5, set 0x7!evicted - tag 1b490c5 set 7, waynum 0
+evicting from cach L1
+evicted adr: 0x397adb0c from L1 and dirty- write to L2 tag 0x72f5b61, set 0x1
+evicted - tag 72f5b61 set 1, waynum 7
+access num: 605
+adr is: 0x1091cc00
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 4c9870a set 0, waynum 2
+access num: 606
+adr is: 0xaa57068
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x16767a08 from L2- check if not in L1. tag 0xb3b3d0, set 0x2!evicted - tag b3b3d0 set 2, waynum 0
+evicting from cach L1
+evicted - tag 8098b00 set 0, waynum 0
+access num: 607
+adr is: 0x36907adc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x15d1de9c from L2- check if not in L1. tag 0xae8ef4, set 0x7!evicted - tag ae8ef4 set 7, waynum 1
+evicting from cach L1
+evicted - tag 32469c2 set 1, waynum 4
+access num: 608
+adr is: 0x2c3a07b8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x114379f8 from L1 and dirty- write to L2 tag 0x2286f3f, set 0x0
+evicted - tag 2286f3f set 0, waynum 4
+access num: 609
+adr is: 0x1ecc515c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x20cf074c from L1 and dirty- write to L2 tag 0x419e0e9, set 0x1
+evicted - tag 419e0e9 set 1, waynum 0
+access num: 610
+adr is: 0x19234e14
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x18c19414 from L1 and dirty- write to L2 tag 0x3183282, set 0x1
+evicted - tag 3183282 set 1, waynum 3
+access num: 611
+adr is: 0x42bbbb2c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x43017f8c from L2- check if not in L1. tag 0x2180bfc, set 0x3!evicted - tag 2180bfc set 3, waynum 6
+evicting from cach L1
+evicted - tag 578be52 set 1, waynum 6
+access num: 612
+adr is: 0x207d6ea8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1160ff08 from L2- check if not in L1. tag 0x8b07f8, set 0x2!evicted - tag 8b07f8 set 2, waynum 5
+evicting from cach L1
+evicted - tag 1085c24 set 0, waynum 5
+access num: 613
+adr is: 0x2e7542fc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x19511a3c from L2- check if not in L1. tag 0xca88d1, set 0x7!evicted - tag ca88d1 set 7, waynum 5
+evicting from cach L1
+evicted - tag 11695ea set 1, waynum 2
+access num: 614
+adr is: 0x35969010
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xa272d50 from L2- check if not in L1. tag 0x51396a, set 0x4!evicted - tag 51396a set 4, waynum 0
+evicting from cach L1
+evicted adr: 0x2f7b6818 from L1 and dirty- write to L2 tag 0x5ef6d03, set 0x0
+evicted - tag 5ef6d03 set 0, waynum 1
+access num: 615
+adr is: 0x2b0929ec
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x79869f4 from L1 and dirty- write to L2 tag 0xf30d3e, set 0x1
+evicted - tag f30d3e set 1, waynum 1
+access num: 616
+adr is: 0x2a82ccf4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 64d1684 set 1, waynum 5
+access num: 617
+adr is: 0x3eec0e3c
+Hit L1!
+access num: 618
+adr is: 0x1ac1bef8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 288f837 set 0, waynum 6
+access num: 619
+adr is: 0x2586f488
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x33a4a8a8 from L2- check if not in L1. tag 0x19d2545, set 0x2!evicted - tag 19d2545 set 2, waynum 7
+evicting from cach L1
+evicted - tag 783df3e set 0, waynum 7
+access num: 620
+adr is: 0x36beedf8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1dcda678 from L2- check if not in L1. tag 0xee6d33, set 0x6!evicted - tag ee6d33 set 6, waynum 5
+evicting from cach L1
+evicted - tag 2eb91ca set 0, waynum 3
+access num: 621
+adr is: 0x225b10
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 2123980 set 0, waynum 2
+access num: 622
+adr is: 0x369218bc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x134ce19c from L2- check if not in L1. tag 0x9a670c, set 0x7!evicted - tag 9a670c set 7, waynum 7
+evicting from cach L1
+evicted - tag 6d20f5b set 1, waynum 4
+access num: 623
+adr is: 0x274d4008
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xc66bc28 from L2- check if not in L1. tag 0x6335e1, set 0x2!evicted - tag 6335e1 set 2, waynum 4
+evicting from cach L1
+evicted adr: 0xaa57068 from L1 and dirty- write to L2 tag 0x154ae0d, set 0x0
+evicted - tag 154ae0d set 0, waynum 0
+access num: 624
+adr is: 0x10a8f3a0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x2c3a07b8 from L1 and dirty- write to L2 tag 0x58740f7, set 0x0
+evicted - tag 58740f7 set 0, waynum 4
+access num: 625
+adr is: 0x2353d6ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3ad234ac from L2- check if not in L1. tag 0x1d691a5, set 0x3!evicted - tag 1d691a5 set 3, waynum 7
+evicting from cach L1
+evicted adr: 0x1ecc515c from L1 and dirty- write to L2 tag 0x3d98a2b, set 0x1
+evicted - tag 3d98a2b set 1, waynum 0
+access num: 626
+adr is: 0x29983930
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x207d6ea8 from L1 and dirty- write to L2 tag 0x40fadd5, set 0x0
+evicted - tag 40fadd5 set 0, waynum 5
+access num: 627
+adr is: 0x359c4b5c
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 32469c2 set 1, waynum 3
+access num: 628
+adr is: 0x2586f488
+Hit L1!
+access num: 629
+adr is: 0x160fda9c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2e26abfc from L2- check if not in L1. tag 0x171355f, set 0x7!evicted - tag 171355f set 7, waynum 2
+evicting from cach L1
+evicted adr: 0x42bbbb2c from L1 and dirty- write to L2 tag 0x8577765, set 0x1
+evicted - tag 8577765 set 1, waynum 6
+access num: 630
+adr is: 0x57efe98
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3b8385b8 from L2- check if not in L1. tag 0x1dc1c2d, set 0x6!evicted - tag 1dc1c2d set 6, waynum 0
+evicting from cach L1
+evicted - tag 6b2d202 set 0, waynum 1
+access num: 631
+adr is: 0x3e1ef634
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x23e29574 from L2- check if not in L1. tag 0x11f14ab, set 0x5!evicted - tag 11f14ab set 5, waynum 1
+evicting from cach L1
+evicted adr: 0x2e7542fc from L1 and dirty- write to L2 tag 0x5cea85f, set 0x1
+evicted - tag 5cea85f set 1, waynum 2
+access num: 632
+adr is: 0x3dd4240c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x21d1930c from L2- check if not in L1. tag 0x10e8c98, set 0x3!evicted - tag 10e8c98 set 3, waynum 5
+evicting from cach L1
+evicted - tag 561253d set 1, waynum 1
+access num: 633
+adr is: 0x2db8cbe8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3d40d308 from L2- check if not in L1. tag 0x1ea0698, set 0x2!evicted - tag 1ea0698 set 2, waynum 2
+evicting from cach L1
+evicted adr: 0x1ac1bef8 from L1 and dirty- write to L2 tag 0x35837df, set 0x0
+evicted - tag 35837df set 0, waynum 6
+access num: 634
+adr is: 0x29799ec0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 6d7ddbf set 0, waynum 3
+access num: 635
+adr is: 0x223232dc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x41dadc9c from L2- check if not in L1. tag 0x20ed6e4, set 0x7!evicted - tag 20ed6e4 set 7, waynum 4
+evicting from cach L1
+evicted adr: 0x2a82ccf4 from L1 and dirty- write to L2 tag 0x550599e, set 0x1
+evicted - tag 550599e set 1, waynum 5
+access num: 636
+adr is: 0x17aec080
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xfc9ee0 from L2- check if not in L1. tag 0x7e4f7, set 0x0!evicted - tag 7e4f7 set 0, waynum 0
+evicting from cach L1
+evicted adr: 0x225b10 from L1 and dirty- write to L2 tag 0x44b62, set 0x0
+evicted - tag 44b62 set 0, waynum 2
+access num: 637
+adr is: 0xdbb9ad8
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1447c1b8 from L2- check if not in L1. tag 0xa23e0d, set 0x6!evicted - tag a23e0d set 6, waynum 2
+evicting from cach L1
+evicted - tag 4e9a801 set 0, waynum 0
+access num: 638
+adr is: 0x16cbc1c0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x333ea620 from L2- check if not in L1. tag 0x199f531, set 0x0!evicted - tag 199f531 set 0, waynum 7
+evicting from cach L1
+evicted - tag 2151e74 set 0, waynum 4
+access num: 639
+adr is: 0x35969010
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 5330726 set 0, waynum 5
+access num: 640
+adr is: 0x21ed3b4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x7524414 from L2- check if not in L1. tag 0x3a9220, set 0x5!evicted - tag 3a9220 set 5, waynum 7
+evicting from cach L1
+evicted adr: 0x3eec0e3c from L1 and dirty- write to L2 tag 0x7dd81c7, set 0x1
+evicted - tag 7dd81c7 set 1, waynum 7
+access num: 641
+adr is: 0x57efe98
+Hit L1!
+access num: 642
+adr is: 0x2bc5f294
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 6d24317 set 1, waynum 4
+access num: 643
+adr is: 0x37949128
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x232139a8 from L2- check if not in L1. tag 0x11909cd, set 0x2!evicted - tag 11909cd set 2, waynum 1
+evicting from cach L1
+evicted - tag 4b0de91 set 0, waynum 7
+access num: 644
+adr is: 0x24050600
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xb8d8220 from L2- check if not in L1. tag 0x5c6c11, set 0x0!evicted - tag 5c6c11 set 0, waynum 4
+evicting from cach L1
+evicted - tag 5b7197d set 0, waynum 6
+access num: 645
+adr is: 0x1db2c508
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x17203468 from L2- check if not in L1. tag 0xb901a3, set 0x2!evicted - tag b901a3 set 2, waynum 6
+evicting from cach L1
+evicted adr: 0x29799ec0 from L1 and dirty- write to L2 tag 0x52f33d8, set 0x0
+evicted - tag 52f33d8 set 0, waynum 3
+access num: 646
+adr is: 0x3a6b47dc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x36907adc from L2- check if not in L1. tag 0x1b483d6, set 0x7!evicted - tag 1b483d6 set 7, waynum 1
+evicting from cach L1
+evicted - tag 46a7ad5 set 1, waynum 0
+access num: 647
+adr is: 0x437f4988
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x4924268 from L2- check if not in L1. tag 0x249213, set 0x2!evicted - tag 249213 set 2, waynum 3
+evicting from cach L1
+evicted adr: 0x17aec080 from L1 and dirty- write to L2 tag 0x2f5d810, set 0x0
+evicted - tag 2f5d810 set 0, waynum 2
+access num: 648
+adr is: 0x1f129e70
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1e242750 from L2- check if not in L1. tag 0xf1213a, set 0x4!evicted - tag f1213a set 4, waynum 7
+evicting from cach L1
+evicted adr: 0xdbb9ad8 from L1 and dirty- write to L2 tag 0x1b7735b, set 0x0
+evicted - tag 1b7735b set 0, waynum 0
+access num: 649
+adr is: 0x34d4dc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x369218bc from L2- check if not in L1. tag 0x1b490c5, set 0x7!evicted - tag 1b490c5 set 7, waynum 7
+evicting from cach L1
+evicted adr: 0x359c4b5c from L1 and dirty- write to L2 tag 0x6b3896b, set 0x1
+evicted - tag 6b3896b set 1, waynum 3
+access num: 650
+adr is: 0x5ba8e84
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 2c1fb53 set 1, waynum 6
+access num: 651
+adr is: 0xb99a4f4
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x8b4af54 from L2- check if not in L1. tag 0x45a57a, set 0x5!evicted - tag 45a57a set 5, waynum 3
+evicting from cach L1
+evicted adr: 0x3e1ef634 from L1 and dirty- write to L2 tag 0x7c3dec6, set 0x1
+evicted - tag 7c3dec6 set 1, waynum 2
+access num: 652
+adr is: 0x2dcced04
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 7ba8481 set 1, waynum 1
+access num: 653
+adr is: 0x35969010
+Hit L1!
+access num: 654
+adr is: 0xf92a68c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x42313a6c from L2- check if not in L1. tag 0x21189d3, set 0x3!evicted - tag 21189d3 set 3, waynum 0
+evicting from cach L1
+evicted - tag 446465b set 1, waynum 5
+access num: 655
+adr is: 0x264c3850
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x16cbc1c0 from L1 and dirty- write to L2 tag 0x2d97838, set 0x0
+evicted - tag 2d97838 set 0, waynum 4
+access num: 656
+adr is: 0x34d4dc
+Hit L1!
+access num: 657
+adr is: 0x24050600
+Hit L1!
+access num: 658
+adr is: 0x1c544280
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x404c5800 from L2- check if not in L1. tag 0x20262c0, set 0x0!evicted - tag 20262c0 set 0, waynum 5
+evicting from cach L1
+evicted adr: 0x57efe98 from L1 and dirty- write to L2 tag 0xafdfd3, set 0x0
+evicted - tag afdfd3 set 0, waynum 1
+access num: 659
+adr is: 0x278fcb08
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x2586f488 from L2- check if not in L1. tag 0x12c37a4, set 0x2!evicted - tag 12c37a4 set 2, waynum 7
+evicting from cach L1
+evicted - tag 6f29225 set 0, waynum 7
+access num: 660
+adr is: 0xc66bc28
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x274d4008 from L2- check if not in L1. tag 0x13a6a00, set 0x2!evicted - tag 13a6a00 set 2, waynum 4
+evicting from cach L1
+evicted - tag 3b658a1 set 0, waynum 3
+access num: 661
+adr is: 0x17203468
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xaa57068 from L2- check if not in L1. tag 0x552b83, set 0x2!evicted - tag 552b83 set 2, waynum 0
+evicting from cach L1
+evicted adr: 0x437f4988 from L1 and dirty- write to L2 tag 0x86fe931, set 0x0
+evicted - tag 86fe931 set 0, waynum 2
+access num: 662
+adr is: 0x175c8e50
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 3e253ce set 0, waynum 0
+access num: 663
+adr is: 0x278fcb08
+Hit L1!
+access num: 664
+adr is: 0x271e6088
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x207d6ea8 from L2- check if not in L1. tag 0x103eb75, set 0x2!evicted - tag 103eb75 set 2, waynum 5
+evicting from cach L1
+evicted - tag 6b2d202 set 0, waynum 5
+access num: 665
+adr is: 0xdb7ad40
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x842e120 from L2- check if not in L1. tag 0x421709, set 0x0!evicted - tag 421709 set 0, waynum 6
+evicting from cach L1
+evicted - tag 4c9870a set 0, waynum 4
+access num: 666
+adr is: 0x1dcda678
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x19f44ff8 from L2- check if not in L1. tag 0xcfa27f, set 0x6!evicted - tag cfa27f set 6, waynum 3
+evicting from cach L1
+evicted adr: 0x24050600 from L1 and dirty- write to L2 tag 0x480a0c0, set 0x0
+evicted - tag 480a0c0 set 0, waynum 6
+access num: 667
+adr is: 0x251b3cd0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x218b1eb0 from L2- check if not in L1. tag 0x10c58f5, set 0x4!evicted - tag 10c58f5 set 4, waynum 1
+evicting from cach L1
+evicted - tag 38a8850 set 0, waynum 1
+access num: 668
+adr is: 0x1a82e4fc
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1ecc515c from L2- check if not in L1. tag 0xf6628a, set 0x7!evicted - tag f6628a set 7, waynum 6
+evicting from cach L1
+evicted - tag 43da76 set 1, waynum 7
+access num: 669
+adr is: 0x36beedf8
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0xc66bc28 from L1 and dirty- write to L2 tag 0x18cd785, set 0x0
+evicted - tag 18cd785 set 0, waynum 3
+access num: 670
+adr is: 0x10a8f3a0
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x17203468 from L1 and dirty- write to L2 tag 0x2e4068d, set 0x0
+evicted - tag 2e4068d set 0, waynum 2
+access num: 671
+adr is: 0x79869f4
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 578be52 set 1, waynum 4
+access num: 672
+adr is: 0x3f8a8c70
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x3c1ef9f0 from L2- check if not in L1. tag 0x1e0f7cf, set 0x4!evicted - tag 1e0f7cf set 4, waynum 4
+evicting from cach L1
+evicted - tag 2eb91ca set 0, waynum 0
+access num: 673
+adr is: 0x9ebae84
+Miss L1 Hit L2!
+evicting from cach L1
+evicted adr: 0x3a6b47dc from L1 and dirty- write to L2 tag 0x74d68fb, set 0x1
+evicted - tag 74d68fb set 1, waynum 0
+access num: 674
+adr is: 0xeff9f1c
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x160fda9c from L2- check if not in L1. tag 0xb07ed4, set 0x7!evicted - tag b07ed4 set 7, waynum 2
+evicting from cach L1
+evicted adr: 0x5ba8e84 from L1 and dirty- write to L2 tag 0xb751d0, set 0x1
+evicted - tag b751d0 set 1, waynum 6
+access num: 675
+adr is: 0x2484ae04
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 173349e set 1, waynum 2
+access num: 676
+adr is: 0x14753630
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x29983930 from L2- check if not in L1. tag 0x14cc1c9, set 0x4!evicted - tag 14cc1c9 set 4, waynum 2
+evicting from cach L1
+evicted - tag 4f1f961 set 0, waynum 7
+access num: 677
+adr is: 0x1f274880
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x1091cc00 from L2- check if not in L1. tag 0x848e60, set 0x0!evicted - tag 848e60 set 0, waynum 3
+evicting from cach L1
+evicted adr: 0x271e6088 from L1 and dirty- write to L2 tag 0x4e3cc11, set 0x0
+evicted - tag 4e3cc11 set 0, waynum 5
+access num: 678
+adr is: 0x3ad234ac
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0xe2e3fcc from L2- check if not in L1. tag 0x7171fe, set 0x3!evicted - tag 7171fe set 3, waynum 3
+evicting from cach L1
+evicted adr: 0x2dcced04 from L1 and dirty- write to L2 tag 0x5b99da0, set 0x1
+evicted - tag 5b99da0 set 1, waynum 1
+access num: 679
+adr is: 0x34c5c6d0
+miss L1 & L2
+evicting from cach L2
+evicted adr: 0x225b10 from L2- check if not in L1. tag 0x112d8, set 0x4!evicted - tag 112d8 set 4, waynum 6
+evicting from cach L1
+evicted adr: 0xdb7ad40 from L1 and dirty- write to L2 tag 0x1b6f5a8, set 0x0
+evicted - tag 1b6f5a8 set 0, waynum 4
+access num: 680
+adr is: 0x2dcced04
+Miss L1 Hit L2!
+evicting from cach L1
+evicted - tag 1f254d1 set 1, waynum 5
+L1miss=0.927 L2miss=0.746 AccTimeAvg=35.016

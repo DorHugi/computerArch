@@ -1,45 +1,43 @@
 #include "cache.h"
-#include <unistd.h>
 
 int main(int argc, const char *argv[]) {
 
-	if (argc < 19){
+
+	if (argc < 20){
 		printf("Expecting more arguments. got only %d\n ",argc);
 		return -1;
 	}
 
 	const char* inputFile = argv[1];
-	
-	
-	int MemCyc, blockSize, L1Size, L1Ways, L1CyclesNum, L2Size, L2Ways, L2CyclesNum;
-	bool writeAlloc;
+	const char* memCycStr = argv[3];
+	const char* blockSizeStr = argv[5];
+	const char* writeAllocStr = argv[7];
+	const char* L1SizeStr = argv[9];
+	const char* L1WaysStr = argv[11];
+	const char* L1CycStr = argv[13];
+	const char* L2SizeStr = argv[15];
+	const char* L2WaysStr = argv[17];
+	const char* L2CycStr = argv[19];
 
-	for (int i = 2; i < 19; i += 2) {
-			const char* s = argv[i];
-			if (!strcmp(s, "--mem-cyc")) {
-				MemCyc = atoi(argv[i + 1]);
-			} else if (!strcmp(s, "--bsize")) {
-				blockSize = atoi(argv[i + 1]);
-			} else if (!strcmp(s, "--l1-size")) {
-				L1Size = atoi(argv[i + 1]);
-			} else if (!strcmp(s, "--l2-size")) {
-				L2Size = atoi(argv[i + 1]);
-			} else if (!strcmp(s, "--l1-cyc")) {
-				L1CyclesNum = atoi(argv[i + 1]);
-			} else if (!strcmp(s, "--l2-cyc")) {
-				L2CyclesNum = atoi(argv[i + 1]);
-			} else if (!strcmp(s, "--l1-assoc")) {
-				L1Ways = (int) pow(2,atoi(argv[i + 1]));
-			} else if (!strcmp(s, "--l2-assoc")) {
-				L2Ways =(int) pow(2,atoi(argv[i + 1]));
-			} else if (!strcmp(s, "--wr-alloc")) {
-				writeAlloc = atoi(argv[i + 1])==1 ? true : false;
-			} else {
-				printf("Error in arguments\n");
-				return 0;
-			}
-		}
-	
+//	for (int i = 0; i < argc ; i++){
+//		printf("argv[%d] is: %s , atoi of argv is: %d: \n",i,argv[i],atoi(argv[i]));
+//		printf("length is: %d \n", strlen(argv[i]));
+//
+//
+//	}
+
+
+	int MemCyc = atoi(memCycStr);
+	int blockSize= atoi(blockSizeStr);
+	bool writeAlloc = atoi(writeAllocStr)==1 ? true : false;
+	int L1Size = atoi(L1SizeStr);
+	int L1Ways =(int) pow(2,atoi(L1WaysStr));
+	int L1CyclesNum = atoi(L1CycStr);
+	int L2Size = atoi(L2SizeStr);
+	int L2Ways =(int) pow(2,atoi(L2WaysStr));
+	int L2CyclesNum = atoi(L2CycStr);
+
+
 	initalize(MemCyc,blockSize,writeAlloc,L1Size,L1CyclesNum,L1Ways,L2Size,L2CyclesNum,L2Ways);
 
 	//Read program
@@ -54,6 +52,7 @@ int main(int argc, const char *argv[]) {
 	}
 
 	while (fgets(buf,sizeof(buf),fh)){
+//		printf("line is %s \n",buf);
 		bool isWrite = (buf[0]=='w');
 		char tmp[300];
 		int i = 4;
@@ -69,6 +68,7 @@ int main(int argc, const char *argv[]) {
 		}
 
 		int adr = (int)strtol(tmp,NULL,16);
+		printf("adrstring: %s, adr: %d\n",tmp,adr);
 		updateCache(adr,isWrite);
 
 	}
